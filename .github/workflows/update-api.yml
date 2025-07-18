@@ -8,6 +8,7 @@ on:
 jobs:
   update-api:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -22,7 +23,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      # --- 1. Fetch Weather Models (HRRR, etc.) ---
+      # --- Weather Models (Aeris) ---
       - name: Run fetch_weather.py
         run: |
           python scripts/fetch_weather.py
@@ -30,31 +31,36 @@ jobs:
           AERIS_ID: ${{ secrets.AERIS_ID }}
           AERIS_SECRET: ${{ secrets.AERIS_SECRET }}
 
-      # --- 2. Fetch Tropical Cyclones ---
+      # --- Tropical Cyclones (TWC) ---
       - name: Run tropical.py
         run: |
           python scripts/tropical.py
         env:
           API_TWC: ${{ secrets.API_TWC }}
 
-      # --- 3. Blended Forecast for Multiple Points ---
-      - name: Run blend_forecast.py for locations
+      # --- Blended Forecasts (Multiple Points) ---
+      - name: Build Blended Forecasts
         run: |
-          coords=("33.51,-95.14" "30.63,-87.04" "40.71,-74.00") # Add as many as you want
+          coords=("33.51,-95.14" "30.63,-87.04" "40.71,-74.00")
           for c in "${coords[@]}"; do
-            lat=$(echo $c | cut -d',' -f1)
-            lon=$(echo $c | cut -d',' -f2)
-            echo "Generating forecast for $lat,$lon"
-            BLEND_LAT=$lat BLEND_LON=$lon python scripts/blend_forecast.py
+            lat="${c%,*}"
+            lon="${c#*,}"
+            echo "Blending forecast for $lat,$lon"
+            BLEND_LAT="$lat" BLEND_LON="$lon" python scripts/blend_forecast.py
           done
         env:
           API_TWC: ${{ secrets.API_TWC }}
 
-      # --- 4. Commit & Push All API Data ---
+      # --- Build Forecast Index ---
+      - name: Build forecast index.json
+        run: |
+          python scripts/build_forecast_index.py
+
+      # --- Commit & Push ---
       - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add api/
-          git commit -m "Update API data (models, tropical, forecasts)"
+          git commit -m "Update API data (models, tropical, forecasts)" || echo "No changes to commit"
           git push
