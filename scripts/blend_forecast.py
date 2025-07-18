@@ -1,61 +1,148 @@
+#!/usr/bin/env python3
+"""
+blend_forecast.py
+Fetch NWS + TWC forecast data for a point (lat,lon) and write a blended 7-day JSON.
+
+Environment Variables:
+  BLEND_LAT    Latitude (string or float)
+  BLEND_LON    Longitude (string or float)
+  API_TWC      Weather.com API key (required)
+  DAYS_LIMIT   Optional (# of days to output; default 7)
+
+Output:
+  api/forecast/<lat>_<lon>_7day.json
+"""
 import os
 import json
 import requests
-import urllib.parse
+import datetime as dt
+from typing import Any, Dict, List
 
-# Environment variables
-twc_api_key = os.getenv("API_TWC")
+# ---------------- Config from ENV ----------------
+LAT = os.getenv("BLEND_LAT", "33.51")
+LON = os.getenv("BLEND_LON", "-95.14")
+API_TWC = os.getenv("API_TWC")
+DAYS_LIMIT = int(os.getenv("DAYS_LIMIT", "7"))
 
-# Coordinates from GitHub Action or default for local testing
-lat = os.getenv("BLEND_LAT", "33.51")
-lon = os.getenv("BLEND_LON", "-95.14")
+if not API_TWC:
+    raise ValueError("API_TWC not set in environment.")
 
-# Encode coordinates for file naming
-safe_lat = lat.replace('.', '_')
-safe_lon = lon.replace('.', '_')
+OUT_DIR = "api/forecast"
+os.makedirs(OUT_DIR, exist_ok=True)
 
-# Output path for API
-output_dir = "api/forecast"
-os.makedirs(output_dir, exist_ok=True)
-output_file = f"{output_dir}/{safe_lat}_{safe_lon}_7day.json"
+def safe_coord_str(coord: str) -> str:
+    """Format coord string into filesystem-safe segment: 33.51 -> 33_51 ; -95.14 -> -95_14."""
+    return coord.strip().replace('.', '_')
 
-# --- Fetch TWC Forecast ---
-twc_url = (
-    f"https://api.weather.com/v3/wx/forecast/daily/15day"
-    f"?geocode={lat},{lon}&format=json&units=e&language=en-US&apiKey={twc_api_key}"
-)
-print(f"Fetching TWC forecast from {twc_url}")
-twc_response = requests.get(twc_url)
-twc_data = twc_response.json()
+SAFE_LAT = safe_coord_str(LAT)
+SAFE_LON = safe_coord_str(LON)
+OUT_FILE = os.path.join(OUT_DIR, f"{SAFE_LAT}_{SAFE_LON}_7day.json")
 
-# --- Fetch NWS Forecast ---
-nws_point_url = f"https://api.weather.gov/points/{lat},{lon}"
-print(f"Fetching NWS point data from {nws_point_url}")
-point_response = requests.get(nws_point_url)
-point_data = point_response.json()
-forecast_url = point_data["properties"]["forecast"]
+# ---------------- HTTP Helper ----------------
+HEADERS = {"User-Agent": "JesseWx-BlendForecast/1.0 (+github)"}
 
-nws_forecast_response = requests.get(forecast_url)
-nws_data = nws_forecast_response.json()
+def _req_json(url: str, params: Dict[str, Any] = None, timeout: int = 20) -> Any:
+    r = requests.get(url, params=params, timeout=timeout, headers=HEADERS)
+    r.raise_for_status()
+    return r.json()
 
-# --- Blend Logic ---
-blended = {
-    "location": {"lat": lat, "lon": lon},
-    "source": ["TWC", "NWS"],
-    "generated": nws_data["properties"].get("updateTime", ""),
-    "forecast": {
-        "twc": {
-            "dayOfWeek": twc_data.get("dayOfWeek", []),
-            "temperatureMax": twc_data.get("temperatureMax", []),
-            "temperatureMin": twc_data.get("temperatureMin", []),
-            "narrative": twc_data.get("narrative", [])
-        },
-        "nws": nws_data.get("properties", {}).get("periods", [])
+# ---------------- TWC Daily Forecast ----------------
+def fetch_twc_daily(lat: str, lon: str, api_key: str) -> dict:
+    url = "https://api.weather.com/v3/wx/forecast/daily/15day"
+    params = {
+        "geocode": f"{lat},{lon}",
+        "format": "json",
+        "units": "e",
+        "language": "en-US",
+        "apiKey": api_key
     }
-}
+    print(f"[TWC] {url}?geocode={lat},{lon}")
+    return _req_json(url, params=params)
 
-# Save blended forecast
-with open(output_file, "w") as f:
-    json.dump(blended, f, indent=4)
+def parse_twc_daily(raw: dict, days: int) -> List[dict]:
+    # arrays
+    vutc = raw.get("validTimeUtc", [])
+    dow = raw.get("dayOfWeek", [])
+    tmax = raw.get("temperatureMax", [])
+    tmin = raw.get("temperatureMin", [])
+    narr = raw.get("narrative", [])
+    qpf  = raw.get("qpf", [])
 
-print(f" Blended forecast saved to {output_file}")
+    out = []
+    for i, ts in enumerate(vutc[:days]):
+        try:
+            dt_utc = dt.datetime.utcfromtimestamp(ts).isoformat() + "Z"
+        except Exception:
+            dt_utc = None
+        out.append({
+            "validTimeUtc": ts,
+            "validTimeIso": dt_utc,
+            "dayOfWeek": dow[i] if i < len(dow) else None,
+            "tempMax_F": tmax[i] if i < len(tmax) else None,
+            "tempMin_F": tmin[i] if i < len(tmin) else None,
+            "qpf_in": qpf[i] if i < len(qpf) else None,
+            "narrative": narr[i] if i < len(narr) else None,
+        })
+    return out
+
+# ---------------- NWS Forecast ----------------
+def fetch_nws_point(lat: str, lon: str) -> dict:
+    url = f"https://api.weather.gov/points/{lat},{lon}"
+    print(f"[NWS] {url}")
+    return _req_json(url)
+
+def fetch_nws_forecast(lat: str, lon: str) -> dict:
+    meta = fetch_nws_point(lat, lon)
+    fcst_url = meta["properties"]["forecast"]  # day/night periods
+    print(f"[NWS] Forecast URL: {fcst_url}")
+    return _req_json(fcst_url)
+
+def parse_nws_periods(raw: dict, days: int) -> List[dict]:
+    # Raw day/night periods — we'll just pass them through (caller can merge later)
+    periods = raw.get("properties", {}).get("periods", [])
+    # Keep only what fits roughly in days*2 periods
+    return periods[:days*2]
+
+# ---------------- Blend / Package ----------------
+def build_payload(lat: str, lon: str, twc_raw: dict, nws_raw: dict, days: int) -> dict:
+    twc_days = parse_twc_daily(twc_raw, days)
+    nws_periods = parse_nws_periods(nws_raw, days)
+
+    payload = {
+        "metadata": {
+            "generated_at": dt.datetime.utcnow().isoformat() + "Z",
+            "lat": float(lat),
+            "lon": float(lon),
+            "days_requested": days,
+            "sources": ["TWC", "NWS"],
+            "attribution": {
+                "TWC": "Data courtesy The Weather Company / weather.com",
+                "NWS": "Data courtesy National Weather Service"
+            }
+        },
+        "twc_daily": twc_days,
+        "nws_periods": nws_periods
+    }
+    return payload
+
+def main():
+    try:
+        twc_data = fetch_twc_daily(LAT, LON, API_TWC)
+    except Exception as e:
+        print(f"!! Error fetching TWC: {e}")
+        twc_data = {}
+
+    try:
+        nws_data = fetch_nws_forecast(LAT, LON)
+    except Exception as e:
+        print(f"!! Error fetching NWS: {e}")
+        nws_data = {"properties":{"periods":[]} }
+
+    blended = build_payload(LAT, LON, twc_data, nws_data, DAYS_LIMIT)
+
+    with open(OUT_FILE, "w") as f:
+        json.dump(blended, f, indent=2)
+    print(f"✔ Wrote {OUT_FILE}")
+
+if __name__ == "__main__":
+    main()
