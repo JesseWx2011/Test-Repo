@@ -22,35 +22,39 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      # --- 1. Fetch Weather Model Data ---
-      - name: Run fetch_weather.py (AerisWeather HRRR)
+      # --- 1. Fetch Weather Models (HRRR, etc.) ---
+      - name: Run fetch_weather.py
         run: |
           python scripts/fetch_weather.py
         env:
           AERIS_ID: ${{ secrets.AERIS_ID }}
           AERIS_SECRET: ${{ secrets.AERIS_SECRET }}
 
-      # --- 2. Fetch Tropical Cyclone Data ---
-      - name: Run tropical.py (Tropical Summary)
+      # --- 2. Fetch Tropical Cyclones ---
+      - name: Run tropical.py
         run: |
           python scripts/tropical.py
         env:
           API_TWC: ${{ secrets.API_TWC }}
 
-      # --- 3. Blend NWS + TWC Forecast ---
-      - name: Run blend_forecast.py (7-Day Forecast)
+      # --- 3. Blended Forecast for Multiple Points ---
+      - name: Run blend_forecast.py for locations
         run: |
-          python scripts/blend_forecast.py
+          coords=("33.51,-95.14" "30.63,-87.04" "40.71,-74.00") # Add as many as you want
+          for c in "${coords[@]}"; do
+            lat=$(echo $c | cut -d',' -f1)
+            lon=$(echo $c | cut -d',' -f2)
+            echo "Generating forecast for $lat,$lon"
+            BLEND_LAT=$lat BLEND_LON=$lon python scripts/blend_forecast.py
+          done
         env:
           API_TWC: ${{ secrets.API_TWC }}
-          BLEND_LAT: "33.51"
-          BLEND_LON: "-95.14"
 
-      # --- Commit and Push All Updates ---
+      # --- 4. Commit & Push All API Data ---
       - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add api/
-          git commit -m "Update all API data (models, tropical, forecast)"
+          git commit -m "Update API data (models, tropical, forecasts)"
           git push
