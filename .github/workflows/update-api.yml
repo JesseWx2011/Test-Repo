@@ -1,44 +1,56 @@
-name: Update Weather API
+name: Update Weather API Data
 
 on:
+  workflow_dispatch:
   schedule:
-    # Run every 15 minutes
-    - cron: '*/15 * * * *'
-  workflow_dispatch:  # Allows manual triggering from GitHub UI
+    - cron: "0 * * * *" # every hour
 
 jobs:
-  build:
+  update-api:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-      - name: Set up Python 3.x
-        uses: actions/setup-python@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run fetch_weather.py to update radar and models
-        run: python scripts/fetch_weather.py
+      # --- 1. Fetch Weather Model Data ---
+      - name: Run fetch_weather.py (AerisWeather HRRR)
+        run: |
+          python scripts/fetch_weather.py
         env:
           AERIS_ID: ${{ secrets.AERIS_ID }}
           AERIS_SECRET: ${{ secrets.AERIS_SECRET }}
 
-      - name: Run tropical.py to update tropical cyclone summary
-        run: python scripts/tropical.py
+      # --- 2. Fetch Tropical Cyclone Data ---
+      - name: Run tropical.py (Tropical Summary)
+        run: |
+          python scripts/tropical.py
         env:
           API_TWC: ${{ secrets.API_TWC }}
 
-      - name: Commit and push changes if any
+      # --- 3. Blend NWS + TWC Forecast ---
+      - name: Run blend_forecast.py (7-Day Forecast)
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
+          python scripts/blend_forecast.py
+        env:
+          API_TWC: ${{ secrets.API_TWC }}
+          BLEND_LAT: "33.51"
+          BLEND_LON: "-95.14"
+
+      # --- Commit and Push All Updates ---
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add api/
-          git diff --cached --quiet || git commit -m "Update API data"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
+          git commit -m "Update all API data (models, tropical, forecast)"
+          git push
