@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-07-19T07:17:57.495781Z",
+    "generated_at": "2025-07-19T08:24:56.553038Z",
     "lat": 30.63,
     "lon": -87.04,
     "days_requested": 7,
@@ -15,40 +15,31 @@
   },
   "twc_daily": [
     {
-      "validTimeUtc": 1752840000,
-      "validTimeIso": "2025-07-18T12:00:00Z",
-      "dayOfWeek": "Friday",
-      "tempMax_F": null,
-      "tempMin_F": 76,
-      "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Lows overnight in the mid 70s."
-    },
-    {
       "validTimeUtc": 1752926400,
       "validTimeIso": "2025-07-19T12:00:00Z",
       "dayOfWeek": "Saturday",
-      "tempMax_F": 93,
+      "tempMax_F": 91,
       "tempMin_F": 75,
-      "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the low 90s and lows in the mid 70s."
+      "qpf_in": 0.02,
+      "narrative": "Partly cloudy, chance of a thunderstorm. Highs in the low 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1753012800,
       "validTimeIso": "2025-07-20T12:00:00Z",
       "dayOfWeek": "Sunday",
-      "tempMax_F": 93,
-      "tempMin_F": 77,
-      "qpf_in": 0.19,
-      "narrative": "Afternoon showers and thunderstorms. Highs in the low 90s and lows in the upper 70s."
+      "tempMax_F": 92,
+      "tempMin_F": 76,
+      "qpf_in": 0.16,
+      "narrative": "Afternoon thunderstorms. Highs in the low 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1753099200,
       "validTimeIso": "2025-07-21T12:00:00Z",
       "dayOfWeek": "Monday",
-      "tempMax_F": 97,
+      "tempMax_F": 96,
       "tempMin_F": 77,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the upper 90s and lows in the upper 70s."
+      "narrative": "Partly cloudy. Highs in the mid 90s and lows in the upper 70s."
     },
     {
       "validTimeUtc": 1753185600,
@@ -57,32 +48,41 @@
       "tempMax_F": 97,
       "tempMin_F": 77,
       "qpf_in": 0.02,
-      "narrative": "Showers ending by midday. Highs in the upper 90s and lows in the upper 70s."
+      "narrative": "A few morning showers. Highs in the upper 90s and lows in the upper 70s."
     },
     {
       "validTimeUtc": 1753272000,
       "validTimeIso": "2025-07-23T12:00:00Z",
       "dayOfWeek": "Wednesday",
-      "tempMax_F": 94,
+      "tempMax_F": 92,
       "tempMin_F": 75,
       "qpf_in": 0.21,
-      "narrative": "Thunderstorms. Highs in the mid 90s and lows in the mid 70s."
+      "narrative": "Thunderstorms. Highs in the low 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1753358400,
       "validTimeIso": "2025-07-24T12:00:00Z",
       "dayOfWeek": "Thursday",
-      "tempMax_F": 92,
+      "tempMax_F": 91,
       "tempMin_F": 75,
-      "qpf_in": 0.04,
-      "narrative": "Partly cloudy, chance of a thunderstorm. Highs in the low 90s and lows in the mid 70s."
+      "qpf_in": 0.03,
+      "narrative": "Slight chance of a thunderstorm. Highs in the low 90s and lows in the mid 70s."
+    },
+    {
+      "validTimeUtc": 1753444800,
+      "validTimeIso": "2025-07-25T12:00:00Z",
+      "dayOfWeek": "Friday",
+      "tempMax_F": 90,
+      "tempMin_F": 75,
+      "qpf_in": 0.18,
+      "narrative": "Scattered thunderstorms. Highs in the low 90s and lows in the mid 70s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Overnight",
-      "startTime": "2025-07-19T02:00:00-05:00",
+      "startTime": "2025-07-19T01:00:00-05:00",
       "endTime": "2025-07-19T06:00:00-05:00",
       "isDaytime": false,
       "temperature": 76,
