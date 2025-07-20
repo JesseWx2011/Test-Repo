@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-07-20T08:24:07.305123Z",
+    "generated_at": "2025-07-20T09:19:14.249598Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -15,22 +15,13 @@
   },
   "twc_daily": [
     {
-      "validTimeUtc": 1752926400,
-      "validTimeIso": "2025-07-19T12:00:00Z",
-      "dayOfWeek": "Saturday",
-      "tempMax_F": null,
-      "tempMin_F": 75,
-      "qpf_in": 0.0,
-      "narrative": "Clear. Lows overnight in the mid 70s."
-    },
-    {
       "validTimeUtc": 1753012800,
       "validTimeIso": "2025-07-20T12:00:00Z",
       "dayOfWeek": "Sunday",
-      "tempMax_F": 97,
-      "tempMin_F": 75,
+      "tempMax_F": 96,
+      "tempMin_F": 74,
       "qpf_in": 0.0,
-      "narrative": "Sunny. Highs in the upper 90s and lows in the mid 70s."
+      "narrative": "Mainly sunny. Highs in the mid 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1753099200,
@@ -39,7 +30,7 @@
       "tempMax_F": 97,
       "tempMin_F": 74,
       "qpf_in": 0.0,
-      "narrative": "Sunshine. Highs in the upper 90s and lows in the mid 70s."
+      "narrative": "Abundant sunshine. Highs in the upper 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1753185600,
@@ -48,16 +39,16 @@
       "tempMax_F": 97,
       "tempMin_F": 73,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the upper 90s and lows in the low 70s."
+      "narrative": "A few clouds. Highs in the upper 90s and lows in the low 70s."
     },
     {
       "validTimeUtc": 1753272000,
       "validTimeIso": "2025-07-23T12:00:00Z",
       "dayOfWeek": "Wednesday",
-      "tempMax_F": 97,
+      "tempMax_F": 98,
       "tempMin_F": 72,
       "qpf_in": 0.0,
-      "narrative": "Sunny. Highs in the upper 90s and lows in the low 70s."
+      "narrative": "Sunshine. Highs in the upper 90s and lows in the low 70s."
     },
     {
       "validTimeUtc": 1753358400,
@@ -66,7 +57,7 @@
       "tempMax_F": 99,
       "tempMin_F": 73,
       "qpf_in": 0.0,
-      "narrative": "Sunshine. Highs in the upper 90s and lows in the low 70s."
+      "narrative": "Sunny. Highs in the upper 90s and lows in the low 70s."
     },
     {
       "validTimeUtc": 1753444800,
@@ -76,13 +67,22 @@
       "tempMin_F": 75,
       "qpf_in": 0.0,
       "narrative": "More sun than clouds. Highs in the upper 90s and lows in the mid 70s."
+    },
+    {
+      "validTimeUtc": 1753531200,
+      "validTimeIso": "2025-07-26T12:00:00Z",
+      "dayOfWeek": "Saturday",
+      "tempMax_F": 94,
+      "tempMin_F": 74,
+      "qpf_in": 0.0,
+      "narrative": "Plenty of sun. Highs in the mid 90s and lows in the mid 70s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Overnight",
-      "startTime": "2025-07-20T01:00:00-05:00",
+      "startTime": "2025-07-20T04:00:00-05:00",
       "endTime": "2025-07-20T06:00:00-05:00",
       "isDaytime": false,
       "temperature": 77,
@@ -92,11 +92,11 @@
         "unitCode": "wmoUnit:percent",
         "value": 1
       },
-      "windSpeed": "5 to 10 mph",
+      "windSpeed": "10 mph",
       "windDirection": "S",
       "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
       "shortForecast": "Mostly Clear",
-      "detailedForecast": "Mostly clear, with a low around 77. South wind 5 to 10 mph."
+      "detailedForecast": "Mostly clear, with a low around 77. South wind around 10 mph."
     },
     {
       "number": 2,
