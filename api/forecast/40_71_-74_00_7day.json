@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-07-22T18:29:57.243739Z",
+    "generated_at": "2025-07-22T19:17:26.029882Z",
     "lat": 40.71,
     "lon": -74.0,
     "days_requested": 7,
@@ -18,10 +18,10 @@
       "validTimeUtc": 1753182000,
       "validTimeIso": "2025-07-22T11:00:00Z",
       "dayOfWeek": "Tuesday",
-      "tempMax_F": 79,
+      "tempMax_F": null,
       "tempMin_F": 69,
       "qpf_in": 0.0,
-      "narrative": "Times of sun and clouds. Highs in the upper 70s and lows in the upper 60s."
+      "narrative": "Partly cloudy. Lows overnight in the upper 60s."
     },
     {
       "validTimeUtc": 1753268400,
@@ -39,7 +39,7 @@
       "tempMax_F": 90,
       "tempMin_F": 75,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the low 90s and lows in the mid 70s."
+      "narrative": "A few clouds. Highs in the low 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1753441200,
@@ -48,7 +48,7 @@
       "tempMax_F": 97,
       "tempMin_F": 79,
       "qpf_in": 0.06,
-      "narrative": "Showers and thunderstorms late. Highs in the upper 90s and lows in the upper 70s."
+      "narrative": "Thunderstorms developing in the afternoon. Highs in the upper 90s and lows in the upper 70s."
     },
     {
       "validTimeUtc": 1753527600,
@@ -57,7 +57,7 @@
       "tempMax_F": 89,
       "tempMin_F": 75,
       "qpf_in": 0.19,
-      "narrative": "Afternoon showers and thunderstorms. Highs in the upper 80s and lows in the mid 70s."
+      "narrative": "Afternoon thunderstorms. Highs in the upper 80s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1753614000,
@@ -66,7 +66,7 @@
       "tempMax_F": 84,
       "tempMin_F": 73,
       "qpf_in": 0.31,
-      "narrative": "Chance of showers. Highs in the mid 80s and lows in the low 70s."
+      "narrative": "Showers possible. Highs in the mid 80s and lows in the low 70s."
     },
     {
       "validTimeUtc": 1753700400,
@@ -75,14 +75,14 @@
       "tempMax_F": 87,
       "tempMin_F": 74,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the upper 80s and lows in the mid 70s."
+      "narrative": "Partly cloudy. Highs in the upper 80s and lows in the mid 70s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
-      "name": "This Afternoon",
-      "startTime": "2025-07-22T13:00:00-04:00",
+      "name": "Today",
+      "startTime": "2025-07-22T10:00:00-04:00",
       "endTime": "2025-07-22T18:00:00-04:00",
       "isDaytime": true,
       "temperature": 77,
@@ -92,11 +92,11 @@
         "unitCode": "wmoUnit:percent",
         "value": 15
       },
-      "windSpeed": "8 mph",
-      "windDirection": "SE",
+      "windSpeed": "6 to 9 mph",
+      "windDirection": "E",
       "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=medium",
       "shortForecast": "Slight Chance Rain Showers",
-      "detailedForecast": "A slight chance of rain showers before 5pm. Mostly sunny. High near 77, with temperatures falling to around 75 in the afternoon. Southeast wind around 8 mph. Chance of precipitation is 20%."
+      "detailedForecast": "A slight chance of rain showers between 11am and 5pm. Mostly sunny. High near 77, with temperatures falling to around 75 in the afternoon. East wind 6 to 9 mph. Chance of precipitation is 20%."
     },
     {
       "number": 2,
