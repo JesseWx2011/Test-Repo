@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-07-24T07:22:23.716339Z",
+    "generated_at": "2025-07-24T08:28:04.965117Z",
     "lat": 30.63,
     "lon": -87.04,
     "days_requested": 7,
@@ -15,21 +15,12 @@
   },
   "twc_daily": [
     {
-      "validTimeUtc": 1753272000,
-      "validTimeIso": "2025-07-23T12:00:00Z",
-      "dayOfWeek": "Wednesday",
-      "tempMax_F": null,
-      "tempMin_F": 75,
-      "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Lows overnight in the mid 70s."
-    },
-    {
       "validTimeUtc": 1753358400,
       "validTimeIso": "2025-07-24T12:00:00Z",
       "dayOfWeek": "Thursday",
       "tempMax_F": 86,
       "tempMin_F": 75,
-      "qpf_in": 0.42,
+      "qpf_in": 0.4,
       "narrative": "Thunderstorms. Potential for heavy rainfall. Highs in the mid 80s and lows in the mid 70s."
     },
     {
@@ -39,7 +30,7 @@
       "tempMax_F": 86,
       "tempMin_F": 75,
       "qpf_in": 0.48,
-      "narrative": "Morning showers and thunderstorms. Highs in the mid 80s and lows in the mid 70s."
+      "narrative": "Morning thunderstorms. Highs in the mid 80s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1753531200,
@@ -48,7 +39,7 @@
       "tempMax_F": 90,
       "tempMin_F": 74,
       "qpf_in": 0.1,
-      "narrative": "Morning showers and thunderstorms. Highs in the low 90s and lows in the mid 70s."
+      "narrative": "Morning thunderstorms. Highs in the low 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1753617600,
@@ -66,7 +57,7 @@
       "tempMax_F": 100,
       "tempMin_F": 78,
       "qpf_in": 0.0,
-      "narrative": "More sun than clouds. Highs 98 to 102F and lows in the upper 70s."
+      "narrative": "Mostly sunny. Highs 98 to 102F and lows in the upper 70s."
     },
     {
       "validTimeUtc": 1753790400,
@@ -76,13 +67,22 @@
       "tempMin_F": 76,
       "qpf_in": 0.48,
       "narrative": "Afternoon thunderstorms. Highs in the upper 90s and lows in the mid 70s."
+    },
+    {
+      "validTimeUtc": 1753876800,
+      "validTimeIso": "2025-07-30T12:00:00Z",
+      "dayOfWeek": "Wednesday",
+      "tempMax_F": 94,
+      "tempMin_F": 76,
+      "qpf_in": 0.26,
+      "narrative": "Scattered thunderstorms possible. Highs in the mid 90s and lows in the mid 70s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Overnight",
-      "startTime": "2025-07-24T02:00:00-05:00",
+      "startTime": "2025-07-24T03:00:00-05:00",
       "endTime": "2025-07-24T06:00:00-05:00",
       "isDaytime": false,
       "temperature": 75,
@@ -94,7 +94,7 @@
       },
       "windSpeed": "5 mph",
       "windDirection": "NE",
-      "icon": "https://api.weather.gov/icons/land/night/tsra_sct,30?size=medium",
+      "icon": "https://api.weather.gov/icons/land/night/tsra_hi,30?size=medium",
       "shortForecast": "Chance Showers And Thunderstorms",
       "detailedForecast": "A chance of showers and thunderstorms. Mostly cloudy, with a low around 75. Northeast wind around 5 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
     },
