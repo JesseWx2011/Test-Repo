@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-07-30T18:30:54.950038Z",
+    "generated_at": "2025-07-30T19:18:04.841908Z",
     "lat": 40.71,
     "lon": -74.0,
     "days_requested": 7,
@@ -18,10 +18,10 @@
       "validTimeUtc": 1753873200,
       "validTimeIso": "2025-07-30T11:00:00Z",
       "dayOfWeek": "Wednesday",
-      "tempMax_F": 91,
+      "tempMax_F": null,
       "tempMin_F": 78,
-      "qpf_in": 0.05,
-      "narrative": "Scattered thunderstorms. Highs in the low 90s and lows in the upper 70s."
+      "qpf_in": 0.0,
+      "narrative": "Slight chance of a thunderstorm. Lows overnight in the upper 70s."
     },
     {
       "validTimeUtc": 1753959600,
@@ -29,26 +29,26 @@
       "dayOfWeek": "Thursday",
       "tempMax_F": 84,
       "tempMin_F": 66,
-      "qpf_in": 1.72,
-      "narrative": "Afternoon thunderstorms. Highs in the mid 80s and lows in the mid 60s."
+      "qpf_in": 2.17,
+      "narrative": "Showers and thunderstorms late. Highs in the mid 80s and lows in the mid 60s."
     },
     {
       "validTimeUtc": 1754046000,
       "validTimeIso": "2025-08-01T11:00:00Z",
       "dayOfWeek": "Friday",
-      "tempMax_F": 73,
+      "tempMax_F": 76,
       "tempMin_F": 64,
-      "qpf_in": 0.32,
-      "narrative": "Chance of showers. Highs in the low 70s and lows in the mid 60s."
+      "qpf_in": 0.04,
+      "narrative": "Showers ending by midday. Highs in the mid 70s and lows in the mid 60s."
     },
     {
       "validTimeUtc": 1754132400,
       "validTimeIso": "2025-08-02T11:00:00Z",
       "dayOfWeek": "Saturday",
       "tempMax_F": 81,
-      "tempMin_F": 64,
+      "tempMin_F": 65,
       "qpf_in": 0.0,
-      "narrative": "A few clouds. Highs in the low 80s and lows in the mid 60s."
+      "narrative": "Abundant sunshine. Highs in the low 80s and lows in the mid 60s."
     },
     {
       "validTimeUtc": 1754218800,
@@ -57,7 +57,7 @@
       "tempMax_F": 84,
       "tempMin_F": 66,
       "qpf_in": 0.0,
-      "narrative": "Sunshine. Highs in the mid 80s and lows in the mid 60s."
+      "narrative": "Sunny. Highs in the mid 80s and lows in the mid 60s."
     },
     {
       "validTimeUtc": 1754305200,
@@ -66,23 +66,23 @@
       "tempMax_F": 86,
       "tempMin_F": 68,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the mid 80s and lows in the upper 60s."
+      "narrative": "More sun than clouds. Highs in the mid 80s and lows in the upper 60s."
     },
     {
       "validTimeUtc": 1754391600,
       "validTimeIso": "2025-08-05T11:00:00Z",
       "dayOfWeek": "Tuesday",
-      "tempMax_F": 84,
+      "tempMax_F": 85,
       "tempMin_F": 70,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the mid 80s and lows in the low 70s."
+      "narrative": "Times of sun and clouds. Highs in the mid 80s and lows in the low 70s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
-      "name": "Today",
-      "startTime": "2025-07-30T09:00:00-04:00",
+      "name": "This Afternoon",
+      "startTime": "2025-07-30T15:00:00-04:00",
       "endTime": "2025-07-30T18:00:00-04:00",
       "isDaytime": true,
       "temperature": 92,
@@ -90,13 +90,13 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 22
+        "value": 28
       },
-      "windSpeed": "3 to 10 mph",
+      "windSpeed": "10 mph",
       "windDirection": "S",
-      "icon": "https://api.weather.gov/icons/land/day/few/tsra_hi,20?size=medium",
-      "shortForecast": "Sunny then Slight Chance Showers And Thunderstorms",
-      "detailedForecast": "A slight chance of showers and thunderstorms after 2pm. Sunny. High near 92, with temperatures falling to around 89 in the afternoon. Heat index values as high as 99. South wind 3 to 10 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+      "icon": "https://api.weather.gov/icons/land/day/tsra_hi,30?size=medium",
+      "shortForecast": "Chance Showers And Thunderstorms",
+      "detailedForecast": "A chance of showers and thunderstorms. Mostly sunny. High near 92, with temperatures falling to around 89 in the afternoon. Heat index values as high as 97. South wind around 10 mph. Chance of precipitation is 30%."
     },
     {
       "number": 2,
@@ -104,18 +104,18 @@
       "startTime": "2025-07-30T18:00:00-04:00",
       "endTime": "2025-07-31T06:00:00-04:00",
       "isDaytime": false,
-      "temperature": 78,
+      "temperature": 79,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 18
+        "value": 28
       },
-      "windSpeed": "6 to 9 mph",
-      "windDirection": "S",
-      "icon": "https://api.weather.gov/icons/land/night/tsra_hi,20?size=medium",
-      "shortForecast": "Slight Chance Showers And Thunderstorms",
-      "detailedForecast": "A slight chance of showers and thunderstorms before 2am. Partly cloudy. Low around 78, with temperatures rising to around 81 overnight. Heat index values as high as 97. South wind 6 to 9 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+      "windSpeed": "8 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/night/tsra_hi,30/tsra_hi,20?size=medium",
+      "shortForecast": "Chance Showers And Thunderstorms",
+      "detailedForecast": "A chance of showers and thunderstorms. Partly cloudy. Low around 79, with temperatures rising to around 81 overnight. Heat index values as high as 96. Southwest wind around 8 mph. Chance of precipitation is 30%."
     },
     {
       "number": 3,
@@ -123,18 +123,18 @@
       "startTime": "2025-07-31T06:00:00-04:00",
       "endTime": "2025-07-31T18:00:00-04:00",
       "isDaytime": true,
-      "temperature": 81,
+      "temperature": 82,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 64
+        "value": 75
       },
-      "windSpeed": "8 to 14 mph",
+      "windSpeed": "6 to 12 mph",
       "windDirection": "NE",
-      "icon": "https://api.weather.gov/icons/land/day/tsra_sct,30/tsra_sct,60?size=medium",
-      "shortForecast": "Chance Showers And Thunderstorms",
-      "detailedForecast": "A chance of showers and thunderstorms between 8am and 2pm, then showers and thunderstorms likely. Partly sunny. High near 81, with temperatures falling to around 76 in the afternoon. Northeast wind 8 to 14 mph. Chance of precipitation is 60%. New rainfall amounts between a half and three quarters of an inch possible."
+      "icon": "https://api.weather.gov/icons/land/day/tsra_sct,40/tsra_sct,80?size=medium",
+      "shortForecast": "Slight Chance Showers And Thunderstorms then Showers And Thunderstorms",
+      "detailedForecast": "A slight chance of showers and thunderstorms before 8am, then showers and thunderstorms. Some of the storms could produce heavy rain. Partly sunny. High near 82, with temperatures falling to around 74 in the afternoon. Northeast wind 6 to 12 mph. Chance of precipitation is 80%. New rainfall amounts between 1 and 2 inches possible."
     },
     {
       "number": 4,
@@ -142,18 +142,18 @@
       "startTime": "2025-07-31T18:00:00-04:00",
       "endTime": "2025-08-01T06:00:00-04:00",
       "isDaytime": false,
-      "temperature": 66,
+      "temperature": 65,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 73
+        "value": 87
       },
-      "windSpeed": "12 to 17 mph",
+      "windSpeed": "10 to 14 mph",
       "windDirection": "NE",
-      "icon": "https://api.weather.gov/icons/land/night/tsra,70?size=medium",
-      "shortForecast": "Showers And Thunderstorms Likely",
-      "detailedForecast": "Showers and thunderstorms likely. Cloudy. Low around 66, with temperatures rising to around 70 overnight. Northeast wind 12 to 17 mph. Chance of precipitation is 70%. New rainfall amounts between 1 and 2 inches possible."
+      "icon": "https://api.weather.gov/icons/land/night/tsra,90?size=medium",
+      "shortForecast": "Showers And Thunderstorms",
+      "detailedForecast": "Showers and thunderstorms. Some of the storms could produce heavy rain. Cloudy. Low around 65, with temperatures rising to around 68 overnight. Northeast wind 10 to 14 mph. Chance of precipitation is 90%. New rainfall amounts between 1 and 2 inches possible."
     },
     {
       "number": 5,
@@ -161,18 +161,18 @@
       "startTime": "2025-08-01T06:00:00-04:00",
       "endTime": "2025-08-01T18:00:00-04:00",
       "isDaytime": true,
-      "temperature": 69,
+      "temperature": 70,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 72
+        "value": 83
       },
       "windSpeed": "17 mph",
       "windDirection": "NE",
-      "icon": "https://api.weather.gov/icons/land/day/tsra,70/tsra,60?size=medium",
-      "shortForecast": "Showers And Thunderstorms Likely",
-      "detailedForecast": "Showers and thunderstorms likely before 2pm, then a chance of showers and thunderstorms. Cloudy, with a high near 69. Northeast wind around 17 mph. Chance of precipitation is 70%. New rainfall amounts between three quarters and one inch possible."
+      "icon": "https://api.weather.gov/icons/land/day/tsra,80/tsra,60?size=medium",
+      "shortForecast": "Showers And Thunderstorms",
+      "detailedForecast": "Showers and thunderstorms. Some of the storms could produce heavy rain. Mostly cloudy. High near 70, with temperatures falling to around 68 in the afternoon. Northeast wind around 17 mph. Chance of precipitation is 80%. New rainfall amounts between a half and three quarters of an inch possible."
     },
     {
       "number": 6,
@@ -180,18 +180,18 @@
       "startTime": "2025-08-01T18:00:00-04:00",
       "endTime": "2025-08-02T06:00:00-04:00",
       "isDaytime": false,
-      "temperature": 64,
+      "temperature": 65,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 53
+        "value": 48
       },
-      "windSpeed": "15 mph",
-      "windDirection": "NE",
+      "windSpeed": "14 mph",
+      "windDirection": "N",
       "icon": "https://api.weather.gov/icons/land/night/tsra_hi,50/tsra_hi,20?size=medium",
       "shortForecast": "Chance Showers And Thunderstorms",
-      "detailedForecast": "A chance of showers and thunderstorms before 2am. Mostly cloudy. Low around 64, with temperatures rising to around 67 overnight. Chance of precipitation is 50%. New rainfall amounts between a quarter and half of an inch possible."
+      "detailedForecast": "A chance of showers and thunderstorms before 2am. Partly cloudy, with a low around 65. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible."
     },
     {
       "number": 7,
@@ -199,18 +199,18 @@
       "startTime": "2025-08-02T06:00:00-04:00",
       "endTime": "2025-08-02T18:00:00-04:00",
       "isDaytime": true,
-      "temperature": 77,
+      "temperature": 76,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 5
+        "value": 11
       },
       "windSpeed": "9 to 13 mph",
       "windDirection": "NE",
       "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
       "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 77."
+      "detailedForecast": "Sunny, with a high near 76."
     },
     {
       "number": 8,
@@ -223,10 +223,10 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 0
+        "value": 2
       },
-      "windSpeed": "5 to 8 mph",
-      "windDirection": "S",
+      "windSpeed": "5 to 9 mph",
+      "windDirection": "SW",
       "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
       "shortForecast": "Mostly Clear",
       "detailedForecast": "Mostly clear, with a low around 66."
@@ -237,7 +237,7 @@
       "startTime": "2025-08-03T06:00:00-04:00",
       "endTime": "2025-08-03T18:00:00-04:00",
       "isDaytime": true,
-      "temperature": 79,
+      "temperature": 80,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
@@ -245,10 +245,10 @@
         "value": 0
       },
       "windSpeed": "5 to 9 mph",
-      "windDirection": "N",
+      "windDirection": "W",
       "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
       "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 79."
+      "detailedForecast": "Sunny, with a high near 80."
     },
     {
       "number": 10,
@@ -261,13 +261,13 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 0
+        "value": 1
       },
       "windSpeed": "5 to 9 mph",
       "windDirection": "SW",
-      "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-      "shortForecast": "Mostly Clear",
-      "detailedForecast": "Mostly clear, with a low around 68."
+      "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+      "shortForecast": "Partly Cloudy",
+      "detailedForecast": "Partly cloudy, with a low around 68."
     },
     {
       "number": 11,
@@ -280,7 +280,7 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 2
+        "value": 3
       },
       "windSpeed": "5 to 10 mph",
       "windDirection": "SW",
@@ -294,18 +294,18 @@
       "startTime": "2025-08-04T18:00:00-04:00",
       "endTime": "2025-08-05T06:00:00-04:00",
       "isDaytime": false,
-      "temperature": 69,
+      "temperature": 70,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 3
+        "value": 6
       },
       "windSpeed": "5 to 10 mph",
       "windDirection": "SW",
       "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
       "shortForecast": "Partly Cloudy",
-      "detailedForecast": "Partly cloudy, with a low around 69."
+      "detailedForecast": "Partly cloudy, with a low around 70."
     },
     {
       "number": 13,
@@ -313,18 +313,18 @@
       "startTime": "2025-08-05T06:00:00-04:00",
       "endTime": "2025-08-05T18:00:00-04:00",
       "isDaytime": true,
-      "temperature": 80,
+      "temperature": 79,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
         "value": 9
       },
-      "windSpeed": "5 to 12 mph",
+      "windSpeed": "5 to 10 mph",
       "windDirection": "E",
-      "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-      "shortForecast": "Mostly Sunny",
-      "detailedForecast": "Mostly sunny, with a high near 80."
+      "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+      "shortForecast": "Partly Sunny",
+      "detailedForecast": "Partly sunny, with a high near 79."
     },
     {
       "number": 14,
@@ -332,18 +332,18 @@
       "startTime": "2025-08-05T18:00:00-04:00",
       "endTime": "2025-08-06T06:00:00-04:00",
       "isDaytime": false,
-      "temperature": 70,
+      "temperature": 71,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 19
+        "value": 15
       },
-      "windSpeed": "7 to 12 mph",
+      "windSpeed": "6 to 10 mph",
       "windDirection": "E",
-      "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=medium",
-      "shortForecast": "Slight Chance Rain Showers",
-      "detailedForecast": "A slight chance of rain showers after 8pm. Mostly cloudy, with a low around 70."
+      "icon": "https://api.weather.gov/icons/land/night/bkn/rain_showers,20?size=medium",
+      "shortForecast": "Mostly Cloudy then Slight Chance Rain Showers",
+      "detailedForecast": "A slight chance of rain showers after 2am. Mostly cloudy, with a low around 71."
     }
   ]
 }
