@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-08-01T16:26:45.085455Z",
+    "generated_at": "2025-08-01T17:20:33.438168Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -18,10 +18,10 @@
       "validTimeUtc": 1754049600,
       "validTimeIso": "2025-08-01T12:00:00Z",
       "dayOfWeek": "Friday",
-      "tempMax_F": 90,
+      "tempMax_F": 89,
       "tempMin_F": 71,
-      "qpf_in": 0.47,
-      "narrative": "Afternoon thunderstorms. Highs in the low 90s and lows in the low 70s."
+      "qpf_in": 0.57,
+      "narrative": "Thunderstorms. Highs in the upper 80s and lows in the low 70s."
     },
     {
       "validTimeUtc": 1754136000,
@@ -30,7 +30,7 @@
       "tempMax_F": 87,
       "tempMin_F": 66,
       "qpf_in": 0.04,
-      "narrative": "Partly cloudy with a stray thunderstorm. Highs in the upper 80s and lows in the mid 60s."
+      "narrative": "Morning showers. Highs in the upper 80s and lows in the mid 60s."
     },
     {
       "validTimeUtc": 1754222400,
@@ -39,13 +39,13 @@
       "tempMax_F": 89,
       "tempMin_F": 67,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the upper 80s and lows in the upper 60s."
+      "narrative": "Plenty of sun. Highs in the upper 80s and lows in the upper 60s."
     },
     {
       "validTimeUtc": 1754308800,
       "validTimeIso": "2025-08-04T12:00:00Z",
       "dayOfWeek": "Monday",
-      "tempMax_F": 91,
+      "tempMax_F": 90,
       "tempMin_F": 68,
       "qpf_in": 0.0,
       "narrative": "A few clouds. Highs in the low 90s and lows in the upper 60s."
@@ -66,7 +66,7 @@
       "tempMax_F": 95,
       "tempMin_F": 72,
       "qpf_in": 0.0,
-      "narrative": "Sunny. Highs in the mid 90s and lows in the low 70s."
+      "narrative": "Abundant sunshine. Highs in the mid 90s and lows in the low 70s."
     },
     {
       "validTimeUtc": 1754568000,
@@ -81,8 +81,8 @@
   "nws_periods": [
     {
       "number": 1,
-      "name": "Today",
-      "startTime": "2025-08-01T11:00:00-05:00",
+      "name": "This Afternoon",
+      "startTime": "2025-08-01T12:00:00-05:00",
       "endTime": "2025-08-01T18:00:00-05:00",
       "isDaytime": true,
       "temperature": 90,
@@ -94,9 +94,9 @@
       },
       "windSpeed": "5 mph",
       "windDirection": "E",
-      "icon": "https://api.weather.gov/icons/land/day/sct/tsra_hi,50?size=medium",
-      "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-      "detailedForecast": "A chance of showers and thunderstorms after 4pm. Mostly sunny, with a high near 90. East wind around 5 mph. Chance of precipitation is 50%."
+      "icon": "https://api.weather.gov/icons/land/day/tsra_hi,50?size=medium",
+      "shortForecast": "Chance Showers And Thunderstorms",
+      "detailedForecast": "A chance of showers and thunderstorms after 4pm. Mostly sunny, with a high near 90. Heat index values as high as 102. East wind around 5 mph. Chance of precipitation is 50%."
     },
     {
       "number": 2,
@@ -109,11 +109,11 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 51
+        "value": 53
       },
       "windSpeed": "5 mph",
       "windDirection": "NE",
-      "icon": "https://api.weather.gov/icons/land/night/tsra_sct,50/tsra_sct,40?size=medium",
+      "icon": "https://api.weather.gov/icons/land/night/tsra_sct,50?size=medium",
       "shortForecast": "Chance Showers And Thunderstorms",
       "detailedForecast": "A chance of showers and thunderstorms. Mostly cloudy, with a low around 72. Northeast wind around 5 mph. Chance of precipitation is 50%. New rainfall amounts between a quarter and half of an inch possible."
     },
@@ -128,13 +128,13 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 44
+        "value": 47
       },
       "windSpeed": "5 mph",
       "windDirection": "NE",
-      "icon": "https://api.weather.gov/icons/land/day/tsra_hi,40/tsra_hi,20?size=medium",
+      "icon": "https://api.weather.gov/icons/land/day/tsra_hi,50/tsra_hi,20?size=medium",
       "shortForecast": "Chance Showers And Thunderstorms",
-      "detailedForecast": "A chance of showers and thunderstorms before 4pm. Mostly sunny, with a high near 88. Northeast wind around 5 mph. Chance of precipitation is 40%."
+      "detailedForecast": "A chance of showers and thunderstorms before 4pm. Mostly sunny, with a high near 88. Northeast wind around 5 mph. Chance of precipitation is 50%."
     },
     {
       "number": 4,
@@ -147,7 +147,7 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 2
+        "value": 3
       },
       "windSpeed": "5 mph",
       "windDirection": "NE",
@@ -185,13 +185,13 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 14
+        "value": 15
       },
       "windSpeed": "5 mph",
       "windDirection": "E",
-      "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-      "shortForecast": "Partly Cloudy",
-      "detailedForecast": "Partly cloudy, with a low around 68."
+      "icon": "https://api.weather.gov/icons/land/night/sct/tsra_hi,20?size=medium",
+      "shortForecast": "Partly Cloudy then Slight Chance Showers And Thunderstorms",
+      "detailedForecast": "A slight chance of showers and thunderstorms after 1am. Partly cloudy, with a low around 68. Chance of precipitation is 20%."
     },
     {
       "number": 7,
@@ -210,7 +210,7 @@
       "windDirection": "E",
       "icon": "https://api.weather.gov/icons/land/day/tsra_hi,20?size=medium",
       "shortForecast": "Slight Chance Showers And Thunderstorms",
-      "detailedForecast": "A slight chance of showers and thunderstorms after 7am. Mostly sunny, with a high near 90. Chance of precipitation is 20%."
+      "detailedForecast": "A slight chance of showers and thunderstorms. Mostly sunny, with a high near 90. Chance of precipitation is 20%."
     },
     {
       "number": 8,
