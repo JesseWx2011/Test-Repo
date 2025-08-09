@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-08-09T19:14:18.911446Z",
+    "generated_at": "2025-08-09T20:20:17.912927Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -18,10 +18,10 @@
       "validTimeUtc": 1754740800,
       "validTimeIso": "2025-08-09T12:00:00Z",
       "dayOfWeek": "Saturday",
-      "tempMax_F": 96,
+      "tempMax_F": null,
       "tempMin_F": 74,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the mid 90s and lows in the mid 70s."
+      "narrative": "Partly cloudy. Lows overnight in the mid 70s."
     },
     {
       "validTimeUtc": 1754827200,
@@ -30,7 +30,7 @@
       "tempMax_F": 96,
       "tempMin_F": 72,
       "qpf_in": 0.0,
-      "narrative": "More sun than clouds. Highs in the mid 90s and lows in the low 70s."
+      "narrative": "A few clouds. Highs in the mid 90s and lows in the low 70s."
     },
     {
       "validTimeUtc": 1754913600,
@@ -39,7 +39,7 @@
       "tempMax_F": 95,
       "tempMin_F": 72,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the mid 90s and lows in the low 70s."
+      "narrative": "More sun than clouds. Highs in the mid 90s and lows in the low 70s."
     },
     {
       "validTimeUtc": 1755000000,
@@ -54,7 +54,7 @@
       "validTimeUtc": 1755086400,
       "validTimeIso": "2025-08-13T12:00:00Z",
       "dayOfWeek": "Wednesday",
-      "tempMax_F": 94,
+      "tempMax_F": 95,
       "tempMin_F": 73,
       "qpf_in": 0.0,
       "narrative": "Mostly sunny. Highs in the mid 90s and lows in the low 70s."
@@ -65,24 +65,24 @@
       "dayOfWeek": "Thursday",
       "tempMax_F": 94,
       "tempMin_F": 74,
-      "qpf_in": 0.0,
-      "narrative": "Plenty of sun. Highs in the mid 90s and lows in the mid 70s."
+      "qpf_in": 0.04,
+      "narrative": "Partly cloudy, chance of a thunderstorm. Highs in the mid 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1755259200,
       "validTimeIso": "2025-08-15T12:00:00Z",
       "dayOfWeek": "Friday",
       "tempMax_F": 95,
-      "tempMin_F": 75,
+      "tempMin_F": 74,
       "qpf_in": 0.0,
-      "narrative": "More sun than clouds. Highs in the mid 90s and lows in the mid 70s."
+      "narrative": "Mostly sunny. Highs in the mid 90s and lows in the mid 70s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "This Afternoon",
-      "startTime": "2025-08-09T13:00:00-05:00",
+      "startTime": "2025-08-09T15:00:00-05:00",
       "endTime": "2025-08-09T18:00:00-05:00",
       "isDaytime": true,
       "temperature": 97,
@@ -92,11 +92,11 @@
         "unitCode": "wmoUnit:percent",
         "value": 1
       },
-      "windSpeed": "5 to 10 mph",
+      "windSpeed": "10 mph",
       "windDirection": "S",
       "icon": "https://api.weather.gov/icons/land/day/hot?size=medium",
       "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 97. Heat index values as high as 107. South wind 5 to 10 mph."
+      "detailedForecast": "Sunny, with a high near 97. Heat index values as high as 107. South wind around 10 mph."
     },
     {
       "number": 2,
