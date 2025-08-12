@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-08-12T09:22:15.361245Z",
+    "generated_at": "2025-08-12T10:21:20.739660Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -19,9 +19,9 @@
       "validTimeIso": "2025-08-12T12:00:00Z",
       "dayOfWeek": "Tuesday",
       "tempMax_F": 94,
-      "tempMin_F": 72,
-      "qpf_in": 0.04,
-      "narrative": "Cloudy with rain in the morning. Highs in the mid 90s and lows in the low 70s."
+      "tempMin_F": 71,
+      "qpf_in": 0.0,
+      "narrative": "More sun than clouds. Highs in the mid 90s and lows in the low 70s."
     },
     {
       "validTimeUtc": 1755086400,
@@ -37,9 +37,9 @@
       "validTimeIso": "2025-08-14T12:00:00Z",
       "dayOfWeek": "Thursday",
       "tempMax_F": 96,
-      "tempMin_F": 74,
-      "qpf_in": 0.0,
-      "narrative": "Plenty of sun. Highs in the mid 90s and lows in the mid 70s."
+      "tempMin_F": 75,
+      "qpf_in": 0.04,
+      "narrative": "Morning showers. Highs in the mid 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1755259200,
@@ -55,9 +55,9 @@
       "validTimeIso": "2025-08-16T12:00:00Z",
       "dayOfWeek": "Saturday",
       "tempMax_F": 97,
-      "tempMin_F": 75,
+      "tempMin_F": 74,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the upper 90s and lows in the mid 70s."
+      "narrative": "More sun than clouds. Highs in the upper 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1755432000,
@@ -75,14 +75,14 @@
       "tempMax_F": 97,
       "tempMin_F": 73,
       "qpf_in": 0.0,
-      "narrative": "More sun than clouds. Highs in the upper 90s and lows in the low 70s."
+      "narrative": "Mostly sunny. Highs in the upper 90s and lows in the low 70s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Overnight",
-      "startTime": "2025-08-12T01:00:00-05:00",
+      "startTime": "2025-08-12T05:00:00-05:00",
       "endTime": "2025-08-12T06:00:00-05:00",
       "isDaytime": false,
       "temperature": 73,
@@ -90,13 +90,13 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 16
+        "value": 3
       },
       "windSpeed": "0 mph",
       "windDirection": "",
-      "icon": "https://api.weather.gov/icons/land/night/tsra_hi,20?size=medium",
-      "shortForecast": "Slight Chance Showers And Thunderstorms",
-      "detailedForecast": "A slight chance of showers and thunderstorms before 4am. Mostly clear, with a low around 73. East wind around 0 mph. Chance of precipitation is 20%."
+      "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+      "shortForecast": "Partly Cloudy",
+      "detailedForecast": "Partly cloudy, with a low around 73. South wind around 0 mph."
     },
     {
       "number": 2,
