@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-08-12T01:37:08.220476Z",
+    "generated_at": "2025-08-12T03:16:08.581761Z",
     "lat": 30.63,
     "lon": -87.04,
     "days_requested": 7,
@@ -20,8 +20,8 @@
       "dayOfWeek": "Monday",
       "tempMax_F": null,
       "tempMin_F": 75,
-      "qpf_in": 1.11,
-      "narrative": "Showers and thunderstorms late. Lows overnight in the mid 70s."
+      "qpf_in": 1.61,
+      "narrative": "Late night thunderstorms. Lows overnight in the mid 70s."
     },
     {
       "validTimeUtc": 1755000000,
@@ -39,7 +39,7 @@
       "tempMax_F": 87,
       "tempMin_F": 76,
       "qpf_in": 0.13,
-      "narrative": "Thunderstorms early. Highs in the upper 80s and lows in the mid 70s."
+      "narrative": "Morning showers and thunderstorms. Highs in the upper 80s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1755172800,
@@ -47,17 +47,17 @@
       "dayOfWeek": "Thursday",
       "tempMax_F": 90,
       "tempMin_F": 74,
-      "qpf_in": 0.09,
-      "narrative": "A few thunderstorms possible. Highs in the low 90s and lows in the mid 70s."
+      "qpf_in": 0.08,
+      "narrative": "Scattered thunderstorms possible. Highs in the low 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1755259200,
       "validTimeIso": "2025-08-15T12:00:00Z",
       "dayOfWeek": "Friday",
       "tempMax_F": 91,
-      "tempMin_F": 74,
+      "tempMin_F": 75,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the low 90s and lows in the mid 70s."
+      "narrative": "Partly cloudy. Highs in the low 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1755345600,
@@ -66,7 +66,7 @@
       "tempMax_F": 93,
       "tempMin_F": 75,
       "qpf_in": 0.1,
-      "narrative": "Thunderstorms developing in the afternoon. Highs in the low 90s and lows in the mid 70s."
+      "narrative": "Afternoon showers and thunderstorms. Highs in the low 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1755432000,
@@ -75,14 +75,14 @@
       "tempMax_F": 92,
       "tempMin_F": 74,
       "qpf_in": 0.03,
-      "narrative": "Slight chance of a thunderstorm. Highs in the low 90s and lows in the mid 70s."
+      "narrative": "Isolated thunderstorms. Highs in the low 90s and lows in the mid 70s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "This Afternoon",
-      "startTime": "2025-08-11T15:00:00-05:00",
+      "startTime": "2025-08-11T16:00:00-05:00",
       "endTime": "2025-08-11T18:00:00-05:00",
       "isDaytime": true,
       "temperature": 90,
@@ -94,7 +94,7 @@
       },
       "windSpeed": "5 mph",
       "windDirection": "SE",
-      "icon": "https://api.weather.gov/icons/land/day/tsra,70?size=medium",
+      "icon": "https://api.weather.gov/icons/land/day/tsra_sct,70?size=medium",
       "shortForecast": "Showers And Thunderstorms Likely",
       "detailedForecast": "Showers and thunderstorms likely. Mostly cloudy. High near 90, with temperatures falling to around 86 in the afternoon. Southeast wind around 5 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
     },
