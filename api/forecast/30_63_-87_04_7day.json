@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-08-12T23:18:27.785029Z",
+    "generated_at": "2025-08-13T01:38:55.521053Z",
     "lat": 30.63,
     "lon": -87.04,
     "days_requested": 7,
@@ -20,8 +20,8 @@
       "dayOfWeek": "Tuesday",
       "tempMax_F": null,
       "tempMin_F": 76,
-      "qpf_in": 0.97,
-      "narrative": "Scattered thunderstorms. Lows overnight in the mid 70s."
+      "qpf_in": 0.18,
+      "narrative": "Thunderstorms developing late. Lows overnight in the mid 70s."
     },
     {
       "validTimeUtc": 1755086400,
@@ -29,7 +29,7 @@
       "dayOfWeek": "Wednesday",
       "tempMax_F": 85,
       "tempMin_F": 76,
-      "qpf_in": 0.44,
+      "qpf_in": 0.41,
       "narrative": "Thunderstorms. Highs in the mid 80s and lows in the mid 70s."
     },
     {
@@ -38,8 +38,8 @@
       "dayOfWeek": "Thursday",
       "tempMax_F": 90,
       "tempMin_F": 75,
-      "qpf_in": 0.09,
-      "narrative": "Morning showers. Highs in the low 90s and lows in the mid 70s."
+      "qpf_in": 0.0,
+      "narrative": "Times of sun and clouds. Highs in the low 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1755259200,
@@ -47,26 +47,26 @@
       "dayOfWeek": "Friday",
       "tempMax_F": 92,
       "tempMin_F": 75,
-      "qpf_in": 0.04,
-      "narrative": "Afternoon showers and thunderstorms. Highs in the low 90s and lows in the mid 70s."
+      "qpf_in": 0.03,
+      "narrative": "Partly cloudy. Highs in the low 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1755345600,
       "validTimeIso": "2025-08-16T12:00:00Z",
       "dayOfWeek": "Saturday",
-      "tempMax_F": 93,
+      "tempMax_F": 94,
       "tempMin_F": 74,
-      "qpf_in": 0.14,
-      "narrative": "Showers and thunderstorms late. Highs in the low 90s and lows in the mid 70s."
+      "qpf_in": 0.11,
+      "narrative": "Afternoon thunderstorms. Highs in the mid 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1755432000,
       "validTimeIso": "2025-08-17T12:00:00Z",
       "dayOfWeek": "Sunday",
       "tempMax_F": 91,
-      "tempMin_F": 74,
+      "tempMin_F": 75,
       "qpf_in": 0.08,
-      "narrative": "Isolated thunderstorms. Highs in the low 90s and lows in the mid 70s."
+      "narrative": "Thunderstorms developing in the afternoon. Highs in the low 90s and lows in the mid 70s."
     },
     {
       "validTimeUtc": 1755518400,
@@ -74,15 +74,15 @@
       "dayOfWeek": "Monday",
       "tempMax_F": 90,
       "tempMin_F": 74,
-      "qpf_in": 0.05,
-      "narrative": "Isolated thunderstorms. Highs in the low 90s and lows in the mid 70s."
+      "qpf_in": 0.06,
+      "narrative": "Thunderstorms developing in the afternoon. Highs in the low 90s and lows in the mid 70s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Tonight",
-      "startTime": "2025-08-12T18:00:00-05:00",
+      "startTime": "2025-08-12T20:00:00-05:00",
       "endTime": "2025-08-13T06:00:00-05:00",
       "isDaytime": false,
       "temperature": 76,
@@ -92,11 +92,11 @@
         "unitCode": "wmoUnit:percent",
         "value": 52
       },
-      "windSpeed": "5 to 10 mph",
+      "windSpeed": "5 mph",
       "windDirection": "S",
-      "icon": "https://api.weather.gov/icons/land/night/tsra_hi,50?size=medium",
+      "icon": "https://api.weather.gov/icons/land/night/tsra_hi,40/tsra_hi,50?size=medium",
       "shortForecast": "Chance Showers And Thunderstorms",
-      "detailedForecast": "A chance of showers and thunderstorms before 1am, then a chance of showers and thunderstorms between 1am and 4am, then a chance of showers and thunderstorms. Partly cloudy, with a low around 76. South wind 5 to 10 mph. Chance of precipitation is 50%. New rainfall amounts between a quarter and half of an inch possible."
+      "detailedForecast": "A chance of showers and thunderstorms before 1am, then a chance of showers and thunderstorms between 1am and 4am, then a chance of showers and thunderstorms. Partly cloudy, with a low around 76. South wind around 5 mph. Chance of precipitation is 50%. New rainfall amounts between a quarter and half of an inch possible."
     },
     {
       "number": 2,
