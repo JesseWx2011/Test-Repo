@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-08-26T16:22:18.503205Z",
+    "generated_at": "2025-08-26T17:16:36.829031Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -20,8 +20,8 @@
       "dayOfWeek": "Tuesday",
       "tempMax_F": 82,
       "tempMin_F": 67,
-      "qpf_in": 0.14,
-      "narrative": "Rain. Highs in the low 80s and lows in the upper 60s."
+      "qpf_in": 0.05,
+      "narrative": "Cloudy with rain. Highs in the low 80s and lows in the upper 60s."
     },
     {
       "validTimeUtc": 1756296000,
@@ -30,7 +30,7 @@
       "tempMax_F": 86,
       "tempMin_F": 70,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the mid 80s and lows in the low 70s."
+      "narrative": "Times of sun and clouds. Highs in the mid 80s and lows in the low 70s."
     },
     {
       "validTimeUtc": 1756382400,
@@ -39,7 +39,7 @@
       "tempMax_F": 90,
       "tempMin_F": 67,
       "qpf_in": 0.62,
-      "narrative": "Thunderstorms developing in the afternoon. Highs in the low 90s and lows in the upper 60s."
+      "narrative": "Afternoon showers and thunderstorms. Highs in the low 90s and lows in the upper 60s."
     },
     {
       "validTimeUtc": 1756468800,
@@ -66,7 +66,7 @@
       "tempMax_F": 84,
       "tempMin_F": 63,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the mid 80s and lows in the low 60s."
+      "narrative": "Mix of sun and clouds. Highs in the mid 80s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1756728000,
@@ -75,14 +75,14 @@
       "tempMax_F": 87,
       "tempMin_F": 62,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the upper 80s and lows in the low 60s."
+      "narrative": "Plenty of sun. Highs in the upper 80s and lows in the low 60s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
-      "name": "Today",
-      "startTime": "2025-08-26T07:00:00-05:00",
+      "name": "This Afternoon",
+      "startTime": "2025-08-26T12:00:00-05:00",
       "endTime": "2025-08-26T18:00:00-05:00",
       "isDaytime": true,
       "temperature": 82,
@@ -94,7 +94,7 @@
       },
       "windSpeed": "10 mph",
       "windDirection": "E",
-      "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/tsra_sct,30?size=medium",
+      "icon": "https://api.weather.gov/icons/land/day/tsra_sct,30?size=medium",
       "shortForecast": "Chance Showers And Thunderstorms",
       "detailedForecast": "A slight chance of rain showers before 1pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 82. East wind around 10 mph. Chance of precipitation is 30%."
     },
