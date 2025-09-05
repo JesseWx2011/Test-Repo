@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-09-05T13:25:43.074174Z",
+    "generated_at": "2025-09-05T14:16:24.298895Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -19,9 +19,9 @@
       "validTimeIso": "2025-09-05T12:00:00Z",
       "dayOfWeek": "Friday",
       "tempMax_F": 91,
-      "tempMin_F": 66,
-      "qpf_in": 0.95,
-      "narrative": "Considerable cloudiness. Highs in the low 90s and lows in the mid 60s."
+      "tempMin_F": 67,
+      "qpf_in": 1.01,
+      "narrative": "Considerable cloudiness. Highs in the low 90s and lows in the upper 60s."
     },
     {
       "validTimeUtc": 1757160000,
@@ -29,7 +29,7 @@
       "dayOfWeek": "Saturday",
       "tempMax_F": 74,
       "tempMin_F": 63,
-      "qpf_in": 0.05,
+      "qpf_in": 0.04,
       "narrative": "Morning showers. Highs in the mid 70s and lows in the low 60s."
     },
     {
@@ -39,23 +39,23 @@
       "tempMax_F": 82,
       "tempMin_F": 60,
       "qpf_in": 0.0,
-      "narrative": "A few clouds. Highs in the low 80s and lows in the low 60s."
+      "narrative": "Mostly sunny. Highs in the low 80s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1757332800,
       "validTimeIso": "2025-09-08T12:00:00Z",
       "dayOfWeek": "Monday",
       "tempMax_F": 83,
-      "tempMin_F": 59,
+      "tempMin_F": 58,
       "qpf_in": 0.0,
-      "narrative": "Sunny. Highs in the low 80s and lows in the upper 50s."
+      "narrative": "Abundant sunshine. Highs in the low 80s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1757419200,
       "validTimeIso": "2025-09-09T12:00:00Z",
       "dayOfWeek": "Tuesday",
       "tempMax_F": 85,
-      "tempMin_F": 60,
+      "tempMin_F": 61,
       "qpf_in": 0.0,
       "narrative": "Sunshine. Highs in the mid 80s and lows in the low 60s."
     },
@@ -64,9 +64,9 @@
       "validTimeIso": "2025-09-10T12:00:00Z",
       "dayOfWeek": "Wednesday",
       "tempMax_F": 89,
-      "tempMin_F": 65,
+      "tempMin_F": 64,
       "qpf_in": 0.0,
-      "narrative": "Mainly sunny. Highs in the upper 80s and lows in the mid 60s."
+      "narrative": "Sunny. Highs in the upper 80s and lows in the mid 60s."
     },
     {
       "validTimeUtc": 1757592000,
@@ -82,7 +82,7 @@
     {
       "number": 1,
       "name": "Today",
-      "startTime": "2025-09-05T08:00:00-05:00",
+      "startTime": "2025-09-05T09:00:00-05:00",
       "endTime": "2025-09-05T18:00:00-05:00",
       "isDaytime": true,
       "temperature": 93,
@@ -90,13 +90,13 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 6
+        "value": 18
       },
       "windSpeed": "10 mph",
       "windDirection": "SW",
-      "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-      "shortForecast": "Mostly Cloudy",
-      "detailedForecast": "Mostly cloudy, with a high near 93. Southwest wind around 10 mph."
+      "icon": "https://api.weather.gov/icons/land/day/bkn/tsra_sct,20?size=medium",
+      "shortForecast": "Mostly Cloudy then Slight Chance Showers And Thunderstorms",
+      "detailedForecast": "A slight chance of showers and thunderstorms after 1pm. Mostly cloudy, with a high near 93. Southwest wind around 10 mph. Chance of precipitation is 20%."
     },
     {
       "number": 2,
@@ -115,7 +115,7 @@
       "windDirection": "N",
       "icon": "https://api.weather.gov/icons/land/night/tsra,50/tsra,60?size=medium",
       "shortForecast": "Showers And Thunderstorms Likely",
-      "detailedForecast": "Showers and thunderstorms likely after 7pm. Mostly cloudy, with a low around 66. North wind around 5 mph. Chance of precipitation is 60%."
+      "detailedForecast": "Showers and thunderstorms likely. Mostly cloudy, with a low around 66. North wind around 5 mph. Chance of precipitation is 60%."
     },
     {
       "number": 3,
