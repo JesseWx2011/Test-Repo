@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-09-07T14:14:06.640260Z",
+    "generated_at": "2025-09-07T15:15:04.039855Z",
     "lat": 40.71,
     "lon": -74.0,
     "days_requested": 7,
@@ -20,8 +20,8 @@
       "dayOfWeek": "Sunday",
       "tempMax_F": 71,
       "tempMin_F": 60,
-      "qpf_in": 0.08,
-      "narrative": "Periods of rain early. Highs in the low 70s and lows in the low 60s."
+      "qpf_in": 0.05,
+      "narrative": "Cloudy with rain. Highs in the low 70s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1757329200,
@@ -30,7 +30,7 @@
       "tempMax_F": 75,
       "tempMin_F": 59,
       "qpf_in": 0.0,
-      "narrative": "Abundant sunshine. Highs in the mid 70s and lows in the upper 50s."
+      "narrative": "Sunshine. Highs in the mid 70s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1757415600,
@@ -39,7 +39,7 @@
       "tempMax_F": 75,
       "tempMin_F": 60,
       "qpf_in": 0.0,
-      "narrative": "More sun than clouds. Highs in the mid 70s and lows in the low 60s."
+      "narrative": "Plenty of sun. Highs in the mid 70s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1757502000,
@@ -57,7 +57,7 @@
       "tempMax_F": 80,
       "tempMin_F": 63,
       "qpf_in": 0.0,
-      "narrative": "Sunshine. Highs in the low 80s and lows in the low 60s."
+      "narrative": "Abundant sunshine. Highs in the low 80s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1757674800,
@@ -66,37 +66,37 @@
       "tempMax_F": 77,
       "tempMin_F": 61,
       "qpf_in": 0.0,
-      "narrative": "A few clouds. Highs in the upper 70s and lows in the low 60s."
+      "narrative": "Sunny. Highs in the upper 70s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1757761200,
       "validTimeIso": "2025-09-13T11:00:00Z",
       "dayOfWeek": "Saturday",
       "tempMax_F": 75,
-      "tempMin_F": 60,
+      "tempMin_F": 61,
       "qpf_in": 0.0,
-      "narrative": "Plenty of sun. Highs in the mid 70s and lows in the low 60s."
+      "narrative": "A few clouds. Highs in the mid 70s and lows in the low 60s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Today",
-      "startTime": "2025-09-07T07:00:00-04:00",
+      "startTime": "2025-09-07T11:00:00-04:00",
       "endTime": "2025-09-07T18:00:00-04:00",
       "isDaytime": true,
-      "temperature": 69,
+      "temperature": 67,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 94
+        "value": 72
       },
       "windSpeed": "8 mph",
       "windDirection": "NW",
-      "icon": "https://api.weather.gov/icons/land/day/rain,90/rain,70?size=medium",
-      "shortForecast": "Rain",
-      "detailedForecast": "Rain before 5pm. Mostly cloudy, with a high near 69. Northwest wind around 8 mph. Chance of precipitation is 90%. New rainfall amounts between a half and three quarters of an inch possible."
+      "icon": "https://api.weather.gov/icons/land/day/rain_showers,70?size=medium",
+      "shortForecast": "Rain Showers Likely",
+      "detailedForecast": "Rain showers likely. Cloudy. High near 67, with temperatures falling to around 65 in the afternoon. Northwest wind around 8 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
     },
     {
       "number": 2,
@@ -109,13 +109,13 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 6
+        "value": 17
       },
       "windSpeed": "6 to 9 mph",
       "windDirection": "W",
-      "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-      "shortForecast": "Partly Cloudy",
-      "detailedForecast": "Partly cloudy, with a low around 60. West wind 6 to 9 mph."
+      "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/sct?size=medium",
+      "shortForecast": "Slight Chance Rain Showers then Partly Cloudy",
+      "detailedForecast": "A slight chance of rain showers before 8pm. Partly cloudy, with a low around 60. West wind 6 to 9 mph. Chance of precipitation is 20%."
     },
     {
       "number": 3,
