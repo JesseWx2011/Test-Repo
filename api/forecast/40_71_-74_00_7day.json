@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-09-07T03:01:24.709047Z",
+    "generated_at": "2025-09-07T04:20:25.080005Z",
     "lat": 40.71,
     "lon": -74.0,
     "days_requested": 7,
@@ -20,17 +20,17 @@
       "dayOfWeek": "Saturday",
       "tempMax_F": null,
       "tempMin_F": 65,
-      "qpf_in": 0.09,
+      "qpf_in": 0.15,
       "narrative": "Cloudy with rain. Lows overnight in the mid 60s."
     },
     {
       "validTimeUtc": 1757242800,
       "validTimeIso": "2025-09-07T11:00:00Z",
       "dayOfWeek": "Sunday",
-      "tempMax_F": 72,
+      "tempMax_F": 71,
       "tempMin_F": 59,
-      "qpf_in": 0.46,
-      "narrative": "Cloudy with rain in the morning. Highs in the low 70s and lows in the upper 50s."
+      "qpf_in": 0.17,
+      "narrative": "Cloudy with morning rain. Highs in the low 70s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1757329200,
@@ -39,7 +39,7 @@
       "tempMax_F": 76,
       "tempMin_F": 60,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the mid 70s and lows in the low 60s."
+      "narrative": "Mainly sunny. Highs in the mid 70s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1757415600,
@@ -57,7 +57,7 @@
       "tempMax_F": 74,
       "tempMin_F": 61,
       "qpf_in": 0.0,
-      "narrative": "Mostly cloudy. Highs in the mid 70s and lows in the low 60s."
+      "narrative": "Considerable cloudiness. Highs in the mid 70s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1757588400,
@@ -66,7 +66,7 @@
       "tempMax_F": 81,
       "tempMin_F": 63,
       "qpf_in": 0.0,
-      "narrative": "Sunshine. Highs in the low 80s and lows in the low 60s."
+      "narrative": "Mainly sunny. Highs in the low 80s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1757674800,
@@ -81,8 +81,8 @@
   "nws_periods": [
     {
       "number": 1,
-      "name": "Tonight",
-      "startTime": "2025-09-06T21:00:00-04:00",
+      "name": "Overnight",
+      "startTime": "2025-09-07T00:00:00-04:00",
       "endTime": "2025-09-07T06:00:00-04:00",
       "isDaytime": false,
       "temperature": 64,
@@ -94,9 +94,9 @@
       },
       "windSpeed": "7 mph",
       "windDirection": "N",
-      "icon": "https://api.weather.gov/icons/land/night/rain_showers,80/rain,90?size=medium",
-      "shortForecast": "Rain Showers then Rain",
-      "detailedForecast": "Rain showers before 2am, then rain. Cloudy. Low around 64, with temperatures rising to around 70 overnight. North wind around 7 mph. Chance of precipitation is 90%. New rainfall amounts between a half and three quarters of an inch possible."
+      "icon": "https://api.weather.gov/icons/land/night/rain,90?size=medium",
+      "shortForecast": "Rain",
+      "detailedForecast": "Rain showers likely before 2am, then rain. Cloudy. Low around 64, with temperatures rising to around 70 overnight. North wind around 7 mph. Chance of precipitation is 90%. New rainfall amounts between a half and three quarters of an inch possible."
     },
     {
       "number": 2,
