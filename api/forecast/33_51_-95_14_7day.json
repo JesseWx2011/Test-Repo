@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-09-29T04:22:19.848403Z",
+    "generated_at": "2025-09-29T05:18:48.020320Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -19,9 +19,9 @@
       "validTimeIso": "2025-09-28T12:00:00Z",
       "dayOfWeek": "Sunday",
       "tempMax_F": null,
-      "tempMin_F": 61,
+      "tempMin_F": 60,
       "qpf_in": 0.0,
-      "narrative": "Clear. Lows overnight in the low 60s."
+      "narrative": "Mainly clear. Lows overnight in the low 60s."
     },
     {
       "validTimeUtc": 1759147200,
@@ -30,7 +30,7 @@
       "tempMax_F": 88,
       "tempMin_F": 65,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the upper 80s and lows in the mid 60s."
+      "narrative": "A few clouds. Highs in the upper 80s and lows in the mid 60s."
     },
     {
       "validTimeUtc": 1759233600,
@@ -57,7 +57,7 @@
       "tempMax_F": 92,
       "tempMin_F": 65,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the low 90s and lows in the mid 60s."
+      "narrative": "A few clouds. Highs in the low 90s and lows in the mid 60s."
     },
     {
       "validTimeUtc": 1759492800,
@@ -73,19 +73,19 @@
       "validTimeIso": "2025-10-04T12:00:00Z",
       "dayOfWeek": "Saturday",
       "tempMax_F": 88,
-      "tempMin_F": 64,
+      "tempMin_F": 63,
       "qpf_in": 0.0,
-      "narrative": "Sunny. Highs in the upper 80s and lows in the mid 60s."
+      "narrative": "Sunshine. Highs in the upper 80s and lows in the low 60s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
-      "name": "Tonight",
-      "startTime": "2025-09-28T23:00:00-05:00",
+      "name": "Overnight",
+      "startTime": "2025-09-29T00:00:00-05:00",
       "endTime": "2025-09-29T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 62,
+      "temperature": 61,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
@@ -96,7 +96,7 @@
       "windDirection": "NE",
       "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
       "shortForecast": "Partly Cloudy",
-      "detailedForecast": "Partly cloudy, with a low around 62. Northeast wind around 5 mph."
+      "detailedForecast": "Partly cloudy, with a low around 61. Northeast wind around 5 mph."
     },
     {
       "number": 2,
@@ -104,7 +104,7 @@
       "startTime": "2025-09-29T06:00:00-05:00",
       "endTime": "2025-09-29T18:00:00-05:00",
       "isDaytime": true,
-      "temperature": 86,
+      "temperature": 87,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
@@ -115,7 +115,7 @@
       "windDirection": "NE",
       "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
       "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 86. Northeast wind around 5 mph."
+      "detailedForecast": "Sunny, with a high near 87. Northeast wind around 5 mph."
     },
     {
       "number": 3,
@@ -123,7 +123,7 @@
       "startTime": "2025-09-29T18:00:00-05:00",
       "endTime": "2025-09-30T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 66,
+      "temperature": 65,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
@@ -134,7 +134,7 @@
       "windDirection": "NE",
       "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
       "shortForecast": "Mostly Cloudy",
-      "detailedForecast": "Mostly cloudy, with a low around 66. Northeast wind around 5 mph."
+      "detailedForecast": "Mostly cloudy, with a low around 65. Northeast wind around 5 mph."
     },
     {
       "number": 4,
@@ -161,7 +161,7 @@
       "startTime": "2025-09-30T18:00:00-05:00",
       "endTime": "2025-10-01T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 61,
+      "temperature": 62,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
@@ -172,7 +172,7 @@
       "windDirection": "NE",
       "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
       "shortForecast": "Mostly Clear",
-      "detailedForecast": "Mostly clear, with a low around 61. Northeast wind 0 to 5 mph."
+      "detailedForecast": "Mostly clear, with a low around 62. Northeast wind 0 to 5 mph."
     },
     {
       "number": 6,
@@ -199,7 +199,7 @@
       "startTime": "2025-10-01T18:00:00-05:00",
       "endTime": "2025-10-02T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 63,
+      "temperature": 65,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
@@ -208,15 +208,53 @@
       },
       "windSpeed": "5 mph",
       "windDirection": "NE",
-      "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-      "shortForecast": "Clear",
-      "detailedForecast": "Clear, with a low around 63."
+      "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+      "shortForecast": "Mostly Clear",
+      "detailedForecast": "Mostly clear, with a low around 65."
     },
     {
       "number": 8,
       "name": "Thursday",
       "startTime": "2025-10-02T06:00:00-05:00",
       "endTime": "2025-10-02T18:00:00-05:00",
+      "isDaytime": true,
+      "temperature": 89,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 1
+      },
+      "windSpeed": "5 mph",
+      "windDirection": "E",
+      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+      "shortForecast": "Sunny",
+      "detailedForecast": "Sunny, with a high near 89."
+    },
+    {
+      "number": 9,
+      "name": "Thursday Night",
+      "startTime": "2025-10-02T18:00:00-05:00",
+      "endTime": "2025-10-03T06:00:00-05:00",
+      "isDaytime": false,
+      "temperature": 66,
+      "temperatureUnit": "F",
+      "temperatureTrend": "",
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 1
+      },
+      "windSpeed": "5 mph",
+      "windDirection": "E",
+      "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+      "shortForecast": "Mostly Clear",
+      "detailedForecast": "Mostly clear, with a low around 66."
+    },
+    {
+      "number": 10,
+      "name": "Friday",
+      "startTime": "2025-10-03T06:00:00-05:00",
+      "endTime": "2025-10-03T18:00:00-05:00",
       "isDaytime": true,
       "temperature": 88,
       "temperatureUnit": "F",
@@ -226,48 +264,10 @@
         "value": 2
       },
       "windSpeed": "5 mph",
-      "windDirection": "E",
+      "windDirection": "SE",
       "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
       "shortForecast": "Sunny",
       "detailedForecast": "Sunny, with a high near 88."
-    },
-    {
-      "number": 9,
-      "name": "Thursday Night",
-      "startTime": "2025-10-02T18:00:00-05:00",
-      "endTime": "2025-10-03T06:00:00-05:00",
-      "isDaytime": false,
-      "temperature": 64,
-      "temperatureUnit": "F",
-      "temperatureTrend": "",
-      "probabilityOfPrecipitation": {
-        "unitCode": "wmoUnit:percent",
-        "value": 2
-      },
-      "windSpeed": "5 mph",
-      "windDirection": "E",
-      "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-      "shortForecast": "Mostly Clear",
-      "detailedForecast": "Mostly clear, with a low around 64."
-    },
-    {
-      "number": 10,
-      "name": "Friday",
-      "startTime": "2025-10-03T06:00:00-05:00",
-      "endTime": "2025-10-03T18:00:00-05:00",
-      "isDaytime": true,
-      "temperature": 87,
-      "temperatureUnit": "F",
-      "temperatureTrend": "",
-      "probabilityOfPrecipitation": {
-        "unitCode": "wmoUnit:percent",
-        "value": 3
-      },
-      "windSpeed": "5 to 10 mph",
-      "windDirection": "E",
-      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-      "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 87."
     },
     {
       "number": 11,
@@ -280,7 +280,7 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 3
+        "value": 2
       },
       "windSpeed": "5 mph",
       "windDirection": "SE",
@@ -294,18 +294,18 @@
       "startTime": "2025-10-04T06:00:00-05:00",
       "endTime": "2025-10-04T18:00:00-05:00",
       "isDaytime": true,
-      "temperature": 86,
+      "temperature": 87,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 1
+        "value": 2
       },
-      "windSpeed": "5 to 10 mph",
+      "windSpeed": "5 mph",
       "windDirection": "SE",
       "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
       "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 86."
+      "detailedForecast": "Sunny, with a high near 87."
     },
     {
       "number": 13,
@@ -318,10 +318,10 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 2
+        "value": 4
       },
       "windSpeed": "5 mph",
-      "windDirection": "E",
+      "windDirection": "SE",
       "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
       "shortForecast": "Mostly Clear",
       "detailedForecast": "Mostly clear, with a low around 64."
@@ -332,18 +332,18 @@
       "startTime": "2025-10-05T06:00:00-05:00",
       "endTime": "2025-10-05T18:00:00-05:00",
       "isDaytime": true,
-      "temperature": 86,
+      "temperature": 87,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 2
+        "value": 4
       },
       "windSpeed": "5 to 10 mph",
       "windDirection": "SE",
       "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
       "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 86."
+      "detailedForecast": "Sunny, with a high near 87."
     }
   ]
 }
