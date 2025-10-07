@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-10-07T07:18:00.203684Z",
+    "generated_at": "2025-10-07T08:24:50.956985Z",
     "lat": 40.71,
     "lon": -74.0,
     "days_requested": 7,
@@ -15,22 +15,13 @@
   },
   "twc_daily": [
     {
-      "validTimeUtc": 1759748400,
-      "validTimeIso": "2025-10-06T11:00:00Z",
-      "dayOfWeek": "Monday",
-      "tempMax_F": null,
-      "tempMin_F": 65,
-      "qpf_in": 0.0,
-      "narrative": "Mainly clear. Lows overnight in the mid 60s."
-    },
-    {
       "validTimeUtc": 1759834800,
       "validTimeIso": "2025-10-07T11:00:00Z",
       "dayOfWeek": "Tuesday",
       "tempMax_F": 82,
       "tempMin_F": 69,
-      "qpf_in": 0.44,
-      "narrative": "More clouds than sun. Highs in the low 80s and lows in the upper 60s."
+      "qpf_in": 0.38,
+      "narrative": "Considerable cloudiness. Highs in the low 80s and lows in the upper 60s."
     },
     {
       "validTimeUtc": 1759921200,
@@ -38,7 +29,7 @@
       "dayOfWeek": "Wednesday",
       "tempMax_F": 71,
       "tempMin_F": 52,
-      "qpf_in": 0.25,
+      "qpf_in": 0.31,
       "narrative": "Periods of rain early. Highs in the low 70s and lows in the low 50s."
     },
     {
@@ -48,33 +39,42 @@
       "tempMax_F": 63,
       "tempMin_F": 48,
       "qpf_in": 0.0,
-      "narrative": "Sunshine. Highs in the low 60s and lows in the upper 40s."
+      "narrative": "Abundant sunshine. Highs in the low 60s and lows in the upper 40s."
     },
     {
       "validTimeUtc": 1760094000,
       "validTimeIso": "2025-10-10T11:00:00Z",
       "dayOfWeek": "Friday",
       "tempMax_F": 67,
-      "tempMin_F": 54,
+      "tempMin_F": 53,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the upper 60s and lows in the mid 50s."
+      "narrative": "Abundant sunshine. Highs in the upper 60s and lows in the low 50s."
     },
     {
       "validTimeUtc": 1760180400,
       "validTimeIso": "2025-10-11T11:00:00Z",
       "dayOfWeek": "Saturday",
       "tempMax_F": 71,
-      "tempMin_F": 57,
-      "qpf_in": 0.02,
-      "narrative": "Mix of sun and clouds. Highs in the low 70s and lows in the upper 50s."
+      "tempMin_F": 58,
+      "qpf_in": 0.0,
+      "narrative": "Partly cloudy. Highs in the low 70s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1760266800,
       "validTimeIso": "2025-10-12T11:00:00Z",
       "dayOfWeek": "Sunday",
+      "tempMax_F": 68,
+      "tempMin_F": 56,
+      "qpf_in": 0.06,
+      "narrative": "Mostly cloudy. Highs in the upper 60s and lows in the mid 50s."
+    },
+    {
+      "validTimeUtc": 1760353200,
+      "validTimeIso": "2025-10-13T11:00:00Z",
+      "dayOfWeek": "Monday",
       "tempMax_F": 67,
-      "tempMin_F": 57,
-      "qpf_in": 0.13,
+      "tempMin_F": 58,
+      "qpf_in": 0.04,
       "narrative": "A few morning showers. Highs in the upper 60s and lows in the upper 50s."
     }
   ],
@@ -82,7 +82,7 @@
     {
       "number": 1,
       "name": "Overnight",
-      "startTime": "2025-10-07T03:00:00-04:00",
+      "startTime": "2025-10-07T04:00:00-04:00",
       "endTime": "2025-10-07T06:00:00-04:00",
       "isDaytime": false,
       "temperature": 65,
@@ -92,11 +92,11 @@
         "unitCode": "wmoUnit:percent",
         "value": 0
       },
-      "windSpeed": "7 mph",
+      "windSpeed": "6 mph",
       "windDirection": "SW",
-      "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-      "shortForecast": "Mostly Clear",
-      "detailedForecast": "Mostly clear. Low around 65, with temperatures rising to around 67 overnight. Southwest wind around 7 mph."
+      "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+      "shortForecast": "Clear",
+      "detailedForecast": "Clear. Low around 65, with temperatures rising to around 67 overnight. Southwest wind around 6 mph."
     },
     {
       "number": 2,
