@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-10-12T15:15:32.059732Z",
+    "generated_at": "2025-10-12T16:19:59.184976Z",
     "lat": 40.71,
     "lon": -74.0,
     "days_requested": 7,
@@ -20,33 +20,33 @@
       "dayOfWeek": "Sunday",
       "tempMax_F": 62,
       "tempMin_F": 58,
-      "qpf_in": 0.69,
-      "narrative": "Windy, chance of late day showers. Highs in the low 60s and lows in the upper 50s."
+      "qpf_in": 0.4,
+      "narrative": "Windy with showers. Highs in the low 60s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1760353200,
       "validTimeIso": "2025-10-13T11:00:00Z",
       "dayOfWeek": "Monday",
-      "tempMax_F": 61,
+      "tempMax_F": 60,
       "tempMin_F": 57,
-      "qpf_in": 0.46,
+      "qpf_in": 0.36,
       "narrative": "Mainly cloudy with rain, windy. Highs in the low 60s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1760439600,
       "validTimeIso": "2025-10-14T11:00:00Z",
       "dayOfWeek": "Tuesday",
-      "tempMax_F": 67,
+      "tempMax_F": 66,
       "tempMin_F": 58,
       "qpf_in": 0.0,
-      "narrative": "Cloudy. Highs in the upper 60s and lows in the upper 50s."
+      "narrative": "Mostly cloudy. Highs in the mid 60s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1760526000,
       "validTimeIso": "2025-10-15T11:00:00Z",
       "dayOfWeek": "Wednesday",
       "tempMax_F": 69,
-      "tempMin_F": 51,
+      "tempMin_F": 52,
       "qpf_in": 0.0,
       "narrative": "Mix of sun and clouds. Highs in the upper 60s and lows in the low 50s."
     },
@@ -57,7 +57,7 @@
       "tempMax_F": 62,
       "tempMin_F": 47,
       "qpf_in": 0.0,
-      "narrative": "Plenty of sun. Highs in the low 60s and lows in the upper 40s."
+      "narrative": "A few clouds. Highs in the low 60s and lows in the upper 40s."
     },
     {
       "validTimeUtc": 1760698800,
@@ -81,8 +81,8 @@
   "nws_periods": [
     {
       "number": 1,
-      "name": "Today",
-      "startTime": "2025-10-12T10:00:00-04:00",
+      "name": "This Afternoon",
+      "startTime": "2025-10-12T12:00:00-04:00",
       "endTime": "2025-10-12T18:00:00-04:00",
       "isDaytime": true,
       "temperature": 64,
@@ -92,11 +92,11 @@
         "unitCode": "wmoUnit:percent",
         "value": 66
       },
-      "windSpeed": "16 to 23 mph",
+      "windSpeed": "23 mph",
       "windDirection": "NE",
-      "icon": "https://api.weather.gov/icons/land/day/wind_ovc/rain,70?size=medium",
-      "shortForecast": "Cloudy then Rain Likely",
-      "detailedForecast": "Rain likely after noon. Cloudy. High near 64, with temperatures falling to around 58 in the afternoon. Northeast wind 16 to 23 mph, with gusts as high as 37 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
+      "icon": "https://api.weather.gov/icons/land/day/rain,70?size=medium",
+      "shortForecast": "Rain Likely",
+      "detailedForecast": "Rain likely. Cloudy. High near 64, with temperatures falling to around 58 in the afternoon. Northeast wind around 23 mph, with gusts as high as 37 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
     },
     {
       "number": 2,
