@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-10-12T16:19:59.184976Z",
+    "generated_at": "2025-10-12T17:14:41.760365Z",
     "lat": 40.71,
     "lon": -74.0,
     "days_requested": 7,
@@ -20,8 +20,8 @@
       "dayOfWeek": "Sunday",
       "tempMax_F": 62,
       "tempMin_F": 58,
-      "qpf_in": 0.4,
-      "narrative": "Windy with showers. Highs in the low 60s and lows in the upper 50s."
+      "qpf_in": 0.42,
+      "narrative": "Windy with rain at times. Highs in the low 60s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1760353200,
@@ -30,7 +30,7 @@
       "tempMax_F": 60,
       "tempMin_F": 57,
       "qpf_in": 0.36,
-      "narrative": "Mainly cloudy with rain, windy. Highs in the low 60s and lows in the upper 50s."
+      "narrative": "Windy with periods of rain. Highs in the low 60s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1760439600,
@@ -57,7 +57,7 @@
       "tempMax_F": 62,
       "tempMin_F": 47,
       "qpf_in": 0.0,
-      "narrative": "A few clouds. Highs in the low 60s and lows in the upper 40s."
+      "narrative": "More sun than clouds. Highs in the low 60s and lows in the upper 40s."
     },
     {
       "validTimeUtc": 1760698800,
@@ -75,14 +75,14 @@
       "tempMax_F": 68,
       "tempMin_F": 58,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the upper 60s and lows in the upper 50s."
+      "narrative": "Times of sun and clouds. Highs in the upper 60s and lows in the upper 50s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
-      "name": "This Afternoon",
-      "startTime": "2025-10-12T12:00:00-04:00",
+      "name": "Today",
+      "startTime": "2025-10-12T10:00:00-04:00",
       "endTime": "2025-10-12T18:00:00-04:00",
       "isDaytime": true,
       "temperature": 64,
@@ -92,11 +92,11 @@
         "unitCode": "wmoUnit:percent",
         "value": 66
       },
-      "windSpeed": "23 mph",
+      "windSpeed": "16 to 23 mph",
       "windDirection": "NE",
-      "icon": "https://api.weather.gov/icons/land/day/rain,70?size=medium",
-      "shortForecast": "Rain Likely",
-      "detailedForecast": "Rain likely. Cloudy. High near 64, with temperatures falling to around 58 in the afternoon. Northeast wind around 23 mph, with gusts as high as 37 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
+      "icon": "https://api.weather.gov/icons/land/day/wind_ovc/rain,70?size=medium",
+      "shortForecast": "Cloudy then Rain Likely",
+      "detailedForecast": "Rain likely after noon. Cloudy. High near 64, with temperatures falling to around 58 in the afternoon. Northeast wind 16 to 23 mph, with gusts as high as 37 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
     },
     {
       "number": 2,
