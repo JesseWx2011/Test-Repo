@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-10-24T05:18:07.916140Z",
+    "generated_at": "2025-10-24T06:27:17.729359Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -20,7 +20,7 @@
       "dayOfWeek": "Thursday",
       "tempMax_F": null,
       "tempMin_F": 58,
-      "qpf_in": 0.26,
+      "qpf_in": 0.15,
       "narrative": "Cloudy with rain. Lows overnight in the upper 50s."
     },
     {
@@ -29,16 +29,16 @@
       "dayOfWeek": "Friday",
       "tempMax_F": 75,
       "tempMin_F": 59,
-      "qpf_in": 0.61,
-      "narrative": "Cloudy with rain in the morning. Highs in the mid 70s and lows in the upper 50s."
+      "qpf_in": 0.68,
+      "narrative": "Periods of rain early. Highs in the mid 70s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1761393600,
       "validTimeIso": "2025-10-25T12:00:00Z",
       "dayOfWeek": "Saturday",
-      "tempMax_F": 68,
-      "tempMin_F": 59,
-      "qpf_in": 0.85,
+      "tempMax_F": 67,
+      "tempMin_F": 58,
+      "qpf_in": 0.92,
       "narrative": "Thunderstorms. Highs in the upper 60s and lows in the upper 50s."
     },
     {
@@ -56,17 +56,17 @@
       "dayOfWeek": "Monday",
       "tempMax_F": 76,
       "tempMin_F": 59,
-      "qpf_in": 0.02,
-      "narrative": "Partly cloudy. Highs in the mid 70s and lows in the upper 50s."
+      "qpf_in": 0.0,
+      "narrative": "Mix of sun and clouds. Highs in the mid 70s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1761652800,
       "validTimeIso": "2025-10-28T12:00:00Z",
       "dayOfWeek": "Tuesday",
-      "tempMax_F": 69,
+      "tempMax_F": 68,
       "tempMin_F": 48,
       "qpf_in": 0.02,
-      "narrative": "Morning showers. Highs in the upper 60s and lows in the upper 40s."
+      "narrative": "A few morning showers. Highs in the upper 60s and lows in the upper 40s."
     },
     {
       "validTimeUtc": 1761739200,
@@ -75,14 +75,14 @@
       "tempMax_F": 60,
       "tempMin_F": 42,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the low 60s and lows in the low 40s."
+      "narrative": "A few clouds. Highs in the low 60s and lows in the low 40s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Overnight",
-      "startTime": "2025-10-24T00:00:00-05:00",
+      "startTime": "2025-10-24T01:00:00-05:00",
       "endTime": "2025-10-24T06:00:00-05:00",
       "isDaytime": false,
       "temperature": 59,
@@ -96,7 +96,7 @@
       "windDirection": "SE",
       "icon": "https://api.weather.gov/icons/land/night/tsra,40?size=medium",
       "shortForecast": "Slight Chance Showers And Thunderstorms",
-      "detailedForecast": "A slight chance of showers and thunderstorms between 1am and 4am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 59. Southeast wind around 5 mph. Chance of precipitation is 40%."
+      "detailedForecast": "A slight chance of showers and thunderstorms before 4am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 59. Southeast wind around 5 mph. Chance of precipitation is 40%."
     },
     {
       "number": 2,
@@ -332,7 +332,7 @@
       "startTime": "2025-10-30T06:00:00-05:00",
       "endTime": "2025-10-30T18:00:00-05:00",
       "isDaytime": true,
-      "temperature": 63,
+      "temperature": 64,
       "temperatureUnit": "F",
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
@@ -343,7 +343,7 @@
       "windDirection": "NW",
       "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
       "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 63."
+      "detailedForecast": "Sunny, with a high near 64."
     }
   ]
 }
