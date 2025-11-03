@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-11-03T13:30:47.720635Z",
+    "generated_at": "2025-11-03T14:19:06.254905Z",
     "lat": 40.71,
     "lon": -74.0,
     "days_requested": 7,
@@ -18,7 +18,7 @@
       "validTimeUtc": 1762171200,
       "validTimeIso": "2025-11-03T12:00:00Z",
       "dayOfWeek": "Monday",
-      "tempMax_F": 62,
+      "tempMax_F": 61,
       "tempMin_F": 50,
       "qpf_in": 0.0,
       "narrative": "Mostly cloudy. Highs in the low 60s and lows in the low 50s."
@@ -30,7 +30,7 @@
       "tempMax_F": 62,
       "tempMin_F": 47,
       "qpf_in": 0.0,
-      "narrative": "Sunshine. Highs in the low 60s and lows in the upper 40s."
+      "narrative": "Sunny. Highs in the low 60s and lows in the upper 40s."
     },
     {
       "validTimeUtc": 1762344000,
@@ -39,16 +39,16 @@
       "tempMax_F": 67,
       "tempMin_F": 49,
       "qpf_in": 0.0,
-      "narrative": "Considerable cloudiness. Highs in the upper 60s and lows in the upper 40s."
+      "narrative": "Mix of sun and clouds. Highs in the upper 60s and lows in the upper 40s."
     },
     {
       "validTimeUtc": 1762430400,
       "validTimeIso": "2025-11-06T12:00:00Z",
       "dayOfWeek": "Thursday",
       "tempMax_F": 56,
-      "tempMin_F": 43,
+      "tempMin_F": 44,
       "qpf_in": 0.0,
-      "narrative": "Times of sun and clouds. Highs in the mid 50s and lows in the low 40s."
+      "narrative": "Mix of sun and clouds. Highs in the mid 50s and lows in the mid 40s."
     },
     {
       "validTimeUtc": 1762516800,
@@ -57,32 +57,32 @@
       "tempMax_F": 64,
       "tempMin_F": 56,
       "qpf_in": 0.11,
-      "narrative": "More clouds than sun. Highs in the mid 60s and lows in the mid 50s."
+      "narrative": "Partly cloudy. Highs in the mid 60s and lows in the mid 50s."
     },
     {
       "validTimeUtc": 1762603200,
       "validTimeIso": "2025-11-08T12:00:00Z",
       "dayOfWeek": "Saturday",
-      "tempMax_F": 61,
+      "tempMax_F": 62,
       "tempMin_F": 48,
       "qpf_in": 0.04,
-      "narrative": "A few morning showers. Highs in the low 60s and lows in the upper 40s."
+      "narrative": "Showers ending by midday. Highs in the low 60s and lows in the upper 40s."
     },
     {
       "validTimeUtc": 1762689600,
       "validTimeIso": "2025-11-09T12:00:00Z",
       "dayOfWeek": "Sunday",
       "tempMax_F": 59,
-      "tempMin_F": 44,
-      "qpf_in": 0.13,
-      "narrative": "Showers. Highs in the upper 50s and lows in the mid 40s."
+      "tempMin_F": 43,
+      "qpf_in": 0.16,
+      "narrative": "Showers. Highs in the upper 50s and lows in the low 40s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Today",
-      "startTime": "2025-11-03T08:00:00-05:00",
+      "startTime": "2025-11-03T09:00:00-05:00",
       "endTime": "2025-11-03T18:00:00-05:00",
       "isDaytime": true,
       "temperature": 58,
@@ -90,13 +90,13 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 37
+        "value": 14
       },
-      "windSpeed": "5 to 10 mph",
+      "windSpeed": "6 to 10 mph",
       "windDirection": "SW",
-      "icon": "https://api.weather.gov/icons/land/day/rain,20/rain,40?size=medium",
-      "shortForecast": "Chance Light Rain",
-      "detailedForecast": "A chance of rain. Mostly cloudy. High near 58, with temperatures falling to around 56 in the afternoon. Southwest wind 5 to 10 mph. Chance of precipitation is 40%."
+      "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy. High near 58, with temperatures falling to around 56 in the afternoon. Southwest wind 6 to 10 mph."
     },
     {
       "number": 2,
@@ -109,13 +109,13 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 35
+        "value": 14
       },
       "windSpeed": "12 to 20 mph",
       "windDirection": "W",
-      "icon": "https://api.weather.gov/icons/land/night/rain,40/few?size=medium",
-      "shortForecast": "Chance Light Rain then Mostly Clear",
-      "detailedForecast": "A chance of rain before 7pm. Mostly clear. Low around 49, with temperatures rising to around 51 overnight. West wind 12 to 20 mph. Chance of precipitation is 40%."
+      "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+      "shortForecast": "Mostly Clear",
+      "detailedForecast": "Mostly clear. Low around 49, with temperatures rising to around 51 overnight. West wind 12 to 20 mph."
     },
     {
       "number": 3,
