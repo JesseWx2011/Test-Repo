@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-11-12T07:19:04.314416Z",
+    "generated_at": "2025-11-12T08:26:55.635543Z",
     "lat": 40.71,
     "lon": -74.0,
     "days_requested": 7,
@@ -15,19 +15,10 @@
   },
   "twc_daily": [
     {
-      "validTimeUtc": 1762862400,
-      "validTimeIso": "2025-11-11T12:00:00Z",
-      "dayOfWeek": "Tuesday",
-      "tempMax_F": null,
-      "tempMin_F": 38,
-      "qpf_in": 0.0,
-      "narrative": "Cloudy. Lows overnight in the upper 30s."
-    },
-    {
       "validTimeUtc": 1762948800,
       "validTimeIso": "2025-11-12T12:00:00Z",
       "dayOfWeek": "Wednesday",
-      "tempMax_F": 53,
+      "tempMax_F": 52,
       "tempMin_F": 46,
       "qpf_in": 0.0,
       "narrative": "Mostly cloudy. Highs in the low 50s and lows in the mid 40s."
@@ -37,7 +28,7 @@
       "validTimeIso": "2025-11-13T12:00:00Z",
       "dayOfWeek": "Thursday",
       "tempMax_F": 54,
-      "tempMin_F": 41,
+      "tempMin_F": 42,
       "qpf_in": 0.0,
       "narrative": "Mix of sun and clouds. Highs in the mid 50s and lows in the low 40s."
     },
@@ -46,27 +37,27 @@
       "validTimeIso": "2025-11-14T12:00:00Z",
       "dayOfWeek": "Friday",
       "tempMax_F": 53,
-      "tempMin_F": 36,
+      "tempMin_F": 37,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the low 50s and lows in the mid 30s."
+      "narrative": "Mostly cloudy. Highs in the low 50s and lows in the upper 30s."
     },
     {
       "validTimeUtc": 1763208000,
       "validTimeIso": "2025-11-15T12:00:00Z",
       "dayOfWeek": "Saturday",
-      "tempMax_F": 54,
+      "tempMax_F": 53,
       "tempMin_F": 48,
-      "qpf_in": 0.21,
-      "narrative": "Times of sun and clouds. Highs in the mid 50s and lows in the upper 40s."
+      "qpf_in": 0.23,
+      "narrative": "Partly cloudy. Highs in the low 50s and lows in the upper 40s."
     },
     {
       "validTimeUtc": 1763294400,
       "validTimeIso": "2025-11-16T12:00:00Z",
       "dayOfWeek": "Sunday",
-      "tempMax_F": 58,
-      "tempMin_F": 42,
-      "qpf_in": 0.14,
-      "narrative": "Cloudy with rain in the morning. Highs in the upper 50s and lows in the low 40s."
+      "tempMax_F": 57,
+      "tempMin_F": 41,
+      "qpf_in": 0.1,
+      "narrative": "Showers ending by midday. Highs in the upper 50s and lows in the low 40s."
     },
     {
       "validTimeUtc": 1763380800,
@@ -75,14 +66,23 @@
       "tempMax_F": 48,
       "tempMin_F": 40,
       "qpf_in": 0.0,
-      "narrative": "Times of sun and clouds. Highs in the upper 40s and lows in the low 40s."
+      "narrative": "Partly cloudy. Highs in the upper 40s and lows in the low 40s."
+    },
+    {
+      "validTimeUtc": 1763467200,
+      "validTimeIso": "2025-11-18T12:00:00Z",
+      "dayOfWeek": "Tuesday",
+      "tempMax_F": 48,
+      "tempMin_F": 39,
+      "qpf_in": 0.0,
+      "narrative": "Mix of sun and clouds. Highs in the upper 40s and lows in the upper 30s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Overnight",
-      "startTime": "2025-11-12T01:00:00-05:00",
+      "startTime": "2025-11-12T03:00:00-05:00",
       "endTime": "2025-11-12T06:00:00-05:00",
       "isDaytime": false,
       "temperature": 39,
@@ -92,11 +92,11 @@
         "unitCode": "wmoUnit:percent",
         "value": 10
       },
-      "windSpeed": "17 mph",
+      "windSpeed": "16 mph",
       "windDirection": "SW",
       "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
       "shortForecast": "Mostly Cloudy",
-      "detailedForecast": "Mostly cloudy. Low around 39, with temperatures rising to around 41 overnight. Southwest wind around 17 mph."
+      "detailedForecast": "Mostly cloudy. Low around 39, with temperatures rising to around 41 overnight. Southwest wind around 16 mph."
     },
     {
       "number": 2,
