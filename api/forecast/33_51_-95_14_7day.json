@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-11-15T09:17:36.722389Z",
+    "generated_at": "2025-11-15T10:17:59.598230Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -15,20 +15,11 @@
   },
   "twc_daily": [
     {
-      "validTimeUtc": 1763125200,
-      "validTimeIso": "2025-11-14T13:00:00Z",
-      "dayOfWeek": "Friday",
-      "tempMax_F": null,
-      "tempMin_F": 62,
-      "qpf_in": 0.0,
-      "narrative": "Clear. Lows overnight in the low 60s."
-    },
-    {
       "validTimeUtc": 1763211600,
       "validTimeIso": "2025-11-15T13:00:00Z",
       "dayOfWeek": "Saturday",
       "tempMax_F": 83,
-      "tempMin_F": 59,
+      "tempMin_F": 58,
       "qpf_in": 0.0,
       "narrative": "Partly cloudy. Highs in the low 80s and lows in the upper 50s."
     },
@@ -39,7 +30,7 @@
       "tempMax_F": 81,
       "tempMin_F": 63,
       "qpf_in": 0.0,
-      "narrative": "A few clouds. Highs in the low 80s and lows in the low 60s."
+      "narrative": "More sun than clouds. Highs in the low 80s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1763384400,
@@ -48,7 +39,7 @@
       "tempMax_F": 82,
       "tempMin_F": 66,
       "qpf_in": 0.0,
-      "narrative": "Times of sun and clouds. Highs in the low 80s and lows in the mid 60s."
+      "narrative": "Partly cloudy. Highs in the low 80s and lows in the mid 60s."
     },
     {
       "validTimeUtc": 1763470800,
@@ -66,7 +57,7 @@
       "tempMax_F": 79,
       "tempMin_F": 65,
       "qpf_in": 0.9,
-      "narrative": "Showers and thunderstorms. Highs in the upper 70s and lows in the mid 60s."
+      "narrative": "Thunderstorms. Highs in the upper 70s and lows in the mid 60s."
     },
     {
       "validTimeUtc": 1763643600,
@@ -74,15 +65,24 @@
       "dayOfWeek": "Thursday",
       "tempMax_F": 70,
       "tempMin_F": 53,
-      "qpf_in": 1.95,
+      "qpf_in": 1.92,
       "narrative": "Thunderstorms. Highs in the low 70s and lows in the low 50s."
+    },
+    {
+      "validTimeUtc": 1763730000,
+      "validTimeIso": "2025-11-21T13:00:00Z",
+      "dayOfWeek": "Friday",
+      "tempMax_F": 64,
+      "tempMin_F": 43,
+      "qpf_in": 0.03,
+      "narrative": "A few morning showers. Highs in the mid 60s and lows in the low 40s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Overnight",
-      "startTime": "2025-11-15T03:00:00-06:00",
+      "startTime": "2025-11-15T04:00:00-06:00",
       "endTime": "2025-11-15T06:00:00-06:00",
       "isDaytime": false,
       "temperature": 63,
