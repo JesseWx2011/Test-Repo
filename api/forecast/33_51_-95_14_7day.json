@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-11-16T04:24:59.191035Z",
+    "generated_at": "2025-11-16T05:17:59.286004Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -21,16 +21,16 @@
       "tempMax_F": null,
       "tempMin_F": 59,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Lows overnight in the upper 50s."
+      "narrative": "A few clouds. Lows overnight in the upper 50s."
     },
     {
       "validTimeUtc": 1763298000,
       "validTimeIso": "2025-11-16T13:00:00Z",
       "dayOfWeek": "Sunday",
-      "tempMax_F": 81,
+      "tempMax_F": 80,
       "tempMin_F": 64,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the low 80s and lows in the mid 60s."
+      "narrative": "A few clouds. Highs in the low 80s and lows in the mid 60s."
     },
     {
       "validTimeUtc": 1763384400,
@@ -54,10 +54,10 @@
       "validTimeUtc": 1763557200,
       "validTimeIso": "2025-11-19T13:00:00Z",
       "dayOfWeek": "Wednesday",
-      "tempMax_F": 79,
+      "tempMax_F": 78,
       "tempMin_F": 64,
-      "qpf_in": 0.5,
-      "narrative": "Showers and thunderstorms. Highs in the upper 70s and lows in the mid 60s."
+      "qpf_in": 0.51,
+      "narrative": "Thunderstorms. Highs in the upper 70s and lows in the mid 60s."
     },
     {
       "validTimeUtc": 1763643600,
@@ -65,7 +65,7 @@
       "dayOfWeek": "Thursday",
       "tempMax_F": 72,
       "tempMin_F": 55,
-      "qpf_in": 1.17,
+      "qpf_in": 1.16,
       "narrative": "Thunderstorms. Highs in the low 70s and lows in the mid 50s."
     },
     {
@@ -75,14 +75,14 @@
       "tempMax_F": 67,
       "tempMin_F": 44,
       "qpf_in": 0.0,
-      "narrative": "Sunshine. Highs in the upper 60s and lows in the mid 40s."
+      "narrative": "Mainly sunny. Highs in the upper 60s and lows in the mid 40s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Tonight",
-      "startTime": "2025-11-15T22:00:00-06:00",
+      "startTime": "2025-11-15T23:00:00-06:00",
       "endTime": "2025-11-16T06:00:00-06:00",
       "isDaytime": false,
       "temperature": 62,
@@ -90,7 +90,7 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 1
+        "value": 0
       },
       "windSpeed": "5 to 10 mph",
       "windDirection": "S",
@@ -109,13 +109,13 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 2
+        "value": 1
       },
       "windSpeed": "5 to 10 mph",
-      "windDirection": "E",
-      "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-      "shortForecast": "Mostly Sunny",
-      "detailedForecast": "Mostly sunny, with a high near 80. East wind 5 to 10 mph."
+      "windDirection": "SE",
+      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+      "shortForecast": "Sunny",
+      "detailedForecast": "Sunny, with a high near 80. Southeast wind 5 to 10 mph."
     },
     {
       "number": 3,
@@ -128,7 +128,7 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 5
+        "value": 7
       },
       "windSpeed": "10 mph",
       "windDirection": "E",
