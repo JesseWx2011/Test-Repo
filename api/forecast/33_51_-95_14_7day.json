@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-11-17T04:25:57.803057Z",
+    "generated_at": "2025-11-17T05:19:40.975661Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -30,7 +30,7 @@
       "tempMax_F": 82,
       "tempMin_F": 69,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the low 80s and lows in the upper 60s."
+      "narrative": "Partly cloudy. Highs in the low 80s and lows in the upper 60s."
     },
     {
       "validTimeUtc": 1763470800,
@@ -57,7 +57,7 @@
       "tempMax_F": 75,
       "tempMin_F": 61,
       "qpf_in": 0.88,
-      "narrative": "Thunderstorms. Highs in the mid 70s and lows in the low 60s."
+      "narrative": "Showers and thunderstorms. Highs in the mid 70s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1763730000,
@@ -66,7 +66,7 @@
       "tempMax_F": 72,
       "tempMin_F": 49,
       "qpf_in": 0.09,
-      "narrative": "Morning showers. Highs in the low 70s and lows in the upper 40s."
+      "narrative": "Showers ending by midday. Highs in the low 70s and lows in the upper 40s."
     },
     {
       "validTimeUtc": 1763816400,
@@ -75,14 +75,14 @@
       "tempMax_F": 69,
       "tempMin_F": 48,
       "qpf_in": 0.17,
-      "narrative": "Times of sun and clouds. Highs in the upper 60s and lows in the upper 40s."
+      "narrative": "Mix of sun and clouds. Highs in the upper 60s and lows in the upper 40s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Tonight",
-      "startTime": "2025-11-16T22:00:00-06:00",
+      "startTime": "2025-11-16T23:00:00-06:00",
       "endTime": "2025-11-17T06:00:00-06:00",
       "isDaytime": false,
       "temperature": 64,
@@ -90,13 +90,13 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 9
+        "value": 11
       },
       "windSpeed": "10 mph",
       "windDirection": "E",
-      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-      "shortForecast": "Mostly Cloudy",
-      "detailedForecast": "Mostly cloudy, with a low around 64. East wind around 10 mph."
+      "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+      "shortForecast": "Cloudy",
+      "detailedForecast": "Cloudy, with a low around 64. East wind around 10 mph."
     },
     {
       "number": 2,
@@ -109,7 +109,7 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 7
+        "value": 8
       },
       "windSpeed": "10 to 15 mph",
       "windDirection": "SE",
@@ -128,7 +128,7 @@
       "temperatureTrend": "",
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 14
+        "value": 11
       },
       "windSpeed": "10 to 15 mph",
       "windDirection": "S",
@@ -189,9 +189,9 @@
       },
       "windSpeed": "5 to 10 mph",
       "windDirection": "S",
-      "icon": "https://api.weather.gov/icons/land/day/tsra,20/tsra,50?size=medium",
-      "shortForecast": "Chance Showers And Thunderstorms",
-      "detailedForecast": "A slight chance of rain showers before 9am, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 80. Chance of precipitation is 50%."
+      "icon": "https://api.weather.gov/icons/land/day/bkn,20/tsra,50?size=medium",
+      "shortForecast": "Mostly Cloudy then Chance Showers And Thunderstorms",
+      "detailedForecast": "A chance of showers and thunderstorms after noon. Mostly cloudy, with a high near 80. Chance of precipitation is 50%."
     },
     {
       "number": 7,
