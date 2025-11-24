@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-11-24T20:22:26.689913Z",
+    "generated_at": "2025-11-24T21:18:28.581920Z",
     "lat": 40.71,
     "lon": -74.0,
     "days_requested": 7,
@@ -18,10 +18,10 @@
       "validTimeUtc": 1763985600,
       "validTimeIso": "2025-11-24T12:00:00Z",
       "dayOfWeek": "Monday",
-      "tempMax_F": 56,
+      "tempMax_F": null,
       "tempMin_F": 44,
       "qpf_in": 0.0,
-      "narrative": "A few clouds. Highs in the mid 50s and lows in the mid 40s."
+      "narrative": "Mostly cloudy. Lows overnight in the mid 40s."
     },
     {
       "validTimeUtc": 1764072000,
@@ -30,7 +30,7 @@
       "tempMax_F": 56,
       "tempMin_F": 54,
       "qpf_in": 0.46,
-      "narrative": "Afternoon rain developing. Highs in the mid 50s with temperatures nearly steady overnight."
+      "narrative": "Periods of rain during the afternoon. Highs in the mid 50s with temperatures nearly steady overnight."
     },
     {
       "validTimeUtc": 1764158400,
@@ -39,7 +39,7 @@
       "tempMax_F": 63,
       "tempMin_F": 42,
       "qpf_in": 0.09,
-      "narrative": "Showers. Highs in the low 60s and lows in the low 40s."
+      "narrative": "Showers possible. Highs in the low 60s and lows in the low 40s."
     },
     {
       "validTimeUtc": 1764244800,
@@ -48,7 +48,7 @@
       "tempMax_F": 47,
       "tempMin_F": 36,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the upper 40s and lows in the mid 30s."
+      "narrative": "Mix of sun and clouds. Highs in the upper 40s and lows in the mid 30s."
     },
     {
       "validTimeUtc": 1764331200,
@@ -57,7 +57,7 @@
       "tempMax_F": 45,
       "tempMin_F": 35,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the mid 40s and lows in the mid 30s."
+      "narrative": "Mix of sun and clouds. Highs in the mid 40s and lows in the mid 30s."
     },
     {
       "validTimeUtc": 1764417600,
@@ -66,7 +66,7 @@
       "tempMax_F": 44,
       "tempMin_F": 37,
       "qpf_in": 0.0,
-      "narrative": "More sun than clouds. Highs in the mid 40s and lows in the upper 30s."
+      "narrative": "A few clouds. Highs in the mid 40s and lows in the upper 30s."
     },
     {
       "validTimeUtc": 1764504000,
@@ -82,21 +82,21 @@
     {
       "number": 1,
       "name": "This Afternoon",
-      "startTime": "2025-11-24T13:00:00-05:00",
+      "startTime": "2025-11-24T15:00:00-05:00",
       "endTime": "2025-11-24T18:00:00-05:00",
       "isDaytime": true,
-      "temperature": 55,
+      "temperature": 54,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
         "value": 0
       },
-      "windSpeed": "6 to 10 mph",
+      "windSpeed": "8 mph",
       "windDirection": "NW",
       "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
       "shortForecast": "Sunny",
-      "detailedForecast": "Sunny. High near 55, with temperatures falling to around 50 in the afternoon. Northwest wind 6 to 10 mph."
+      "detailedForecast": "Sunny. High near 54, with temperatures falling to around 50 in the afternoon. Northwest wind around 8 mph."
     },
     {
       "number": 2,
@@ -111,11 +111,11 @@
         "unitCode": "wmoUnit:percent",
         "value": 0
       },
-      "windSpeed": "2 to 6 mph",
+      "windSpeed": "2 to 7 mph",
       "windDirection": "SW",
       "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
       "shortForecast": "Mostly Cloudy",
-      "detailedForecast": "Mostly cloudy, with a low around 41. Southwest wind 2 to 6 mph."
+      "detailedForecast": "Mostly cloudy, with a low around 41. Southwest wind 2 to 7 mph."
     },
     {
       "number": 3,
@@ -170,9 +170,9 @@
       },
       "windSpeed": "10 mph",
       "windDirection": "SW",
-      "icon": "https://api.weather.gov/icons/land/day/rain,50?size=medium",
-      "shortForecast": "Chance Light Rain",
-      "detailedForecast": "A chance of rain. Cloudy, with a high near 63. Southwest wind around 10 mph. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible."
+      "icon": "https://api.weather.gov/icons/land/day/rain_showers,50?size=medium",
+      "shortForecast": "Chance Rain Showers",
+      "detailedForecast": "A chance of rain showers. Cloudy, with a high near 63. Southwest wind around 10 mph. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible."
     },
     {
       "number": 6,
