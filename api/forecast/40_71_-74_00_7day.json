@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-11-30T23:17:49.201873Z",
+    "generated_at": "2025-12-01T01:52:44.109515Z",
     "lat": 40.71,
     "lon": -74.0,
     "days_requested": 7,
@@ -28,7 +28,7 @@
       "validTimeIso": "2025-12-01T12:00:00Z",
       "dayOfWeek": "Monday",
       "tempMax_F": 44,
-      "tempMin_F": 35,
+      "tempMin_F": 34,
       "qpf_in": 0.0,
       "narrative": "Plenty of sun. Highs in the mid 40s and lows in the mid 30s."
     },
@@ -36,51 +36,70 @@
       "validTimeUtc": 1764676800,
       "validTimeIso": "2025-12-02T12:00:00Z",
       "dayOfWeek": "Tuesday",
-      "tempMax_F": 41,
+      "tempMax_F": 42,
       "tempMin_F": 33,
-      "qpf_in": 0.79,
-      "narrative": "Cloudy, periods of rain. Highs in the low 40s and lows in the low 30s."
+      "qpf_in": 0.76,
+      "narrative": "Cloudy with rain. Highs in the low 40s and lows in the low 30s."
     },
     {
       "validTimeUtc": 1764763200,
       "validTimeIso": "2025-12-03T12:00:00Z",
       "dayOfWeek": "Wednesday",
-      "tempMax_F": 42,
+      "tempMax_F": 41,
       "tempMin_F": 33,
       "qpf_in": 0.0,
-      "narrative": "Sunny. Highs in the low 40s and lows in the low 30s."
+      "narrative": "A few clouds. Highs in the low 40s and lows in the low 30s."
     },
     {
       "validTimeUtc": 1764849600,
       "validTimeIso": "2025-12-04T12:00:00Z",
       "dayOfWeek": "Thursday",
       "tempMax_F": 43,
-      "tempMin_F": 23,
+      "tempMin_F": 24,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the low 40s and lows in the low 20s."
+      "narrative": "Partly cloudy. Highs in the low 40s and lows in the mid 20s."
     },
     {
       "validTimeUtc": 1764936000,
       "validTimeIso": "2025-12-05T12:00:00Z",
       "dayOfWeek": "Friday",
-      "tempMax_F": 33,
-      "tempMin_F": 31,
-      "qpf_in": 0.15,
-      "narrative": "Mix of sun and clouds. Highs in the low 30s with temperatures nearly steady overnight."
+      "tempMax_F": 31,
+      "tempMin_F": 30,
+      "qpf_in": 0.17,
+      "narrative": "Partly cloudy. Highs in the low 30s with temperatures nearly steady overnight."
     },
     {
       "validTimeUtc": 1765022400,
       "validTimeIso": "2025-12-06T12:00:00Z",
       "dayOfWeek": "Saturday",
       "tempMax_F": 38,
-      "tempMin_F": 34,
-      "qpf_in": 0.14,
-      "narrative": "Rain and snow showers. Highs in the upper 30s and lows in the mid 30s."
+      "tempMin_F": 35,
+      "qpf_in": 0.11,
+      "narrative": "Rain and snow. Highs in the upper 30s and lows in the mid 30s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
+      "name": "This Afternoon",
+      "startTime": "2025-11-30T17:00:00-05:00",
+      "endTime": "2025-11-30T18:00:00-05:00",
+      "isDaytime": true,
+      "temperature": 45,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 60
+      },
+      "windSpeed": "15 mph",
+      "windDirection": "SW",
+      "icon": "https://api.weather.gov/icons/land/day/rain,60?size=medium",
+      "shortForecast": "Light Rain Likely",
+      "detailedForecast": "Rain likely. Cloudy. High near 45, with temperatures falling to around 43 in the afternoon. Southwest wind around 15 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
+    },
+    {
+      "number": 2,
       "name": "Tonight",
       "startTime": "2025-11-30T18:00:00-05:00",
       "endTime": "2025-12-01T06:00:00-05:00",
@@ -99,7 +118,7 @@
       "detailedForecast": "Rain likely before 10pm. Mostly cloudy. Low around 36, with temperatures rising to around 38 overnight. West wind 16 to 20 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
     },
     {
-      "number": 2,
+      "number": 3,
       "name": "Monday",
       "startTime": "2025-12-01T06:00:00-05:00",
       "endTime": "2025-12-01T18:00:00-05:00",
@@ -118,7 +137,7 @@
       "detailedForecast": "Sunny. High near 41, with temperatures falling to around 39 in the afternoon. Northwest wind 8 to 16 mph."
     },
     {
-      "number": 3,
+      "number": 4,
       "name": "Monday Night",
       "startTime": "2025-12-01T18:00:00-05:00",
       "endTime": "2025-12-02T06:00:00-05:00",
@@ -137,7 +156,7 @@
       "detailedForecast": "A chance of snow after 1am. Mostly cloudy. Low around 34, with temperatures rising to around 38 overnight. Northeast wind around 7 mph. Chance of precipitation is 30%."
     },
     {
-      "number": 4,
+      "number": 5,
       "name": "Tuesday",
       "startTime": "2025-12-02T06:00:00-05:00",
       "endTime": "2025-12-02T18:00:00-05:00",
@@ -156,7 +175,7 @@
       "detailedForecast": "A chance of snow before 7am, then rain and snow. Cloudy. High near 42, with temperatures falling to around 40 in the afternoon. Northeast wind 6 to 14 mph. Chance of precipitation is 100%. New rainfall amounts between 1 and 2 inches possible."
     },
     {
-      "number": 5,
+      "number": 6,
       "name": "Tuesday Night",
       "startTime": "2025-12-02T18:00:00-05:00",
       "endTime": "2025-12-03T06:00:00-05:00",
@@ -172,10 +191,10 @@
       "windDirection": "NW",
       "icon": "https://api.weather.gov/icons/land/night/rain,100/rain,30?size=medium",
       "shortForecast": "Rain",
-      "detailedForecast": "Rain before 1am. Mostly cloudy, with a low around 32. Northwest wind 14 to 17 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
+      "detailedForecast": "Rain before 1am. Mostly cloudy, with a low around 32. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
     },
     {
-      "number": 6,
+      "number": 7,
       "name": "Wednesday",
       "startTime": "2025-12-03T06:00:00-05:00",
       "endTime": "2025-12-03T18:00:00-05:00",
@@ -194,7 +213,7 @@
       "detailedForecast": "Sunny, with a high near 38."
     },
     {
-      "number": 7,
+      "number": 8,
       "name": "Wednesday Night",
       "startTime": "2025-12-03T18:00:00-05:00",
       "endTime": "2025-12-04T06:00:00-05:00",
@@ -213,7 +232,7 @@
       "detailedForecast": "Partly cloudy, with a low around 34."
     },
     {
-      "number": 8,
+      "number": 9,
       "name": "Thursday",
       "startTime": "2025-12-04T06:00:00-05:00",
       "endTime": "2025-12-04T18:00:00-05:00",
@@ -232,7 +251,7 @@
       "detailedForecast": "Partly sunny, with a high near 40."
     },
     {
-      "number": 9,
+      "number": 10,
       "name": "Thursday Night",
       "startTime": "2025-12-04T18:00:00-05:00",
       "endTime": "2025-12-05T06:00:00-05:00",
@@ -251,7 +270,7 @@
       "detailedForecast": "Partly cloudy, with a low around 22."
     },
     {
-      "number": 10,
+      "number": 11,
       "name": "Friday",
       "startTime": "2025-12-05T06:00:00-05:00",
       "endTime": "2025-12-05T18:00:00-05:00",
@@ -270,7 +289,7 @@
       "detailedForecast": "Mostly sunny, with a high near 34."
     },
     {
-      "number": 11,
+      "number": 12,
       "name": "Friday Night",
       "startTime": "2025-12-05T18:00:00-05:00",
       "endTime": "2025-12-06T06:00:00-05:00",
@@ -289,7 +308,7 @@
       "detailedForecast": "A chance of snow between 7pm and 1am, then a chance of rain and snow. Mostly cloudy, with a low around 30. Chance of precipitation is 50%."
     },
     {
-      "number": 12,
+      "number": 13,
       "name": "Saturday",
       "startTime": "2025-12-06T06:00:00-05:00",
       "endTime": "2025-12-06T18:00:00-05:00",
@@ -308,7 +327,7 @@
       "detailedForecast": "A chance of rain and snow before 7am, then a chance of rain and snow. Mostly cloudy, with a high near 39. Chance of precipitation is 50%."
     },
     {
-      "number": 13,
+      "number": 14,
       "name": "Saturday Night",
       "startTime": "2025-12-06T18:00:00-05:00",
       "endTime": "2025-12-07T06:00:00-05:00",
@@ -324,26 +343,7 @@
       "windDirection": "N",
       "icon": "https://api.weather.gov/icons/land/night/rain,30?size=medium",
       "shortForecast": "Chance Light Rain",
-      "detailedForecast": "A chance of rain. Mostly cloudy, with a low around 32. Chance of precipitation is 30%."
-    },
-    {
-      "number": 14,
-      "name": "Sunday",
-      "startTime": "2025-12-07T06:00:00-05:00",
-      "endTime": "2025-12-07T18:00:00-05:00",
-      "isDaytime": true,
-      "temperature": 39,
-      "temperatureUnit": "F",
-      "temperatureTrend": null,
-      "probabilityOfPrecipitation": {
-        "unitCode": "wmoUnit:percent",
-        "value": 22
-      },
-      "windSpeed": "13 mph",
-      "windDirection": "N",
-      "icon": "https://api.weather.gov/icons/land/day/rain,20?size=medium",
-      "shortForecast": "Slight Chance Light Rain",
-      "detailedForecast": "A slight chance of rain. Partly sunny, with a high near 39."
+      "detailedForecast": "A chance of rain. Mostly cloudy, with a low around 32."
     }
   ]
 }
