@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-12-04T09:24:31.937871Z",
+    "generated_at": "2025-12-04T10:23:41.722934Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -18,10 +18,10 @@
       "validTimeUtc": 1764853200,
       "validTimeIso": "2025-12-04T13:00:00Z",
       "dayOfWeek": "Thursday",
-      "tempMax_F": 44,
-      "tempMin_F": 34,
+      "tempMax_F": 45,
+      "tempMin_F": 33,
       "qpf_in": 0.01,
-      "narrative": "A few morning showers. Highs in the mid 40s and lows in the mid 30s."
+      "narrative": "Morning showers. Highs in the mid 40s and lows in the low 30s."
     },
     {
       "validTimeUtc": 1764939600,
@@ -36,19 +36,19 @@
       "validTimeUtc": 1765026000,
       "validTimeIso": "2025-12-06T13:00:00Z",
       "dayOfWeek": "Saturday",
-      "tempMax_F": 53,
-      "tempMin_F": 44,
+      "tempMax_F": 56,
+      "tempMin_F": 43,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the low 50s and lows in the mid 40s."
+      "narrative": "Mix of sun and clouds. Highs in the mid 50s and lows in the low 40s."
     },
     {
       "validTimeUtc": 1765112400,
       "validTimeIso": "2025-12-07T13:00:00Z",
       "dayOfWeek": "Sunday",
       "tempMax_F": 54,
-      "tempMin_F": 34,
+      "tempMin_F": 33,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the mid 50s and lows in the mid 30s."
+      "narrative": "Mix of sun and clouds. Highs in the mid 50s and lows in the low 30s."
     },
     {
       "validTimeUtc": 1765198800,
@@ -57,7 +57,7 @@
       "tempMax_F": 52,
       "tempMin_F": 33,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the low 50s and lows in the low 30s."
+      "narrative": "Partly cloudy. Highs in the low 50s and lows in the low 30s."
     },
     {
       "validTimeUtc": 1765285200,
@@ -75,14 +75,14 @@
       "tempMax_F": 67,
       "tempMin_F": 39,
       "qpf_in": 0.0,
-      "narrative": "Times of sun and clouds. Highs in the upper 60s and lows in the upper 30s."
+      "narrative": "Partly cloudy. Highs in the upper 60s and lows in the upper 30s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Overnight",
-      "startTime": "2025-12-04T02:00:00-06:00",
+      "startTime": "2025-12-04T04:00:00-06:00",
       "endTime": "2025-12-04T06:00:00-06:00",
       "isDaytime": false,
       "temperature": 39,
@@ -90,13 +90,13 @@
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 18
+        "value": 9
       },
-      "windSpeed": "5 to 10 mph",
-      "windDirection": "NE",
-      "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=medium",
-      "shortForecast": "Slight Chance Rain Showers",
-      "detailedForecast": "A slight chance of rain showers before 3am. Mostly cloudy, with a low around 39. Northeast wind 5 to 10 mph. Chance of precipitation is 20%."
+      "windSpeed": "10 mph",
+      "windDirection": "N",
+      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy, with a low around 39. North wind around 10 mph."
     },
     {
       "number": 2,
