@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-12-05T21:19:13.803685Z",
+    "generated_at": "2025-12-05T22:18:43.616666Z",
     "lat": 40.71,
     "lon": -74.0,
     "days_requested": 7,
@@ -19,9 +19,9 @@
       "validTimeIso": "2025-12-05T12:00:00Z",
       "dayOfWeek": "Friday",
       "tempMax_F": null,
-      "tempMin_F": 29,
-      "qpf_in": 0.0,
-      "narrative": "Mostly cloudy. Lows overnight in the upper 20s."
+      "tempMin_F": 31,
+      "qpf_in": 0.02,
+      "narrative": "Chance of snow showers late. Lows overnight in the low 30s."
     },
     {
       "validTimeUtc": 1765022400,
@@ -39,7 +39,7 @@
       "tempMax_F": 44,
       "tempMin_F": 31,
       "qpf_in": 0.0,
-      "narrative": "Times of sun and clouds. Highs in the mid 40s and lows in the low 30s."
+      "narrative": "Considerable cloudiness. Highs in the mid 40s and lows in the low 30s."
     },
     {
       "validTimeUtc": 1765195200,
@@ -48,7 +48,7 @@
       "tempMax_F": 33,
       "tempMin_F": 21,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the low 30s and lows in the low 20s."
+      "narrative": "Times of sun and clouds. Highs in the low 30s and lows in the low 20s."
     },
     {
       "validTimeUtc": 1765281600,
@@ -57,16 +57,16 @@
       "tempMax_F": 38,
       "tempMin_F": 34,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the upper 30s and lows in the mid 30s."
+      "narrative": "Partly cloudy. Highs in the upper 30s and lows in the mid 30s."
     },
     {
       "validTimeUtc": 1765368000,
       "validTimeIso": "2025-12-10T12:00:00Z",
       "dayOfWeek": "Wednesday",
-      "tempMax_F": 45,
+      "tempMax_F": 46,
       "tempMin_F": 39,
       "qpf_in": 0.01,
-      "narrative": "Afternoon showers. Highs in the mid 40s and lows in the upper 30s."
+      "narrative": "Showers possible in the afternoon. Highs in the mid 40s and lows in the upper 30s."
     },
     {
       "validTimeUtc": 1765454400,
@@ -75,14 +75,14 @@
       "tempMax_F": 44,
       "tempMin_F": 32,
       "qpf_in": 0.0,
-      "narrative": "Times of sun and clouds. Highs in the mid 40s and lows in the low 30s."
+      "narrative": "Partly cloudy. Highs in the mid 40s and lows in the low 30s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "This Afternoon",
-      "startTime": "2025-12-05T13:00:00-05:00",
+      "startTime": "2025-12-05T16:00:00-05:00",
       "endTime": "2025-12-05T18:00:00-05:00",
       "isDaytime": true,
       "temperature": 34,
@@ -93,10 +93,10 @@
         "value": 13
       },
       "windSpeed": "6 mph",
-      "windDirection": "E",
-      "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-      "shortForecast": "Mostly Cloudy",
-      "detailedForecast": "Mostly cloudy. High near 34, with temperatures falling to around 32 in the afternoon. Wind chill values as low as 22. East wind around 6 mph."
+      "windDirection": "NE",
+      "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+      "shortForecast": "Cloudy",
+      "detailedForecast": "Cloudy. High near 34, with temperatures falling to around 32 in the afternoon. Wind chill values as low as 24. Northeast wind around 6 mph."
     },
     {
       "number": 2,
@@ -114,8 +114,8 @@
       "windSpeed": "6 mph",
       "windDirection": "N",
       "icon": "https://api.weather.gov/icons/land/night/snow,30?size=medium",
-      "shortForecast": "Chance Very Light Snow",
-      "detailedForecast": "A chance of drizzle between 7pm and 8pm, then a chance of snow. Cloudy, with a low around 33. North wind around 6 mph. Chance of precipitation is 30%. New snow accumulation of less than half an inch possible."
+      "shortForecast": "Slight Chance Snow Showers then Chance Very Light Snow",
+      "detailedForecast": "A slight chance of snow showers before 10pm, then a chance of snow. Cloudy, with a low around 33. North wind around 6 mph. Chance of precipitation is 30%. New snow accumulation of less than half an inch possible."
     },
     {
       "number": 3,
