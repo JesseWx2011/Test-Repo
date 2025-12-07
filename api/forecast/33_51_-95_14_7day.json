@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-12-06T23:17:58.832198Z",
+    "generated_at": "2025-12-07T01:45:38.415178Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -19,18 +19,18 @@
       "validTimeIso": "2025-12-06T13:00:00Z",
       "dayOfWeek": "Saturday",
       "tempMax_F": null,
-      "tempMin_F": 42,
+      "tempMin_F": 41,
       "qpf_in": 0.0,
-      "narrative": "Fog developing late. Lows overnight in the low 40s."
+      "narrative": "Areas of fog developing late. Lows overnight in the low 40s."
     },
     {
       "validTimeUtc": 1765112400,
       "validTimeIso": "2025-12-07T13:00:00Z",
       "dayOfWeek": "Sunday",
-      "tempMax_F": 54,
+      "tempMax_F": 51,
       "tempMin_F": 33,
       "qpf_in": 0.0,
-      "narrative": "Areas of morning fog, then some sun. Highs in the mid 50s and lows in the low 30s."
+      "narrative": "Morning fog, then cloudy. Highs in the low 50s and lows in the low 30s."
     },
     {
       "validTimeUtc": 1765198800,
@@ -48,14 +48,14 @@
       "tempMax_F": 57,
       "tempMin_F": 43,
       "qpf_in": 0.0,
-      "narrative": "Sunny. Highs in the upper 50s and lows in the low 40s."
+      "narrative": "Mainly sunny. Highs in the upper 50s and lows in the low 40s."
     },
     {
       "validTimeUtc": 1765371600,
       "validTimeIso": "2025-12-10T13:00:00Z",
       "dayOfWeek": "Wednesday",
       "tempMax_F": 65,
-      "tempMin_F": 41,
+      "tempMin_F": 40,
       "qpf_in": 0.0,
       "narrative": "A few clouds. Highs in the mid 60s and lows in the low 40s."
     },
@@ -63,7 +63,7 @@
       "validTimeUtc": 1765458000,
       "validTimeIso": "2025-12-11T13:00:00Z",
       "dayOfWeek": "Thursday",
-      "tempMax_F": 65,
+      "tempMax_F": 64,
       "tempMin_F": 40,
       "qpf_in": 0.0,
       "narrative": "Mostly sunny. Highs in the mid 60s and lows in the low 40s."
@@ -72,36 +72,17 @@
       "validTimeUtc": 1765544400,
       "validTimeIso": "2025-12-12T13:00:00Z",
       "dayOfWeek": "Friday",
-      "tempMax_F": 55,
+      "tempMax_F": 57,
       "tempMin_F": 31,
       "qpf_in": 0.0,
-      "narrative": "Plenty of sun. Highs in the mid 50s and lows in the low 30s."
+      "narrative": "Mostly sunny. Highs in the upper 50s and lows in the low 30s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
-      "name": "This Afternoon",
-      "startTime": "2025-12-06T17:00:00-06:00",
-      "endTime": "2025-12-06T18:00:00-06:00",
-      "isDaytime": true,
-      "temperature": 55,
-      "temperatureUnit": "F",
-      "temperatureTrend": null,
-      "probabilityOfPrecipitation": {
-        "unitCode": "wmoUnit:percent",
-        "value": 0
-      },
-      "windSpeed": "10 mph",
-      "windDirection": "SE",
-      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-      "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 55. Southeast wind around 10 mph."
-    },
-    {
-      "number": 2,
       "name": "Tonight",
-      "startTime": "2025-12-06T18:00:00-06:00",
+      "startTime": "2025-12-06T19:00:00-06:00",
       "endTime": "2025-12-07T06:00:00-06:00",
       "isDaytime": false,
       "temperature": 41,
@@ -113,12 +94,12 @@
       },
       "windSpeed": "0 to 5 mph",
       "windDirection": "E",
-      "icon": "https://api.weather.gov/icons/land/night/sct/fog?size=medium",
-      "shortForecast": "Partly Cloudy then Patchy Fog",
-      "detailedForecast": "Patchy fog after midnight. Partly cloudy, with a low around 41. East wind 0 to 5 mph."
+      "icon": "https://api.weather.gov/icons/land/night/bkn/fog?size=medium",
+      "shortForecast": "Mostly Cloudy then Patchy Fog",
+      "detailedForecast": "Patchy fog after midnight. Mostly cloudy, with a low around 41. East wind 0 to 5 mph."
     },
     {
-      "number": 3,
+      "number": 2,
       "name": "Sunday",
       "startTime": "2025-12-07T06:00:00-06:00",
       "endTime": "2025-12-07T18:00:00-06:00",
@@ -137,7 +118,7 @@
       "detailedForecast": "Patchy fog before 9am. Partly sunny, with a high near 57. North wind 5 to 15 mph."
     },
     {
-      "number": 4,
+      "number": 3,
       "name": "Sunday Night",
       "startTime": "2025-12-07T18:00:00-06:00",
       "endTime": "2025-12-08T06:00:00-06:00",
@@ -156,7 +137,7 @@
       "detailedForecast": "Mostly clear, with a low around 31. North wind 5 to 10 mph."
     },
     {
-      "number": 5,
+      "number": 4,
       "name": "Monday",
       "startTime": "2025-12-08T06:00:00-06:00",
       "endTime": "2025-12-08T18:00:00-06:00",
@@ -175,7 +156,7 @@
       "detailedForecast": "Sunny, with a high near 52. North wind 0 to 5 mph."
     },
     {
-      "number": 6,
+      "number": 5,
       "name": "Monday Night",
       "startTime": "2025-12-08T18:00:00-06:00",
       "endTime": "2025-12-09T06:00:00-06:00",
@@ -191,10 +172,10 @@
       "windDirection": "SE",
       "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
       "shortForecast": "Mostly Clear",
-      "detailedForecast": "Mostly clear, with a low around 33."
+      "detailedForecast": "Mostly clear, with a low around 33. Southeast wind 0 to 5 mph."
     },
     {
-      "number": 7,
+      "number": 6,
       "name": "Tuesday",
       "startTime": "2025-12-09T06:00:00-06:00",
       "endTime": "2025-12-09T18:00:00-06:00",
@@ -213,7 +194,7 @@
       "detailedForecast": "Sunny, with a high near 60."
     },
     {
-      "number": 8,
+      "number": 7,
       "name": "Tuesday Night",
       "startTime": "2025-12-09T18:00:00-06:00",
       "endTime": "2025-12-10T06:00:00-06:00",
@@ -232,7 +213,7 @@
       "detailedForecast": "Mostly clear, with a low around 43."
     },
     {
-      "number": 9,
+      "number": 8,
       "name": "Wednesday",
       "startTime": "2025-12-10T06:00:00-06:00",
       "endTime": "2025-12-10T18:00:00-06:00",
@@ -251,7 +232,7 @@
       "detailedForecast": "Sunny, with a high near 65."
     },
     {
-      "number": 10,
+      "number": 9,
       "name": "Wednesday Night",
       "startTime": "2025-12-10T18:00:00-06:00",
       "endTime": "2025-12-11T06:00:00-06:00",
@@ -270,7 +251,7 @@
       "detailedForecast": "Mostly clear, with a low around 43."
     },
     {
-      "number": 11,
+      "number": 10,
       "name": "Thursday",
       "startTime": "2025-12-11T06:00:00-06:00",
       "endTime": "2025-12-11T18:00:00-06:00",
@@ -289,7 +270,7 @@
       "detailedForecast": "Sunny, with a high near 64."
     },
     {
-      "number": 12,
+      "number": 11,
       "name": "Thursday Night",
       "startTime": "2025-12-11T18:00:00-06:00",
       "endTime": "2025-12-12T06:00:00-06:00",
@@ -308,7 +289,7 @@
       "detailedForecast": "Mostly clear, with a low around 36."
     },
     {
-      "number": 13,
+      "number": 12,
       "name": "Friday",
       "startTime": "2025-12-12T06:00:00-06:00",
       "endTime": "2025-12-12T18:00:00-06:00",
@@ -327,7 +308,7 @@
       "detailedForecast": "Sunny, with a high near 54."
     },
     {
-      "number": 14,
+      "number": 13,
       "name": "Friday Night",
       "startTime": "2025-12-12T18:00:00-06:00",
       "endTime": "2025-12-13T06:00:00-06:00",
@@ -344,6 +325,25 @@
       "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
       "shortForecast": "Mostly Clear",
       "detailedForecast": "Mostly clear, with a low around 30."
+    },
+    {
+      "number": 14,
+      "name": "Saturday",
+      "startTime": "2025-12-13T06:00:00-06:00",
+      "endTime": "2025-12-13T18:00:00-06:00",
+      "isDaytime": true,
+      "temperature": 49,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 0
+      },
+      "windSpeed": "5 to 10 mph",
+      "windDirection": "N",
+      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+      "shortForecast": "Sunny",
+      "detailedForecast": "Sunny, with a high near 49."
     }
   ]
 }
