@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-01-20T17:28:54.969520Z",
+    "generated_at": "2026-01-20T18:36:22.393596Z",
     "lat": 30.63,
     "lon": -87.04,
     "days_requested": 7,
@@ -18,10 +18,10 @@
       "validTimeUtc": 1768914000,
       "validTimeIso": "2026-01-20T13:00:00Z",
       "dayOfWeek": "Tuesday",
-      "tempMax_F": 60,
+      "tempMax_F": 59,
       "tempMin_F": 39,
       "qpf_in": 0.0,
-      "narrative": "Times of sun and clouds. Highs in the low 60s and lows in the upper 30s."
+      "narrative": "Times of sun and clouds. Highs in the upper 50s and lows in the upper 30s."
     },
     {
       "validTimeUtc": 1769000400,
@@ -30,59 +30,59 @@
       "tempMax_F": 64,
       "tempMin_F": 53,
       "qpf_in": 0.0,
-      "narrative": "More clouds than sun. Highs in the mid 60s and lows in the low 50s."
+      "narrative": "Mostly cloudy. Highs in the mid 60s and lows in the low 50s."
     },
     {
       "validTimeUtc": 1769086800,
       "validTimeIso": "2026-01-22T13:00:00Z",
       "dayOfWeek": "Thursday",
       "tempMax_F": 71,
-      "tempMin_F": 56,
-      "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the low 70s and lows in the mid 50s."
+      "tempMin_F": 55,
+      "qpf_in": 0.03,
+      "narrative": "Partly cloudy. Highs in the low 70s and lows in the mid 50s."
     },
     {
       "validTimeUtc": 1769173200,
       "validTimeIso": "2026-01-23T13:00:00Z",
       "dayOfWeek": "Friday",
-      "tempMax_F": 68,
+      "tempMax_F": 67,
       "tempMin_F": 49,
-      "qpf_in": 0.06,
-      "narrative": "A few morning showers. Highs in the upper 60s and lows in the upper 40s."
+      "qpf_in": 0.05,
+      "narrative": "Showers ending by midday. Highs in the upper 60s and lows in the upper 40s."
     },
     {
       "validTimeUtc": 1769259600,
       "validTimeIso": "2026-01-24T13:00:00Z",
       "dayOfWeek": "Saturday",
-      "tempMax_F": 60,
-      "tempMin_F": 53,
-      "qpf_in": 0.44,
-      "narrative": "Rain developing during the afternoon. Highs in the low 60s and lows in the low 50s."
+      "tempMax_F": 57,
+      "tempMin_F": 52,
+      "qpf_in": 0.52,
+      "narrative": "Showers possible. Highs in the upper 50s and lows in the low 50s."
     },
     {
       "validTimeUtc": 1769346000,
       "validTimeIso": "2026-01-25T13:00:00Z",
       "dayOfWeek": "Sunday",
       "tempMax_F": 55,
-      "tempMin_F": 33,
-      "qpf_in": 0.2,
-      "narrative": "Chance of showers. Highs in the mid 50s and lows in the low 30s."
+      "tempMin_F": 32,
+      "qpf_in": 0.22,
+      "narrative": "Cloudy, periods of rain. Highs in the mid 50s and lows in the low 30s."
     },
     {
       "validTimeUtc": 1769432400,
       "validTimeIso": "2026-01-26T13:00:00Z",
       "dayOfWeek": "Monday",
-      "tempMax_F": 45,
-      "tempMin_F": 27,
+      "tempMax_F": 43,
+      "tempMin_F": 26,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the mid 40s and lows in the upper 20s."
+      "narrative": "Partly cloudy. Highs in the low 40s and lows in the mid 20s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
-      "name": "Today",
-      "startTime": "2026-01-20T06:00:00-06:00",
+      "name": "This Afternoon",
+      "startTime": "2026-01-20T12:00:00-06:00",
       "endTime": "2026-01-20T18:00:00-06:00",
       "isDaytime": true,
       "temperature": 58,
@@ -93,10 +93,10 @@
         "value": 0
       },
       "windSpeed": "5 mph",
-      "windDirection": "N",
+      "windDirection": "NE",
       "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
       "shortForecast": "Mostly Sunny",
-      "detailedForecast": "Mostly sunny. High near 58, with temperatures falling to around 54 in the afternoon. North wind around 5 mph."
+      "detailedForecast": "Mostly sunny. High near 58, with temperatures falling to around 54 in the afternoon. Northeast wind around 5 mph."
     },
     {
       "number": 2,
@@ -128,13 +128,13 @@
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 1
+        "value": 3
       },
-      "windSpeed": "5 mph",
+      "windSpeed": "5 to 10 mph",
       "windDirection": "SE",
       "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-      "shortForecast": "Mostly Cloudy",
-      "detailedForecast": "Mostly cloudy. High near 62, with temperatures falling to around 58 in the afternoon. Southeast wind around 5 mph."
+      "shortForecast": "Partly Sunny",
+      "detailedForecast": "Partly sunny, with a high near 62. Southeast wind 5 to 10 mph."
     },
     {
       "number": 4,
@@ -142,18 +142,18 @@
       "startTime": "2026-01-21T18:00:00-06:00",
       "endTime": "2026-01-22T06:00:00-06:00",
       "isDaytime": false,
-      "temperature": 48,
+      "temperature": 50,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 14
+        "value": 8
       },
       "windSpeed": "0 to 5 mph",
       "windDirection": "E",
       "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
       "shortForecast": "Mostly Cloudy",
-      "detailedForecast": "Mostly cloudy, with a low around 48. East wind 0 to 5 mph."
+      "detailedForecast": "Mostly cloudy, with a low around 50. East wind 0 to 5 mph."
     },
     {
       "number": 5,
@@ -161,18 +161,18 @@
       "startTime": "2026-01-22T06:00:00-06:00",
       "endTime": "2026-01-22T18:00:00-06:00",
       "isDaytime": true,
-      "temperature": 70,
+      "temperature": 73,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 18
+        "value": 16
       },
-      "windSpeed": "5 mph",
+      "windSpeed": "5 to 10 mph",
       "windDirection": "SE",
       "icon": "https://api.weather.gov/icons/land/day/sct/rain_showers,20?size=medium",
       "shortForecast": "Mostly Sunny then Slight Chance Rain Showers",
-      "detailedForecast": "A slight chance of rain showers after noon. Mostly sunny, with a high near 70. Southeast wind around 5 mph. Chance of precipitation is 20%."
+      "detailedForecast": "A slight chance of rain showers after noon. Mostly sunny, with a high near 73. Southeast wind 5 to 10 mph. Chance of precipitation is 20%."
     },
     {
       "number": 6,
@@ -180,18 +180,18 @@
       "startTime": "2026-01-22T18:00:00-06:00",
       "endTime": "2026-01-23T06:00:00-06:00",
       "isDaytime": false,
-      "temperature": 53,
+      "temperature": 54,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 23
+        "value": 24
       },
       "windSpeed": "0 to 5 mph",
       "windDirection": "SE",
-      "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=medium",
-      "shortForecast": "Slight Chance Rain Showers",
-      "detailedForecast": "A slight chance of rain showers. Mostly cloudy, with a low around 53. Southeast wind 0 to 5 mph. Chance of precipitation is 20%."
+      "icon": "https://api.weather.gov/icons/land/night/bkn/rain_showers,20?size=medium",
+      "shortForecast": "Mostly Cloudy then Slight Chance Rain Showers",
+      "detailedForecast": "A slight chance of rain showers after midnight. Mostly cloudy, with a low around 54. Southeast wind 0 to 5 mph. Chance of precipitation is 20%."
     },
     {
       "number": 7,
@@ -199,18 +199,18 @@
       "startTime": "2026-01-23T06:00:00-06:00",
       "endTime": "2026-01-23T18:00:00-06:00",
       "isDaytime": true,
-      "temperature": 68,
+      "temperature": 69,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 37
+        "value": 44
       },
       "windSpeed": "0 to 5 mph",
       "windDirection": "E",
-      "icon": "https://api.weather.gov/icons/land/day/rain_showers,30/rain_showers,40?size=medium",
+      "icon": "https://api.weather.gov/icons/land/day/rain_showers,40?size=medium",
       "shortForecast": "Chance Rain Showers",
-      "detailedForecast": "A chance of rain showers. Mostly cloudy, with a high near 68. East wind 0 to 5 mph. Chance of precipitation is 40%."
+      "detailedForecast": "A chance of rain showers. Mostly cloudy, with a high near 69. East wind 0 to 5 mph. Chance of precipitation is 40%."
     },
     {
       "number": 8,
@@ -218,18 +218,18 @@
       "startTime": "2026-01-23T18:00:00-06:00",
       "endTime": "2026-01-24T06:00:00-06:00",
       "isDaytime": false,
-      "temperature": 50,
+      "temperature": 51,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 30
+        "value": 28
       },
       "windSpeed": "5 mph",
       "windDirection": "NE",
       "icon": "https://api.weather.gov/icons/land/night/rain_showers,30?size=medium",
       "shortForecast": "Chance Rain Showers",
-      "detailedForecast": "A chance of rain showers. Mostly cloudy, with a low around 50. Northeast wind around 5 mph. Chance of precipitation is 30%."
+      "detailedForecast": "A chance of rain showers. Mostly cloudy, with a low around 51. Northeast wind around 5 mph. Chance of precipitation is 30%."
     },
     {
       "number": 9,
@@ -237,18 +237,18 @@
       "startTime": "2026-01-24T06:00:00-06:00",
       "endTime": "2026-01-24T18:00:00-06:00",
       "isDaytime": true,
-      "temperature": 61,
+      "temperature": 64,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 56
+        "value": 55
       },
       "windSpeed": "5 to 10 mph",
       "windDirection": "E",
       "icon": "https://api.weather.gov/icons/land/day/rain_showers,30/rain_showers,60?size=medium",
       "shortForecast": "Rain Showers Likely",
-      "detailedForecast": "Rain showers likely. Cloudy, with a high near 61. East wind 5 to 10 mph. Chance of precipitation is 60%."
+      "detailedForecast": "Rain showers likely. Cloudy, with a high near 64. East wind 5 to 10 mph. Chance of precipitation is 60%."
     },
     {
       "number": 10,
@@ -256,18 +256,18 @@
       "startTime": "2026-01-24T18:00:00-06:00",
       "endTime": "2026-01-25T06:00:00-06:00",
       "isDaytime": false,
-      "temperature": 38,
+      "temperature": 43,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 80
+        "value": 88
       },
       "windSpeed": "10 mph",
-      "windDirection": "NE",
-      "icon": "https://api.weather.gov/icons/land/night/rain_showers,80/rain_showers,70?size=medium",
+      "windDirection": "W",
+      "icon": "https://api.weather.gov/icons/land/night/rain_showers,90/rain_showers,80?size=medium",
       "shortForecast": "Rain Showers",
-      "detailedForecast": "Rain showers. Cloudy, with a low around 38. Chance of precipitation is 80%."
+      "detailedForecast": "Rain showers. Cloudy, with a low around 43. Chance of precipitation is 90%."
     },
     {
       "number": 11,
@@ -275,18 +275,18 @@
       "startTime": "2026-01-25T06:00:00-06:00",
       "endTime": "2026-01-25T18:00:00-06:00",
       "isDaytime": true,
-      "temperature": 50,
+      "temperature": 51,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 48
+        "value": 60
       },
       "windSpeed": "10 mph",
       "windDirection": "N",
-      "icon": "https://api.weather.gov/icons/land/day/rain_showers,50/rain_showers,40?size=medium",
-      "shortForecast": "Chance Rain Showers",
-      "detailedForecast": "A chance of rain showers. Mostly cloudy, with a high near 50. Chance of precipitation is 50%."
+      "icon": "https://api.weather.gov/icons/land/day/rain_showers,60?size=medium",
+      "shortForecast": "Rain Showers Likely",
+      "detailedForecast": "Rain showers likely. Mostly cloudy, with a high near 51. Chance of precipitation is 60%."
     },
     {
       "number": 12,
@@ -294,18 +294,18 @@
       "startTime": "2026-01-25T18:00:00-06:00",
       "endTime": "2026-01-26T06:00:00-06:00",
       "isDaytime": false,
-      "temperature": 28,
+      "temperature": 31,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 27
+        "value": 35
       },
       "windSpeed": "5 to 10 mph",
       "windDirection": "N",
-      "icon": "https://api.weather.gov/icons/land/night/rain_showers,30/rain_showers,20?size=medium",
+      "icon": "https://api.weather.gov/icons/land/night/rain_showers,40/rain_showers,20?size=medium",
       "shortForecast": "Chance Rain Showers",
-      "detailedForecast": "A chance of rain showers. Mostly cloudy, with a low around 28. Chance of precipitation is 30%."
+      "detailedForecast": "A chance of rain showers. Mostly cloudy, with a low around 31. Chance of precipitation is 40%."
     },
     {
       "number": 13,
@@ -313,18 +313,18 @@
       "startTime": "2026-01-26T06:00:00-06:00",
       "endTime": "2026-01-26T18:00:00-06:00",
       "isDaytime": true,
-      "temperature": 49,
+      "temperature": 47,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 11
+        "value": 10
       },
-      "windSpeed": "5 to 10 mph",
+      "windSpeed": "10 mph",
       "windDirection": "N",
-      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-      "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 49."
+      "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+      "shortForecast": "Mostly Sunny",
+      "detailedForecast": "Mostly sunny, with a high near 47."
     },
     {
       "number": 14,
@@ -332,18 +332,18 @@
       "startTime": "2026-01-26T18:00:00-06:00",
       "endTime": "2026-01-27T06:00:00-06:00",
       "isDaytime": false,
-      "temperature": 29,
+      "temperature": 25,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 8
+        "value": 5
       },
       "windSpeed": "5 mph",
       "windDirection": "N",
-      "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-      "shortForecast": "Mostly Clear",
-      "detailedForecast": "Mostly clear, with a low around 29."
+      "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+      "shortForecast": "Partly Cloudy",
+      "detailedForecast": "Partly cloudy, with a low around 25."
     }
   ]
 }
