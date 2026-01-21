@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-01-20T23:21:43.016817Z",
+    "generated_at": "2026-01-21T01:47:30.966912Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -19,8 +19,8 @@
       "validTimeIso": "2026-01-20T13:00:00Z",
       "dayOfWeek": "Tuesday",
       "tempMax_F": null,
-      "tempMin_F": 48,
-      "qpf_in": 0.08,
+      "tempMin_F": 47,
+      "qpf_in": 0.07,
       "narrative": "Periods of rain late. Lows overnight in the upper 40s."
     },
     {
@@ -28,35 +28,35 @@
       "validTimeIso": "2026-01-21T13:00:00Z",
       "dayOfWeek": "Wednesday",
       "tempMax_F": 60,
-      "tempMin_F": 39,
-      "qpf_in": 0.08,
+      "tempMin_F": 38,
+      "qpf_in": 0.07,
       "narrative": "Light rain in the morning. Highs in the low 60s and lows in the upper 30s."
     },
     {
       "validTimeUtc": 1769086800,
       "validTimeIso": "2026-01-22T13:00:00Z",
       "dayOfWeek": "Thursday",
-      "tempMax_F": 57,
+      "tempMax_F": 58,
       "tempMin_F": 41,
-      "qpf_in": 0.03,
-      "narrative": "Mostly cloudy. Highs in the upper 50s and lows in the low 40s."
+      "qpf_in": 0.05,
+      "narrative": "More clouds than sun. Highs in the upper 50s and lows in the low 40s."
     },
     {
       "validTimeUtc": 1769173200,
       "validTimeIso": "2026-01-23T13:00:00Z",
       "dayOfWeek": "Friday",
       "tempMax_F": 45,
-      "tempMin_F": 20,
-      "qpf_in": 1.04,
-      "narrative": "Cloudy with rain. Highs in the mid 40s and lows in the low 20s."
+      "tempMin_F": 19,
+      "qpf_in": 1.03,
+      "narrative": "Cloudy, periods of rain. Highs in the mid 40s and lows in the upper teens."
     },
     {
       "validTimeUtc": 1769259600,
       "validTimeIso": "2026-01-24T13:00:00Z",
       "dayOfWeek": "Saturday",
-      "tempMax_F": 25,
+      "tempMax_F": 24,
       "tempMin_F": 12,
-      "qpf_in": 0.94,
+      "qpf_in": 1.04,
       "narrative": "Watching a potential winter storm. Wintry mix changing to all snow. Highs in the mid 20s and lows in the low teens."
     },
     {
@@ -65,43 +65,24 @@
       "dayOfWeek": "Sunday",
       "tempMax_F": 25,
       "tempMin_F": 8,
-      "qpf_in": 0.05,
+      "qpf_in": 0.02,
       "narrative": "Snow showers in the morning. Highs in the mid 20s and lows in the upper single digits."
     },
     {
       "validTimeUtc": 1769432400,
       "validTimeIso": "2026-01-26T13:00:00Z",
       "dayOfWeek": "Monday",
-      "tempMax_F": 35,
-      "tempMin_F": 14,
+      "tempMax_F": 34,
+      "tempMin_F": 15,
       "qpf_in": 0.0,
-      "narrative": "Times of sun and clouds. Highs in the mid 30s and lows in the mid teens."
+      "narrative": "Plenty of sun. Highs in the mid 30s and lows in the mid teens."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
-      "name": "This Afternoon",
-      "startTime": "2026-01-20T17:00:00-06:00",
-      "endTime": "2026-01-20T18:00:00-06:00",
-      "isDaytime": true,
-      "temperature": 56,
-      "temperatureUnit": "F",
-      "temperatureTrend": null,
-      "probabilityOfPrecipitation": {
-        "unitCode": "wmoUnit:percent",
-        "value": 0
-      },
-      "windSpeed": "5 mph",
-      "windDirection": "S",
-      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-      "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 56. South wind around 5 mph."
-    },
-    {
-      "number": 2,
       "name": "Tonight",
-      "startTime": "2026-01-20T18:00:00-06:00",
+      "startTime": "2026-01-20T19:00:00-06:00",
       "endTime": "2026-01-21T06:00:00-06:00",
       "isDaytime": false,
       "temperature": 43,
@@ -118,7 +99,7 @@
       "detailedForecast": "Rain likely after 3am. Mostly cloudy, with a low around 43. South wind around 5 mph. Chance of precipitation is 60%."
     },
     {
-      "number": 3,
+      "number": 2,
       "name": "Wednesday",
       "startTime": "2026-01-21T06:00:00-06:00",
       "endTime": "2026-01-21T18:00:00-06:00",
@@ -137,7 +118,7 @@
       "detailedForecast": "Rain likely before 3pm. Mostly cloudy, with a high near 59. West wind around 5 mph. Chance of precipitation is 70%."
     },
     {
-      "number": 4,
+      "number": 3,
       "name": "Wednesday Night",
       "startTime": "2026-01-21T18:00:00-06:00",
       "endTime": "2026-01-22T06:00:00-06:00",
@@ -156,7 +137,7 @@
       "detailedForecast": "Mostly cloudy, with a low around 42. Northeast wind around 5 mph."
     },
     {
-      "number": 5,
+      "number": 4,
       "name": "Thursday",
       "startTime": "2026-01-22T06:00:00-06:00",
       "endTime": "2026-01-22T18:00:00-06:00",
@@ -175,7 +156,7 @@
       "detailedForecast": "Cloudy, with a high near 56. East wind 5 to 10 mph."
     },
     {
-      "number": 6,
+      "number": 5,
       "name": "Thursday Night",
       "startTime": "2026-01-22T18:00:00-06:00",
       "endTime": "2026-01-23T06:00:00-06:00",
@@ -191,10 +172,10 @@
       "windDirection": "E",
       "icon": "https://api.weather.gov/icons/land/night/ovc/rain,50?size=medium",
       "shortForecast": "Cloudy then Chance Light Rain",
-      "detailedForecast": "A chance of rain after midnight. Cloudy, with a low around 38. Chance of precipitation is 50%."
+      "detailedForecast": "A chance of rain after midnight. Cloudy, with a low around 38. East wind around 10 mph. Chance of precipitation is 50%."
     },
     {
-      "number": 7,
+      "number": 6,
       "name": "Friday",
       "startTime": "2026-01-23T06:00:00-06:00",
       "endTime": "2026-01-23T18:00:00-06:00",
@@ -213,7 +194,7 @@
       "detailedForecast": "Sleet likely and rain likely before noon, then sleet and rain and snow. Cloudy, with a high near 39. Chance of precipitation is 80%. New snow accumulation of less than half an inch possible."
     },
     {
-      "number": 8,
+      "number": 7,
       "name": "Friday Night",
       "startTime": "2026-01-23T18:00:00-06:00",
       "endTime": "2026-01-24T06:00:00-06:00",
@@ -232,7 +213,7 @@
       "detailedForecast": "Sleet and freezing rain and rain and snow. Cloudy, with a low around 19. Chance of precipitation is 90%. New snow accumulation of around one inch possible. New ice accumulation of less than half an inch possible."
     },
     {
-      "number": 9,
+      "number": 8,
       "name": "Saturday",
       "startTime": "2026-01-24T06:00:00-06:00",
       "endTime": "2026-01-24T18:00:00-06:00",
@@ -251,7 +232,7 @@
       "detailedForecast": "Snow and sleet and freezing rain. Cloudy, with a high near 24. Chance of precipitation is 90%. New snow accumulation of 2 to 4 inches possible. New ice accumulation of less than half an inch possible."
     },
     {
-      "number": 10,
+      "number": 9,
       "name": "Saturday Night",
       "startTime": "2026-01-24T18:00:00-06:00",
       "endTime": "2026-01-25T06:00:00-06:00",
@@ -270,7 +251,7 @@
       "detailedForecast": "A chance of snow and a chance of sleet and a chance of freezing rain. Mostly cloudy, with a low around 13. Chance of precipitation is 50%. New snow accumulation of less than one inch possible. Little or no ice accumulation expected."
     },
     {
-      "number": 11,
+      "number": 10,
       "name": "Sunday",
       "startTime": "2026-01-25T06:00:00-06:00",
       "endTime": "2026-01-25T18:00:00-06:00",
@@ -289,7 +270,7 @@
       "detailedForecast": "Mostly cloudy, with a high near 27."
     },
     {
-      "number": 12,
+      "number": 11,
       "name": "Sunday Night",
       "startTime": "2026-01-25T18:00:00-06:00",
       "endTime": "2026-01-26T06:00:00-06:00",
@@ -308,7 +289,7 @@
       "detailedForecast": "Partly cloudy, with a low around 8."
     },
     {
-      "number": 13,
+      "number": 12,
       "name": "Monday",
       "startTime": "2026-01-26T06:00:00-06:00",
       "endTime": "2026-01-26T18:00:00-06:00",
@@ -327,7 +308,7 @@
       "detailedForecast": "Sunny, with a high near 31."
     },
     {
-      "number": 14,
+      "number": 13,
       "name": "Monday Night",
       "startTime": "2026-01-26T18:00:00-06:00",
       "endTime": "2026-01-27T06:00:00-06:00",
@@ -344,6 +325,25 @@
       "icon": "https://api.weather.gov/icons/land/night/cold?size=medium",
       "shortForecast": "Partly Cloudy",
       "detailedForecast": "Partly cloudy, with a low around 10."
+    },
+    {
+      "number": 14,
+      "name": "Tuesday",
+      "startTime": "2026-01-27T06:00:00-06:00",
+      "endTime": "2026-01-27T18:00:00-06:00",
+      "isDaytime": true,
+      "temperature": 38,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 2
+      },
+      "windSpeed": "5 mph",
+      "windDirection": "S",
+      "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+      "shortForecast": "Mostly Sunny",
+      "detailedForecast": "Mostly sunny, with a high near 38."
     }
   ]
 }
