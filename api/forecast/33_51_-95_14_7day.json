@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-01-21T18:41:43.756055Z",
+    "generated_at": "2026-01-21T19:26:32.713326Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -18,7 +18,7 @@
       "validTimeUtc": 1769000400,
       "validTimeIso": "2026-01-21T13:00:00Z",
       "dayOfWeek": "Wednesday",
-      "tempMax_F": 61,
+      "tempMax_F": 60,
       "tempMin_F": 38,
       "qpf_in": 0.0,
       "narrative": "Partly cloudy. Highs in the low 60s and lows in the upper 30s."
@@ -30,7 +30,7 @@
       "tempMax_F": 56,
       "tempMin_F": 39,
       "qpf_in": 0.0,
-      "narrative": "Mostly cloudy. Highs in the mid 50s and lows in the upper 30s."
+      "narrative": "Cloudy. Highs in the mid 50s and lows in the upper 30s."
     },
     {
       "validTimeUtc": 1769173200,
@@ -38,8 +38,8 @@
       "dayOfWeek": "Friday",
       "tempMax_F": 44,
       "tempMin_F": 21,
-      "qpf_in": 0.91,
-      "narrative": "Cloudy with rain. Highs in the mid 40s and lows in the low 20s."
+      "qpf_in": 0.92,
+      "narrative": "Rain. Highs in the mid 40s and lows in the low 20s."
     },
     {
       "validTimeUtc": 1769259600,
@@ -47,8 +47,8 @@
       "dayOfWeek": "Saturday",
       "tempMax_F": 27,
       "tempMin_F": 14,
-      "qpf_in": 1.07,
-      "narrative": "Watching a potential winter storm. Freezing rain likely. Highs in the upper 20s and lows in the mid teens."
+      "qpf_in": 1.06,
+      "narrative": "Watching a potential winter storm. Periods of freezing rain. Highs in the upper 20s and lows in the mid teens."
     },
     {
       "validTimeUtc": 1769346000,
@@ -57,7 +57,7 @@
       "tempMax_F": 21,
       "tempMin_F": 7,
       "qpf_in": 0.07,
-      "narrative": "Snow showers in the morning. Highs in the low 20s and lows in the upper single digits."
+      "narrative": "Morning snow showers. Highs in the low 20s and lows in the upper single digits."
     },
     {
       "validTimeUtc": 1769432400,
@@ -66,14 +66,14 @@
       "tempMax_F": 32,
       "tempMin_F": 13,
       "qpf_in": 0.0,
-      "narrative": "Mainly sunny. Highs in the low 30s and lows in the low teens."
+      "narrative": "Sunshine. Highs in the low 30s and lows in the low teens."
     },
     {
       "validTimeUtc": 1769518800,
       "validTimeIso": "2026-01-27T13:00:00Z",
       "dayOfWeek": "Tuesday",
       "tempMax_F": 41,
-      "tempMin_F": 28,
+      "tempMin_F": 27,
       "qpf_in": 0.0,
       "narrative": "Partly cloudy. Highs in the low 40s and lows in the upper 20s."
     }
@@ -81,8 +81,8 @@
   "nws_periods": [
     {
       "number": 1,
-      "name": "This Afternoon",
-      "startTime": "2026-01-21T12:00:00-06:00",
+      "name": "Today",
+      "startTime": "2026-01-21T11:00:00-06:00",
       "endTime": "2026-01-21T18:00:00-06:00",
       "isDaytime": true,
       "temperature": 58,
@@ -90,13 +90,13 @@
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 16
+        "value": 70
       },
       "windSpeed": "5 mph",
       "windDirection": "N",
-      "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=medium",
-      "shortForecast": "Slight Chance Rain Showers",
-      "detailedForecast": "A slight chance of rain showers before 3pm. Mostly sunny, with a high near 58. North wind around 5 mph. Chance of precipitation is 20%."
+      "icon": "https://api.weather.gov/icons/land/day/rain_showers,70/rain_showers,20?size=medium",
+      "shortForecast": "Rain Showers Likely",
+      "detailedForecast": "Rain showers likely before 3pm. Partly sunny, with a high near 58. North wind around 5 mph. Chance of precipitation is 70%."
     },
     {
       "number": 2,
