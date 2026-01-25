@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-01-25T22:19:45.894474Z",
+    "generated_at": "2026-01-25T23:20:04.771987Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -20,8 +20,8 @@
       "dayOfWeek": "Sunday",
       "tempMax_F": null,
       "tempMin_F": 10,
-      "qpf_in": 0.01,
-      "narrative": "Snow showers early. Lows overnight in the low teens."
+      "qpf_in": 0.0,
+      "narrative": "Clouds early, some clearing late. Lows overnight in the low teens."
     },
     {
       "validTimeUtc": 1769432400,
@@ -30,16 +30,16 @@
       "tempMax_F": 30,
       "tempMin_F": 11,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the low 30s and lows in the low teens."
+      "narrative": "Times of sun and clouds. Highs in the low 30s and lows in the low teens."
     },
     {
       "validTimeUtc": 1769518800,
       "validTimeIso": "2026-01-27T13:00:00Z",
       "dayOfWeek": "Tuesday",
-      "tempMax_F": 40,
-      "tempMin_F": 20,
+      "tempMax_F": 41,
+      "tempMin_F": 21,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the low 40s and lows in the low 20s."
+      "narrative": "Times of sun and clouds. Highs in the low 40s and lows in the low 20s."
     },
     {
       "validTimeUtc": 1769605200,
@@ -48,7 +48,7 @@
       "tempMax_F": 44,
       "tempMin_F": 23,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the mid 40s and lows in the low 20s."
+      "narrative": "Partly cloudy. Highs in the mid 40s and lows in the low 20s."
     },
     {
       "validTimeUtc": 1769691600,
@@ -73,16 +73,16 @@
       "validTimeIso": "2026-01-31T13:00:00Z",
       "dayOfWeek": "Saturday",
       "tempMax_F": 46,
-      "tempMin_F": 26,
+      "tempMin_F": 27,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the mid 40s and lows in the mid 20s."
+      "narrative": "More sun than clouds. Highs in the mid 40s and lows in the upper 20s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "This Afternoon",
-      "startTime": "2026-01-25T16:00:00-06:00",
+      "startTime": "2026-01-25T17:00:00-06:00",
       "endTime": "2026-01-25T18:00:00-06:00",
       "isDaytime": true,
       "temperature": 22,
@@ -90,13 +90,13 @@
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 15
+        "value": 19
       },
       "windSpeed": "15 mph",
-      "windDirection": "NW",
+      "windDirection": "N",
       "icon": "https://api.weather.gov/icons/land/day/snow,20?size=medium",
-      "shortForecast": "Slight Chance Snow Showers",
-      "detailedForecast": "A slight chance of snow showers. Mostly cloudy, with a high near 22. Wind chill values as low as 7. Northwest wind around 15 mph. Chance of precipitation is 20%."
+      "shortForecast": "Slight Chance Very Light Snow",
+      "detailedForecast": "A slight chance of snow. Mostly cloudy, with a high near 22. Wind chill values as low as 7. North wind around 15 mph. Chance of precipitation is 20%."
     },
     {
       "number": 2,
@@ -109,13 +109,13 @@
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 6
+        "value": 19
       },
       "windSpeed": "5 to 10 mph",
       "windDirection": "NW",
-      "icon": "https://api.weather.gov/icons/land/night/cold?size=medium",
-      "shortForecast": "Partly Cloudy",
-      "detailedForecast": "Partly cloudy, with a low around 7. Wind chill values as low as -2. Northwest wind 5 to 10 mph."
+      "icon": "https://api.weather.gov/icons/land/night/snow,20/cold?size=medium",
+      "shortForecast": "Slight Chance Very Light Snow then Partly Cloudy",
+      "detailedForecast": "A slight chance of snow before 9pm. Partly cloudy, with a low around 7. Wind chill values as low as -2. Northwest wind 5 to 10 mph. Chance of precipitation is 20%."
     },
     {
       "number": 3,
