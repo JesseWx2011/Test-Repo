@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-01-26T18:35:44.616423Z",
+    "generated_at": "2026-01-26T19:23:16.813799Z",
     "lat": 40.71,
     "lon": -74.0,
     "days_requested": 7,
@@ -21,7 +21,7 @@
       "tempMax_F": 27,
       "tempMin_F": 16,
       "qpf_in": 0.0,
-      "narrative": "Cloudy. Highs in the upper 20s and lows in the mid teens."
+      "narrative": "Mostly cloudy. Highs in the upper 20s and lows in the mid teens."
     },
     {
       "validTimeUtc": 1769515200,
@@ -39,7 +39,7 @@
       "tempMax_F": 27,
       "tempMin_F": 13,
       "qpf_in": 0.0,
-      "narrative": "More sun than clouds. Highs in the upper 20s and lows in the low teens."
+      "narrative": "Plenty of sun. Highs in the upper 20s and lows in the low teens."
     },
     {
       "validTimeUtc": 1769688000,
@@ -48,7 +48,7 @@
       "tempMax_F": 25,
       "tempMin_F": 9,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the mid 20s and lows in the upper single digits."
+      "narrative": "More sun than clouds. Highs in the mid 20s and lows in the upper single digits."
     },
     {
       "validTimeUtc": 1769774400,
@@ -57,7 +57,7 @@
       "tempMax_F": 25,
       "tempMin_F": 9,
       "qpf_in": 0.0,
-      "narrative": "A few clouds. Highs in the mid 20s and lows in the upper single digits."
+      "narrative": "Mostly sunny. Highs in the mid 20s and lows in the upper single digits."
     },
     {
       "validTimeUtc": 1769860800,
@@ -66,7 +66,7 @@
       "tempMax_F": 27,
       "tempMin_F": 20,
       "qpf_in": 0.44,
-      "narrative": "Watching a potential winter storm. Snow showers developing in the afternoon. Highs in the upper 20s and lows in the low 20s."
+      "narrative": "Watching a potential winter storm. A few afternoon snow showers. Highs in the upper 20s and lows in the low 20s."
     },
     {
       "validTimeUtc": 1769947200,
@@ -81,8 +81,8 @@
   "nws_periods": [
     {
       "number": 1,
-      "name": "Today",
-      "startTime": "2026-01-26T06:00:00-05:00",
+      "name": "This Afternoon",
+      "startTime": "2026-01-26T14:00:00-05:00",
       "endTime": "2026-01-26T18:00:00-05:00",
       "isDaytime": true,
       "temperature": 30,
@@ -90,13 +90,13 @@
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 27
+        "value": 6
       },
-      "windSpeed": "8 to 17 mph",
+      "windSpeed": "16 mph",
       "windDirection": "NW",
-      "icon": "https://api.weather.gov/icons/land/day/snow,30/blizzard,20?size=medium",
-      "shortForecast": "Chance Light Snow then Patchy Blowing Snow",
-      "detailedForecast": "A chance of snow before 1pm, then patchy blowing snow. Mostly cloudy. High near 30, with temperatures falling to around 27 in the afternoon. Wind chill values as low as 11. Northwest wind 8 to 17 mph. Chance of precipitation is 30%. New snow accumulation of less than half an inch possible. Little or no ice accumulation expected."
+      "icon": "https://api.weather.gov/icons/land/day/snow?size=medium",
+      "shortForecast": "Chance Snow Showers",
+      "detailedForecast": "A chance of snow showers. Partly sunny. High near 30, with temperatures falling to around 25 in the afternoon. Wind chill values as low as 12. Northwest wind around 16 mph."
     },
     {
       "number": 2,
@@ -109,13 +109,13 @@
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 5
+        "value": 4
       },
-      "windSpeed": "15 to 20 mph",
+      "windSpeed": "14 to 18 mph",
       "windDirection": "W",
       "icon": "https://api.weather.gov/icons/land/night/cold?size=medium",
-      "shortForecast": "Partly Cloudy",
-      "detailedForecast": "Partly cloudy. Low around 13, with temperatures rising to around 15 overnight. Wind chill values as low as 0. West wind 15 to 20 mph."
+      "shortForecast": "Mostly Clear",
+      "detailedForecast": "Mostly clear. Low around 13, with temperatures rising to around 15 overnight. Wind chill values as low as 0. West wind 14 to 18 mph."
     },
     {
       "number": 3,
@@ -123,18 +123,18 @@
       "startTime": "2026-01-27T06:00:00-05:00",
       "endTime": "2026-01-27T18:00:00-05:00",
       "isDaytime": true,
-      "temperature": 20,
+      "temperature": 21,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 1
+        "value": 8
       },
-      "windSpeed": "15 mph",
+      "windSpeed": "13 to 16 mph",
       "windDirection": "W",
-      "icon": "https://api.weather.gov/icons/land/day/cold?size=medium",
-      "shortForecast": "Mostly Sunny",
-      "detailedForecast": "Mostly sunny, with a high near 20. Wind chill values as low as -2. West wind around 15 mph."
+      "icon": "https://api.weather.gov/icons/land/day/sct/snow?size=medium",
+      "shortForecast": "Mostly Sunny then Chance Snow Showers",
+      "detailedForecast": "A chance of snow showers after noon. Mostly sunny. High near 21, with temperatures falling to around 19 in the afternoon. Wind chill values as low as -2. West wind 13 to 16 mph."
     },
     {
       "number": 4,
@@ -147,7 +147,7 @@
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 1
+        "value": 4
       },
       "windSpeed": "14 mph",
       "windDirection": "W",
@@ -172,7 +172,7 @@
       "windDirection": "W",
       "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
       "shortForecast": "Mostly Sunny",
-      "detailedForecast": "Mostly sunny. High near 22, with temperatures falling to around 20 in the afternoon. West wind around 13 mph."
+      "detailedForecast": "Mostly sunny. High near 22, with temperatures falling to around 19 in the afternoon. West wind around 13 mph."
     },
     {
       "number": 6,
@@ -180,7 +180,7 @@
       "startTime": "2026-01-28T18:00:00-05:00",
       "endTime": "2026-01-29T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 9,
+      "temperature": 11,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
@@ -190,8 +190,8 @@
       "windSpeed": "12 mph",
       "windDirection": "W",
       "icon": "https://api.weather.gov/icons/land/night/cold?size=medium",
-      "shortForecast": "Partly Cloudy",
-      "detailedForecast": "Partly cloudy. Low around 9, with temperatures rising to around 11 overnight."
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy, with a low around 11."
     },
     {
       "number": 7,
@@ -199,18 +199,18 @@
       "startTime": "2026-01-29T06:00:00-05:00",
       "endTime": "2026-01-29T18:00:00-05:00",
       "isDaytime": true,
-      "temperature": 20,
+      "temperature": 21,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 8
+        "value": 7
       },
-      "windSpeed": "12 to 15 mph",
+      "windSpeed": "14 mph",
       "windDirection": "W",
-      "icon": "https://api.weather.gov/icons/land/day/cold?size=medium",
-      "shortForecast": "Mostly Sunny",
-      "detailedForecast": "Mostly sunny, with a high near 20."
+      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+      "shortForecast": "Sunny",
+      "detailedForecast": "Sunny, with a high near 21."
     },
     {
       "number": 8,
@@ -223,10 +223,10 @@
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 8
+        "value": 5
       },
-      "windSpeed": "15 mph",
-      "windDirection": "NW",
+      "windSpeed": "14 mph",
+      "windDirection": "W",
       "icon": "https://api.weather.gov/icons/land/night/cold?size=medium",
       "shortForecast": "Mostly Clear",
       "detailedForecast": "Mostly clear, with a low around 7."
@@ -244,11 +244,11 @@
         "unitCode": "wmoUnit:percent",
         "value": 2
       },
-      "windSpeed": "15 mph",
+      "windSpeed": "14 mph",
       "windDirection": "W",
       "icon": "https://api.weather.gov/icons/land/day/cold?size=medium",
-      "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 18."
+      "shortForecast": "Mostly Sunny",
+      "detailedForecast": "Mostly sunny, with a high near 18."
     },
     {
       "number": 10,
@@ -256,18 +256,18 @@
       "startTime": "2026-01-30T18:00:00-05:00",
       "endTime": "2026-01-31T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 9,
+      "temperature": 8,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 2
+        "value": 5
       },
-      "windSpeed": "12 to 15 mph",
+      "windSpeed": "10 to 14 mph",
       "windDirection": "NW",
       "icon": "https://api.weather.gov/icons/land/night/cold?size=medium",
-      "shortForecast": "Mostly Clear",
-      "detailedForecast": "Mostly clear, with a low around 9."
+      "shortForecast": "Partly Cloudy",
+      "detailedForecast": "Partly cloudy, with a low around 8."
     },
     {
       "number": 11,
@@ -275,18 +275,18 @@
       "startTime": "2026-01-31T06:00:00-05:00",
       "endTime": "2026-01-31T18:00:00-05:00",
       "isDaytime": true,
-      "temperature": 24,
+      "temperature": 23,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 6
+        "value": 13
       },
       "windSpeed": "12 mph",
       "windDirection": "NW",
-      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-      "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 24."
+      "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+      "shortForecast": "Mostly Sunny",
+      "detailedForecast": "Mostly sunny, with a high near 23."
     },
     {
       "number": 12,
@@ -294,18 +294,18 @@
       "startTime": "2026-01-31T18:00:00-05:00",
       "endTime": "2026-02-01T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 11,
+      "temperature": 15,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 8
+        "value": 24
       },
-      "windSpeed": "14 mph",
-      "windDirection": "NW",
-      "icon": "https://api.weather.gov/icons/land/night/cold?size=medium",
-      "shortForecast": "Mostly Clear",
-      "detailedForecast": "Mostly clear, with a low around 11."
+      "windSpeed": "12 to 16 mph",
+      "windDirection": "N",
+      "icon": "https://api.weather.gov/icons/land/night/snow,20?size=medium",
+      "shortForecast": "Slight Chance Light Snow",
+      "detailedForecast": "A slight chance of snow after 7pm. Mostly cloudy, with a low around 15."
     },
     {
       "number": 13,
@@ -313,18 +313,18 @@
       "startTime": "2026-02-01T06:00:00-05:00",
       "endTime": "2026-02-01T18:00:00-05:00",
       "isDaytime": true,
-      "temperature": 27,
+      "temperature": 26,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 12
+        "value": 24
       },
-      "windSpeed": "14 mph",
+      "windSpeed": "18 mph",
       "windDirection": "N",
-      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-      "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 27."
+      "icon": "https://api.weather.gov/icons/land/day/snow,20?size=medium",
+      "shortForecast": "Slight Chance Light Snow",
+      "detailedForecast": "A slight chance of snow. Partly sunny, with a high near 26."
     },
     {
       "number": 14,
@@ -332,18 +332,18 @@
       "startTime": "2026-02-01T18:00:00-05:00",
       "endTime": "2026-02-02T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 15,
+      "temperature": 18,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 12
+        "value": 20
       },
-      "windSpeed": "14 mph",
+      "windSpeed": "17 mph",
       "windDirection": "NW",
-      "icon": "https://api.weather.gov/icons/land/night/cold?size=medium",
-      "shortForecast": "Partly Cloudy",
-      "detailedForecast": "Partly cloudy, with a low around 15."
+      "icon": "https://api.weather.gov/icons/land/night/snow,20?size=medium",
+      "shortForecast": "Slight Chance Light Snow",
+      "detailedForecast": "A slight chance of snow before 1am. Partly cloudy, with a low around 18."
     }
   ]
 }
