@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-02-11T08:49:35.554721Z",
+    "generated_at": "2026-02-11T09:52:41.188818Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -15,22 +15,13 @@
   },
   "twc_daily": [
     {
-      "validTimeUtc": 1770728400,
-      "validTimeIso": "2026-02-10T13:00:00Z",
-      "dayOfWeek": "Tuesday",
-      "tempMax_F": null,
-      "tempMin_F": 48,
-      "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Lows overnight in the upper 40s."
-    },
-    {
       "validTimeUtc": 1770814800,
       "validTimeIso": "2026-02-11T13:00:00Z",
       "dayOfWeek": "Wednesday",
-      "tempMax_F": 68,
+      "tempMax_F": 67,
       "tempMin_F": 42,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the upper 60s and lows in the low 40s."
+      "narrative": "Sunny. Highs in the upper 60s and lows in the low 40s."
     },
     {
       "validTimeUtc": 1770901200,
@@ -39,24 +30,24 @@
       "tempMax_F": 71,
       "tempMin_F": 47,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the low 70s and lows in the upper 40s."
+      "narrative": "Abundant sunshine. Highs in the low 70s and lows in the upper 40s."
     },
     {
       "validTimeUtc": 1770987600,
       "validTimeIso": "2026-02-13T13:00:00Z",
       "dayOfWeek": "Friday",
-      "tempMax_F": 75,
+      "tempMax_F": 76,
       "tempMin_F": 58,
-      "qpf_in": 0.19,
-      "narrative": "More clouds than sun. Highs in the mid 70s and lows in the upper 50s."
+      "qpf_in": 0.17,
+      "narrative": "Cloudy. Highs in the mid 70s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1771074000,
       "validTimeIso": "2026-02-14T13:00:00Z",
       "dayOfWeek": "Saturday",
       "tempMax_F": 67,
-      "tempMin_F": 51,
-      "qpf_in": 0.93,
+      "tempMin_F": 52,
+      "qpf_in": 0.92,
       "narrative": "Thunderstorms. Potential for heavy rainfall. Highs in the upper 60s and lows in the low 50s."
     },
     {
@@ -66,7 +57,7 @@
       "tempMax_F": 67,
       "tempMin_F": 44,
       "qpf_in": 0.0,
-      "narrative": "A few clouds. Highs in the upper 60s and lows in the mid 40s."
+      "narrative": "Mostly sunny. Highs in the upper 60s and lows in the mid 40s."
     },
     {
       "validTimeUtc": 1771246800,
@@ -75,14 +66,23 @@
       "tempMax_F": 73,
       "tempMin_F": 51,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the low 70s and lows in the low 50s."
+      "narrative": "A few clouds. Highs in the low 70s and lows in the low 50s."
+    },
+    {
+      "validTimeUtc": 1771333200,
+      "validTimeIso": "2026-02-17T13:00:00Z",
+      "dayOfWeek": "Tuesday",
+      "tempMax_F": 76,
+      "tempMin_F": 60,
+      "qpf_in": 0.0,
+      "narrative": "Mostly cloudy. Highs in the mid 70s and lows in the low 60s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Overnight",
-      "startTime": "2026-02-11T02:00:00-06:00",
+      "startTime": "2026-02-11T03:00:00-06:00",
       "endTime": "2026-02-11T06:00:00-06:00",
       "isDaytime": false,
       "temperature": 50,
@@ -90,13 +90,13 @@
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 19
+        "value": 3
       },
       "windSpeed": "5 mph",
       "windDirection": "NW",
-      "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=medium",
-      "shortForecast": "Slight Chance Rain Showers",
-      "detailedForecast": "A slight chance of rain showers before 3am. Partly cloudy, with a low around 50. Northwest wind around 5 mph. Chance of precipitation is 20%."
+      "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+      "shortForecast": "Mostly Clear",
+      "detailedForecast": "Mostly clear, with a low around 50. Northwest wind around 5 mph."
     },
     {
       "number": 2,
