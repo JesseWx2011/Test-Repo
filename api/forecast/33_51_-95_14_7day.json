@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-11T16:51:53.505626Z",
+    "generated_at": "2026-03-11T17:48:47.264309Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -18,10 +18,10 @@
       "validTimeUtc": 1773230400,
       "validTimeIso": "2026-03-11T12:00:00Z",
       "dayOfWeek": "Wednesday",
-      "tempMax_F": 69,
-      "tempMin_F": 37,
+      "tempMax_F": 68,
+      "tempMin_F": 38,
       "qpf_in": 0.02,
-      "narrative": "Windy with showers. Highs in the upper 60s and lows in the upper 30s."
+      "narrative": "Chance of showers. Highs in the upper 60s and lows in the upper 30s."
     },
     {
       "validTimeUtc": 1773316800,
@@ -30,16 +30,16 @@
       "tempMax_F": 64,
       "tempMin_F": 42,
       "qpf_in": 0.0,
-      "narrative": "Sunny. Highs in the mid 60s and lows in the low 40s."
+      "narrative": "Abundant sunshine. Highs in the mid 60s and lows in the low 40s."
     },
     {
       "validTimeUtc": 1773403200,
       "validTimeIso": "2026-03-13T12:00:00Z",
       "dayOfWeek": "Friday",
-      "tempMax_F": 76,
+      "tempMax_F": 77,
       "tempMin_F": 48,
       "qpf_in": 0.0,
-      "narrative": "Mainly sunny. Highs in the mid 70s and lows in the upper 40s."
+      "narrative": "Abundant sunshine. Highs in the upper 70s and lows in the upper 40s."
     },
     {
       "validTimeUtc": 1773489600,
@@ -48,13 +48,13 @@
       "tempMax_F": 79,
       "tempMin_F": 60,
       "qpf_in": 0.0,
-      "narrative": "Sunny. Highs in the upper 70s and lows in the low 60s."
+      "narrative": "Mainly sunny. Highs in the upper 70s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1773576000,
       "validTimeIso": "2026-03-15T12:00:00Z",
       "dayOfWeek": "Sunday",
-      "tempMax_F": 78,
+      "tempMax_F": 77,
       "tempMin_F": 36,
       "qpf_in": 0.0,
       "narrative": "Mix of sun and clouds. Highs in the upper 70s and lows in the mid 30s."
@@ -66,7 +66,7 @@
       "tempMax_F": 53,
       "tempMin_F": 33,
       "qpf_in": 0.0,
-      "narrative": "Times of sun and clouds. Highs in the low 50s and lows in the low 30s."
+      "narrative": "Mix of sun and clouds. Highs in the low 50s and lows in the low 30s."
     },
     {
       "validTimeUtc": 1773748800,
@@ -75,14 +75,14 @@
       "tempMax_F": 61,
       "tempMin_F": 41,
       "qpf_in": 0.0,
-      "narrative": "Times of sun and clouds. Highs in the low 60s and lows in the low 40s."
+      "narrative": "Partly cloudy. Highs in the low 60s and lows in the low 40s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
-      "name": "Today",
-      "startTime": "2026-03-11T10:00:00-05:00",
+      "name": "This Afternoon",
+      "startTime": "2026-03-11T12:00:00-05:00",
       "endTime": "2026-03-11T18:00:00-05:00",
       "isDaytime": true,
       "temperature": 76,
@@ -90,13 +90,13 @@
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 46
+        "value": 56
       },
       "windSpeed": "10 to 20 mph",
       "windDirection": "NW",
-      "icon": "https://api.weather.gov/icons/land/day/tsra_sct,50?size=medium",
-      "shortForecast": "Chance Showers And Thunderstorms",
-      "detailedForecast": "A chance of showers and thunderstorms before 4pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 76. Northwest wind 10 to 20 mph, with gusts as high as 30 mph. Chance of precipitation is 50%. New rainfall amounts between a quarter and half of an inch possible."
+      "icon": "https://api.weather.gov/icons/land/day/tsra_sct,60?size=medium",
+      "shortForecast": "Showers And Thunderstorms Likely",
+      "detailedForecast": "Showers and thunderstorms likely before 1pm, then a chance of showers and thunderstorms between 1pm and 4pm. Partly sunny, with a high near 76. Northwest wind 10 to 20 mph, with gusts as high as 30 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible."
     },
     {
       "number": 2,
@@ -109,13 +109,13 @@
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 27
+        "value": 8
       },
       "windSpeed": "10 to 20 mph",
       "windDirection": "N",
-      "icon": "https://api.weather.gov/icons/land/night/tsra_hi,30/sct?size=medium",
-      "shortForecast": "Chance Showers And Thunderstorms then Partly Cloudy",
-      "detailedForecast": "A chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 40. North wind 10 to 20 mph, with gusts as high as 30 mph. Chance of precipitation is 30%. New rainfall amounts between a quarter and half of an inch possible."
+      "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+      "shortForecast": "Mostly Clear",
+      "detailedForecast": "Mostly clear, with a low around 40. North wind 10 to 20 mph, with gusts as high as 30 mph. New rainfall amounts between a quarter and half of an inch possible."
     },
     {
       "number": 3,
