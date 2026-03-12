@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-12T20:34:28.560774Z",
+    "generated_at": "2026-03-12T21:32:17.880955Z",
     "lat": 30.63,
     "lon": -87.04,
     "days_requested": 7,
@@ -28,16 +28,16 @@
       "validTimeIso": "2026-03-13T12:00:00Z",
       "dayOfWeek": "Friday",
       "tempMax_F": 72,
-      "tempMin_F": 46,
+      "tempMin_F": 47,
       "qpf_in": 0.0,
-      "narrative": "Sunshine. Highs in the low 70s and lows in the mid 40s."
+      "narrative": "Sunshine. Highs in the low 70s and lows in the upper 40s."
     },
     {
       "validTimeUtc": 1773489600,
       "validTimeIso": "2026-03-14T12:00:00Z",
       "dayOfWeek": "Saturday",
       "tempMax_F": 78,
-      "tempMin_F": 58,
+      "tempMin_F": 59,
       "qpf_in": 0.0,
       "narrative": "Partly cloudy. Highs in the upper 70s and lows in the upper 50s."
     },
@@ -46,9 +46,9 @@
       "validTimeIso": "2026-03-15T12:00:00Z",
       "dayOfWeek": "Sunday",
       "tempMax_F": 78,
-      "tempMin_F": 58,
-      "qpf_in": 0.2,
-      "narrative": "Showers possible. Highs in the upper 70s and lows in the upper 50s."
+      "tempMin_F": 57,
+      "qpf_in": 0.18,
+      "narrative": "Showers possible in the afternoon. Highs in the upper 70s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1773662400,
@@ -63,10 +63,10 @@
       "validTimeUtc": 1773748800,
       "validTimeIso": "2026-03-17T12:00:00Z",
       "dayOfWeek": "Tuesday",
-      "tempMax_F": 55,
-      "tempMin_F": 33,
+      "tempMax_F": 54,
+      "tempMin_F": 35,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the mid 50s and lows in the low 30s."
+      "narrative": "Times of sun and clouds. Highs in the mid 50s and lows in the mid 30s."
     },
     {
       "validTimeUtc": 1773835200,
@@ -75,14 +75,14 @@
       "tempMax_F": 63,
       "tempMin_F": 42,
       "qpf_in": 0.0,
-      "narrative": "Times of sun and clouds. Highs in the low 60s and lows in the low 40s."
+      "narrative": "Partly cloudy. Highs in the low 60s and lows in the low 40s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "This Afternoon",
-      "startTime": "2026-03-12T14:00:00-05:00",
+      "startTime": "2026-03-12T16:00:00-05:00",
       "endTime": "2026-03-12T18:00:00-05:00",
       "isDaytime": true,
       "temperature": 66,
@@ -92,11 +92,11 @@
         "unitCode": "wmoUnit:percent",
         "value": 0
       },
-      "windSpeed": "15 to 20 mph",
+      "windSpeed": "15 mph",
       "windDirection": "N",
-      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+      "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
       "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 66. North wind 15 to 20 mph, with gusts as high as 35 mph."
+      "detailedForecast": "Sunny, with a high near 66. North wind around 15 mph, with gusts as high as 30 mph."
     },
     {
       "number": 2,
