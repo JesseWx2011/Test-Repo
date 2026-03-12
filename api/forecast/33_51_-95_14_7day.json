@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-12T05:50:35.325094Z",
+    "generated_at": "2026-03-12T06:55:10.762353Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -30,7 +30,7 @@
       "tempMax_F": 65,
       "tempMin_F": 42,
       "qpf_in": 0.0,
-      "narrative": "Abundant sunshine. Highs in the mid 60s and lows in the low 40s."
+      "narrative": "Sunshine. Highs in the mid 60s and lows in the low 40s."
     },
     {
       "validTimeUtc": 1773403200,
@@ -39,7 +39,7 @@
       "tempMax_F": 76,
       "tempMin_F": 49,
       "qpf_in": 0.0,
-      "narrative": "Mainly sunny. Highs in the mid 70s and lows in the upper 40s."
+      "narrative": "Abundant sunshine. Highs in the mid 70s and lows in the upper 40s."
     },
     {
       "validTimeUtc": 1773489600,
@@ -48,25 +48,25 @@
       "tempMax_F": 79,
       "tempMin_F": 61,
       "qpf_in": 0.0,
-      "narrative": "Mainly sunny. Highs in the upper 70s and lows in the low 60s."
+      "narrative": "Abundant sunshine. Highs in the upper 70s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1773576000,
       "validTimeIso": "2026-03-15T12:00:00Z",
       "dayOfWeek": "Sunday",
-      "tempMax_F": 77,
+      "tempMax_F": 78,
       "tempMin_F": 33,
       "qpf_in": 0.0,
-      "narrative": "Windy with morning clouds, then afternoon sun. Highs in the upper 70s and lows in the low 30s."
+      "narrative": "Windy with clouds giving way to sun. Highs in the upper 70s and lows in the low 30s."
     },
     {
       "validTimeUtc": 1773662400,
       "validTimeIso": "2026-03-16T12:00:00Z",
       "dayOfWeek": "Monday",
-      "tempMax_F": 51,
+      "tempMax_F": 50,
       "tempMin_F": 32,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the low 50s and lows in the low 30s."
+      "narrative": "Partly cloudy. Highs in the low 50s and lows in the low 30s."
     },
     {
       "validTimeUtc": 1773748800,
@@ -75,14 +75,14 @@
       "tempMax_F": 62,
       "tempMin_F": 44,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the low 60s and lows in the mid 40s."
+      "narrative": "Times of sun and clouds. Highs in the low 60s and lows in the mid 40s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Overnight",
-      "startTime": "2026-03-12T00:00:00-05:00",
+      "startTime": "2026-03-12T01:00:00-05:00",
       "endTime": "2026-03-12T06:00:00-05:00",
       "isDaytime": false,
       "temperature": 38,
@@ -94,9 +94,9 @@
       },
       "windSpeed": "10 to 15 mph",
       "windDirection": "N",
-      "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-      "shortForecast": "Mostly Clear",
-      "detailedForecast": "Mostly clear, with a low around 38. North wind 10 to 15 mph, with gusts as high as 25 mph."
+      "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+      "shortForecast": "Clear",
+      "detailedForecast": "Clear, with a low around 38. North wind 10 to 15 mph."
     },
     {
       "number": 2,
@@ -263,7 +263,7 @@
         "unitCode": "wmoUnit:percent",
         "value": 9
       },
-      "windSpeed": "10 to 15 mph",
+      "windSpeed": "15 mph",
       "windDirection": "N",
       "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
       "shortForecast": "Mostly Sunny",
@@ -283,7 +283,7 @@
         "value": 3
       },
       "windSpeed": "5 to 10 mph",
-      "windDirection": "E",
+      "windDirection": "NE",
       "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
       "shortForecast": "Partly Cloudy",
       "detailedForecast": "Partly cloudy, with a low around 32."
@@ -299,7 +299,7 @@
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 2
+        "value": 1
       },
       "windSpeed": "5 to 10 mph",
       "windDirection": "S",
@@ -339,7 +339,7 @@
         "unitCode": "wmoUnit:percent",
         "value": 0
       },
-      "windSpeed": "5 to 10 mph",
+      "windSpeed": "10 mph",
       "windDirection": "S",
       "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
       "shortForecast": "Mostly Sunny",
