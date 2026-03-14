@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-14T05:44:43.308645Z",
+    "generated_at": "2026-03-14T06:45:25.254045Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -19,9 +19,9 @@
       "validTimeIso": "2026-03-13T12:00:00Z",
       "dayOfWeek": "Friday",
       "tempMax_F": null,
-      "tempMin_F": 50,
+      "tempMin_F": 49,
       "qpf_in": 0.0,
-      "narrative": "Clear. Lows overnight in the low 50s."
+      "narrative": "Clear. Lows overnight in the upper 40s."
     },
     {
       "validTimeUtc": 1773489600,
@@ -30,7 +30,7 @@
       "tempMax_F": 80,
       "tempMin_F": 62,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the low 80s and lows in the low 60s."
+      "narrative": "More sun than clouds. Highs in the low 80s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1773576000,
@@ -45,7 +45,7 @@
       "validTimeUtc": 1773662400,
       "validTimeIso": "2026-03-16T12:00:00Z",
       "dayOfWeek": "Monday",
-      "tempMax_F": 48,
+      "tempMax_F": 49,
       "tempMin_F": 29,
       "qpf_in": 0.0,
       "narrative": "Plenty of sun. Highs in the upper 40s and lows in the upper 20s."
@@ -57,7 +57,7 @@
       "tempMax_F": 61,
       "tempMin_F": 43,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the low 60s and lows in the low 40s."
+      "narrative": "Times of sun and clouds. Highs in the low 60s and lows in the low 40s."
     },
     {
       "validTimeUtc": 1773835200,
@@ -66,23 +66,23 @@
       "tempMax_F": 76,
       "tempMin_F": 49,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the mid 70s and lows in the upper 40s."
+      "narrative": "Times of sun and clouds. Highs in the mid 70s and lows in the upper 40s."
     },
     {
       "validTimeUtc": 1773921600,
       "validTimeIso": "2026-03-19T12:00:00Z",
       "dayOfWeek": "Thursday",
-      "tempMax_F": 86,
-      "tempMin_F": 56,
+      "tempMax_F": 87,
+      "tempMin_F": 57,
       "qpf_in": 0.0,
-      "narrative": "Sunny. Highs in the mid 80s and lows in the mid 50s."
+      "narrative": "Abundant sunshine. Highs in the upper 80s and lows in the upper 50s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Overnight",
-      "startTime": "2026-03-14T00:00:00-05:00",
+      "startTime": "2026-03-14T01:00:00-05:00",
       "endTime": "2026-03-14T06:00:00-05:00",
       "isDaytime": false,
       "temperature": 51,
@@ -94,9 +94,9 @@
       },
       "windSpeed": "5 mph",
       "windDirection": "SE",
-      "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-      "shortForecast": "Mostly Clear",
-      "detailedForecast": "Mostly clear, with a low around 51. Southeast wind around 5 mph."
+      "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+      "shortForecast": "Clear",
+      "detailedForecast": "Clear, with a low around 51. Southeast wind around 5 mph."
     },
     {
       "number": 2,
@@ -237,7 +237,7 @@
       "startTime": "2026-03-17T18:00:00-05:00",
       "endTime": "2026-03-18T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 46,
+      "temperature": 45,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
@@ -248,7 +248,7 @@
       "windDirection": "S",
       "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
       "shortForecast": "Partly Cloudy",
-      "detailedForecast": "Partly cloudy, with a low around 46."
+      "detailedForecast": "Partly cloudy, with a low around 45."
     },
     {
       "number": 10,
@@ -275,7 +275,7 @@
       "startTime": "2026-03-18T18:00:00-05:00",
       "endTime": "2026-03-19T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 51,
+      "temperature": 50,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
@@ -286,7 +286,7 @@
       "windDirection": "S",
       "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
       "shortForecast": "Mostly Clear",
-      "detailedForecast": "Mostly clear, with a low around 51."
+      "detailedForecast": "Mostly clear, with a low around 50."
     },
     {
       "number": 12,
@@ -332,7 +332,7 @@
       "startTime": "2026-03-20T06:00:00-05:00",
       "endTime": "2026-03-20T18:00:00-05:00",
       "isDaytime": true,
-      "temperature": 86,
+      "temperature": 87,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
@@ -343,7 +343,7 @@
       "windDirection": "SW",
       "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
       "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 86."
+      "detailedForecast": "Sunny, with a high near 87."
     }
   ]
 }
