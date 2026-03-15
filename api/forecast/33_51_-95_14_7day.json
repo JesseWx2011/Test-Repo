@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-15T10:29:02.826514Z",
+    "generated_at": "2026-03-15T11:25:19.734663Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -39,7 +39,7 @@
       "tempMax_F": 62,
       "tempMin_F": 44,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the low 60s and lows in the mid 40s."
+      "narrative": "Times of sun and clouds. Highs in the low 60s and lows in the mid 40s."
     },
     {
       "validTimeUtc": 1773835200,
@@ -55,7 +55,7 @@
       "validTimeIso": "2026-03-19T12:00:00Z",
       "dayOfWeek": "Thursday",
       "tempMax_F": 85,
-      "tempMin_F": 56,
+      "tempMin_F": 55,
       "qpf_in": 0.0,
       "narrative": "Abundant sunshine. Highs in the mid 80s and lows in the mid 50s."
     },
@@ -66,7 +66,7 @@
       "tempMax_F": 89,
       "tempMin_F": 59,
       "qpf_in": 0.0,
-      "narrative": "More sun than clouds. Highs in the upper 80s and lows in the upper 50s."
+      "narrative": "Plenty of sun. Highs in the upper 80s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1774094400,
@@ -81,26 +81,7 @@
   "nws_periods": [
     {
       "number": 1,
-      "name": "Overnight",
-      "startTime": "2026-03-15T05:00:00-05:00",
-      "endTime": "2026-03-15T06:00:00-05:00",
-      "isDaytime": false,
-      "temperature": 62,
-      "temperatureUnit": "F",
-      "temperatureTrend": null,
-      "probabilityOfPrecipitation": {
-        "unitCode": "wmoUnit:percent",
-        "value": 1
-      },
-      "windSpeed": "20 mph",
-      "windDirection": "S",
-      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-      "shortForecast": "Mostly Cloudy",
-      "detailedForecast": "Mostly cloudy, with a low around 62. South wind around 20 mph."
-    },
-    {
-      "number": 2,
-      "name": "Sunday",
+      "name": "Today",
       "startTime": "2026-03-15T06:00:00-05:00",
       "endTime": "2026-03-15T18:00:00-05:00",
       "isDaytime": true,
@@ -118,8 +99,8 @@
       "detailedForecast": "A chance of showers and thunderstorms between 1pm and 4pm. Some of the storms could be severe. Mostly cloudy. High near 78, with temperatures falling to around 69 in the afternoon. Southwest wind 20 to 30 mph, with gusts as high as 50 mph. Chance of precipitation is 30%."
     },
     {
-      "number": 3,
-      "name": "Sunday Night",
+      "number": 2,
+      "name": "Tonight",
       "startTime": "2026-03-15T18:00:00-05:00",
       "endTime": "2026-03-16T06:00:00-05:00",
       "isDaytime": false,
@@ -137,7 +118,7 @@
       "detailedForecast": "Partly cloudy, with a low around 31. Northwest wind 20 to 30 mph, with gusts as high as 50 mph."
     },
     {
-      "number": 4,
+      "number": 3,
       "name": "Monday",
       "startTime": "2026-03-16T06:00:00-05:00",
       "endTime": "2026-03-16T18:00:00-05:00",
@@ -156,7 +137,7 @@
       "detailedForecast": "Sunny, with a high near 47. Northwest wind 15 to 20 mph, with gusts as high as 40 mph."
     },
     {
-      "number": 5,
+      "number": 4,
       "name": "Monday Night",
       "startTime": "2026-03-16T18:00:00-05:00",
       "endTime": "2026-03-17T06:00:00-05:00",
@@ -175,7 +156,7 @@
       "detailedForecast": "Mostly clear, with a low around 27. Northeast wind 0 to 15 mph, with gusts as high as 30 mph."
     },
     {
-      "number": 6,
+      "number": 5,
       "name": "Tuesday",
       "startTime": "2026-03-17T06:00:00-05:00",
       "endTime": "2026-03-17T18:00:00-05:00",
@@ -191,10 +172,10 @@
       "windDirection": "S",
       "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
       "shortForecast": "Mostly Sunny",
-      "detailedForecast": "Mostly sunny, with a high near 60."
+      "detailedForecast": "Mostly sunny, with a high near 60. South wind 0 to 10 mph, with gusts as high as 20 mph."
     },
     {
-      "number": 7,
+      "number": 6,
       "name": "Tuesday Night",
       "startTime": "2026-03-17T18:00:00-05:00",
       "endTime": "2026-03-18T06:00:00-05:00",
@@ -213,7 +194,7 @@
       "detailedForecast": "Partly cloudy, with a low around 44."
     },
     {
-      "number": 8,
+      "number": 7,
       "name": "Wednesday",
       "startTime": "2026-03-18T06:00:00-05:00",
       "endTime": "2026-03-18T18:00:00-05:00",
@@ -232,7 +213,7 @@
       "detailedForecast": "Mostly sunny, with a high near 74."
     },
     {
-      "number": 9,
+      "number": 8,
       "name": "Wednesday Night",
       "startTime": "2026-03-18T18:00:00-05:00",
       "endTime": "2026-03-19T06:00:00-05:00",
@@ -251,7 +232,7 @@
       "detailedForecast": "Mostly clear, with a low around 52."
     },
     {
-      "number": 10,
+      "number": 9,
       "name": "Thursday",
       "startTime": "2026-03-19T06:00:00-05:00",
       "endTime": "2026-03-19T18:00:00-05:00",
@@ -270,7 +251,7 @@
       "detailedForecast": "Sunny, with a high near 84."
     },
     {
-      "number": 11,
+      "number": 10,
       "name": "Thursday Night",
       "startTime": "2026-03-19T18:00:00-05:00",
       "endTime": "2026-03-20T06:00:00-05:00",
@@ -289,7 +270,7 @@
       "detailedForecast": "Clear, with a low around 56."
     },
     {
-      "number": 12,
+      "number": 11,
       "name": "Friday",
       "startTime": "2026-03-20T06:00:00-05:00",
       "endTime": "2026-03-20T18:00:00-05:00",
@@ -308,7 +289,7 @@
       "detailedForecast": "Sunny, with a high near 89."
     },
     {
-      "number": 13,
+      "number": 12,
       "name": "Friday Night",
       "startTime": "2026-03-20T18:00:00-05:00",
       "endTime": "2026-03-21T06:00:00-05:00",
@@ -327,7 +308,7 @@
       "detailedForecast": "Mostly clear, with a low around 59."
     },
     {
-      "number": 14,
+      "number": 13,
       "name": "Saturday",
       "startTime": "2026-03-21T06:00:00-05:00",
       "endTime": "2026-03-21T18:00:00-05:00",
@@ -344,6 +325,25 @@
       "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
       "shortForecast": "Sunny",
       "detailedForecast": "Sunny, with a high near 87."
+    },
+    {
+      "number": 14,
+      "name": "Saturday Night",
+      "startTime": "2026-03-21T18:00:00-05:00",
+      "endTime": "2026-03-22T06:00:00-05:00",
+      "isDaytime": false,
+      "temperature": 57,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": 1
+      },
+      "windSpeed": "10 mph",
+      "windDirection": "E",
+      "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+      "shortForecast": "Mostly Clear",
+      "detailedForecast": "Mostly clear, with a low around 57."
     }
   ]
 }
