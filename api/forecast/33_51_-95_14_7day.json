@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-15T05:04:55.772170Z",
+    "generated_at": "2026-03-15T06:56:08.856815Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -27,10 +27,10 @@
       "validTimeUtc": 1773576000,
       "validTimeIso": "2026-03-15T12:00:00Z",
       "dayOfWeek": "Sunday",
-      "tempMax_F": 76,
-      "tempMin_F": 30,
+      "tempMax_F": 78,
+      "tempMin_F": 31,
       "qpf_in": 0.0,
-      "narrative": "Cloudy and windy. Highs in the mid 70s and lows in the low 30s."
+      "narrative": "Windy with clouds. Highs in the upper 70s and lows in the low 30s."
     },
     {
       "validTimeUtc": 1773662400,
@@ -39,7 +39,7 @@
       "tempMax_F": 48,
       "tempMin_F": 29,
       "qpf_in": 0.0,
-      "narrative": "Sunshine. Highs in the upper 40s and lows in the upper 20s."
+      "narrative": "A few clouds. Highs in the upper 40s and lows in the upper 20s."
     },
     {
       "validTimeUtc": 1773748800,
@@ -48,16 +48,16 @@
       "tempMax_F": 61,
       "tempMin_F": 44,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the low 60s and lows in the mid 40s."
+      "narrative": "Partly cloudy. Highs in the low 60s and lows in the mid 40s."
     },
     {
       "validTimeUtc": 1773835200,
       "validTimeIso": "2026-03-18T12:00:00Z",
       "dayOfWeek": "Wednesday",
       "tempMax_F": 76,
-      "tempMin_F": 50,
+      "tempMin_F": 51,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the mid 70s and lows in the low 50s."
+      "narrative": "Times of sun and clouds. Highs in the mid 70s and lows in the low 50s."
     },
     {
       "validTimeUtc": 1773921600,
@@ -66,23 +66,23 @@
       "tempMax_F": 85,
       "tempMin_F": 56,
       "qpf_in": 0.0,
-      "narrative": "Sunny. Highs in the mid 80s and lows in the mid 50s."
+      "narrative": "Abundant sunshine. Highs in the mid 80s and lows in the mid 50s."
     },
     {
       "validTimeUtc": 1774008000,
       "validTimeIso": "2026-03-20T12:00:00Z",
       "dayOfWeek": "Friday",
-      "tempMax_F": 91,
-      "tempMin_F": 59,
+      "tempMax_F": 89,
+      "tempMin_F": 58,
       "qpf_in": 0.0,
-      "narrative": "Sunny. Highs in the low 90s and lows in the upper 50s."
+      "narrative": "Sunshine. Highs in the upper 80s and lows in the upper 50s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Overnight",
-      "startTime": "2026-03-15T00:00:00-05:00",
+      "startTime": "2026-03-15T01:00:00-05:00",
       "endTime": "2026-03-15T06:00:00-05:00",
       "isDaytime": false,
       "temperature": 62,
@@ -237,7 +237,7 @@
       "startTime": "2026-03-18T18:00:00-05:00",
       "endTime": "2026-03-19T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 53,
+      "temperature": 52,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
@@ -248,7 +248,7 @@
       "windDirection": "S",
       "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
       "shortForecast": "Mostly Clear",
-      "detailedForecast": "Mostly clear, with a low around 53."
+      "detailedForecast": "Mostly clear, with a low around 52."
     },
     {
       "number": 10,
@@ -263,7 +263,7 @@
         "unitCode": "wmoUnit:percent",
         "value": 0
       },
-      "windSpeed": "5 to 10 mph",
+      "windSpeed": "10 mph",
       "windDirection": "SW",
       "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
       "shortForecast": "Sunny",
@@ -275,7 +275,7 @@
       "startTime": "2026-03-19T18:00:00-05:00",
       "endTime": "2026-03-20T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 57,
+      "temperature": 56,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
@@ -286,7 +286,7 @@
       "windDirection": "S",
       "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
       "shortForecast": "Clear",
-      "detailedForecast": "Clear, with a low around 57."
+      "detailedForecast": "Clear, with a low around 56."
     },
     {
       "number": 12,
@@ -321,7 +321,7 @@
         "value": 0
       },
       "windSpeed": "5 to 10 mph",
-      "windDirection": "SW",
+      "windDirection": "S",
       "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
       "shortForecast": "Mostly Clear",
       "detailedForecast": "Mostly clear, with a low around 59."
