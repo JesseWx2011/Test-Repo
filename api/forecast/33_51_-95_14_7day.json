@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-17T07:14:18.387528Z",
+    "generated_at": "2026-03-17T08:53:05.756026Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -15,31 +15,22 @@
   },
   "twc_daily": [
     {
-      "validTimeUtc": 1773662400,
-      "validTimeIso": "2026-03-16T12:00:00Z",
-      "dayOfWeek": "Monday",
-      "tempMax_F": null,
-      "tempMin_F": 26,
-      "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Lows overnight in the mid 20s."
-    },
-    {
       "validTimeUtc": 1773748800,
       "validTimeIso": "2026-03-17T12:00:00Z",
       "dayOfWeek": "Tuesday",
       "tempMax_F": 61,
       "tempMin_F": 45,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the low 60s and lows in the mid 40s."
+      "narrative": "Times of sun and clouds. Highs in the low 60s and lows in the mid 40s."
     },
     {
       "validTimeUtc": 1773835200,
       "validTimeIso": "2026-03-18T12:00:00Z",
       "dayOfWeek": "Wednesday",
-      "tempMax_F": 76,
+      "tempMax_F": 75,
       "tempMin_F": 51,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the mid 70s and lows in the low 50s."
+      "narrative": "A few clouds. Highs in the mid 70s and lows in the low 50s."
     },
     {
       "validTimeUtc": 1773921600,
@@ -48,25 +39,25 @@
       "tempMax_F": 85,
       "tempMin_F": 55,
       "qpf_in": 0.0,
-      "narrative": "Mainly sunny. Highs in the mid 80s and lows in the mid 50s."
+      "narrative": "Sunshine. Highs in the mid 80s and lows in the mid 50s."
     },
     {
       "validTimeUtc": 1774008000,
       "validTimeIso": "2026-03-20T12:00:00Z",
       "dayOfWeek": "Friday",
-      "tempMax_F": 89,
+      "tempMax_F": 88,
       "tempMin_F": 57,
       "qpf_in": 0.0,
-      "narrative": "Mainly sunny. Highs in the upper 80s and lows in the upper 50s."
+      "narrative": "Abundant sunshine. Highs in the upper 80s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1774094400,
       "validTimeIso": "2026-03-21T12:00:00Z",
       "dayOfWeek": "Saturday",
-      "tempMax_F": 90,
+      "tempMax_F": 91,
       "tempMin_F": 62,
       "qpf_in": 0.0,
-      "narrative": "Abundant sunshine. Highs in the low 90s and lows in the low 60s."
+      "narrative": "Mainly sunny. Highs in the low 90s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1774180800,
@@ -75,17 +66,26 @@
       "tempMax_F": 91,
       "tempMin_F": 59,
       "qpf_in": 0.0,
-      "narrative": "Mainly sunny. Highs in the low 90s and lows in the upper 50s."
+      "narrative": "Sunshine. Highs in the low 90s and lows in the upper 50s."
+    },
+    {
+      "validTimeUtc": 1774267200,
+      "validTimeIso": "2026-03-23T12:00:00Z",
+      "dayOfWeek": "Monday",
+      "tempMax_F": 82,
+      "tempMin_F": 56,
+      "qpf_in": 0.0,
+      "narrative": "Mostly sunny. Highs in the low 80s and lows in the mid 50s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
       "name": "Overnight",
-      "startTime": "2026-03-17T02:00:00-05:00",
+      "startTime": "2026-03-17T03:00:00-05:00",
       "endTime": "2026-03-17T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 26,
+      "temperature": 24,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
@@ -94,9 +94,9 @@
       },
       "windSpeed": "0 mph",
       "windDirection": "",
-      "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-      "shortForecast": "Mostly Clear",
-      "detailedForecast": "Mostly clear, with a low around 26. Southwest wind around 0 mph."
+      "icon": "https://api.weather.gov/icons/land/night/cold?size=medium",
+      "shortForecast": "Partly Cloudy",
+      "detailedForecast": "Partly cloudy, with a low around 24. Southwest wind around 0 mph."
     },
     {
       "number": 2,
@@ -113,9 +113,9 @@
       },
       "windSpeed": "0 to 10 mph",
       "windDirection": "S",
-      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-      "shortForecast": "Sunny",
-      "detailedForecast": "Sunny, with a high near 60. South wind 0 to 10 mph, with gusts as high as 20 mph."
+      "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+      "shortForecast": "Mostly Sunny",
+      "detailedForecast": "Mostly sunny, with a high near 60. South wind 0 to 10 mph, with gusts as high as 20 mph."
     },
     {
       "number": 3,
