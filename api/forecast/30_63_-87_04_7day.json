@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-04-13T05:41:29.416562Z",
+    "generated_at": "2026-04-13T08:02:44.085693Z",
     "lat": 30.63,
     "lon": -87.04,
     "days_requested": 7,
@@ -19,18 +19,18 @@
       "validTimeIso": "2026-04-12T12:00:00Z",
       "dayOfWeek": "Sunday",
       "tempMax_F": null,
-      "tempMin_F": 58,
+      "tempMin_F": 59,
       "qpf_in": 0.0,
-      "narrative": "Dense fog in some areas. Lows overnight in the upper 50s."
+      "narrative": "Fog. Lows overnight in the upper 50s."
     },
     {
       "validTimeUtc": 1776081600,
       "validTimeIso": "2026-04-13T12:00:00Z",
       "dayOfWeek": "Monday",
       "tempMax_F": 82,
-      "tempMin_F": 56,
+      "tempMin_F": 57,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the low 80s and lows in the mid 50s."
+      "narrative": "Mix of sun and clouds. Highs in the low 80s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1776168000,
@@ -46,16 +46,16 @@
       "validTimeIso": "2026-04-15T12:00:00Z",
       "dayOfWeek": "Wednesday",
       "tempMax_F": 83,
-      "tempMin_F": 61,
+      "tempMin_F": 62,
       "qpf_in": 0.0,
-      "narrative": "Mostly sunny. Highs in the low 80s and lows in the low 60s."
+      "narrative": "Times of sun and clouds. Highs in the low 80s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1776340800,
       "validTimeIso": "2026-04-16T12:00:00Z",
       "dayOfWeek": "Thursday",
       "tempMax_F": 83,
-      "tempMin_F": 61,
+      "tempMin_F": 62,
       "qpf_in": 0.0,
       "narrative": "A few clouds. Highs in the low 80s and lows in the low 60s."
     },
@@ -64,25 +64,25 @@
       "validTimeIso": "2026-04-17T12:00:00Z",
       "dayOfWeek": "Friday",
       "tempMax_F": 84,
-      "tempMin_F": 62,
+      "tempMin_F": 63,
       "qpf_in": 0.0,
-      "narrative": "Mainly sunny. Highs in the mid 80s and lows in the low 60s."
+      "narrative": "Mostly sunny. Highs in the mid 80s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1776513600,
       "validTimeIso": "2026-04-18T12:00:00Z",
       "dayOfWeek": "Saturday",
       "tempMax_F": 83,
-      "tempMin_F": 65,
+      "tempMin_F": 66,
       "qpf_in": 0.0,
-      "narrative": "Partly cloudy. Highs in the low 80s and lows in the mid 60s."
+      "narrative": "Times of sun and clouds. Highs in the low 80s and lows in the mid 60s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
-      "name": "Tonight",
-      "startTime": "2026-04-12T18:00:00-05:00",
+      "name": "Overnight",
+      "startTime": "2026-04-13T03:00:00-05:00",
       "endTime": "2026-04-13T06:00:00-05:00",
       "isDaytime": false,
       "temperature": 59,
@@ -92,11 +92,11 @@
         "unitCode": "wmoUnit:percent",
         "value": 0
       },
-      "windSpeed": "0 to 10 mph",
-      "windDirection": "SE",
-      "icon": "https://api.weather.gov/icons/land/night/sct/fog?size=medium",
-      "shortForecast": "Partly Cloudy then Patchy Fog",
-      "detailedForecast": "Patchy fog after 1am. Partly cloudy, with a low around 59. Southeast wind 0 to 10 mph."
+      "windSpeed": "0 mph",
+      "windDirection": "",
+      "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+      "shortForecast": "Patchy Fog",
+      "detailedForecast": "Patchy fog. Mostly cloudy, with a low around 59. Southeast wind around 0 mph."
     },
     {
       "number": 2,
@@ -123,7 +123,7 @@
       "startTime": "2026-04-13T18:00:00-05:00",
       "endTime": "2026-04-14T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 57,
+      "temperature": 58,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
@@ -132,9 +132,9 @@
       },
       "windSpeed": "0 to 5 mph",
       "windDirection": "SE",
-      "icon": "https://api.weather.gov/icons/land/night/few/fog?size=medium",
-      "shortForecast": "Mostly Clear then Areas Of Fog",
-      "detailedForecast": "Areas of fog after 1am. Mostly clear, with a low around 57. Southeast wind 0 to 5 mph."
+      "icon": "https://api.weather.gov/icons/land/night/sct/fog?size=medium",
+      "shortForecast": "Partly Cloudy then Areas Of Fog",
+      "detailedForecast": "Areas of fog after 1am. Partly cloudy, with a low around 58. Southeast wind 0 to 5 mph."
     },
     {
       "number": 4,
@@ -161,7 +161,7 @@
       "startTime": "2026-04-14T18:00:00-05:00",
       "endTime": "2026-04-15T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 59,
+      "temperature": 60,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
@@ -172,7 +172,7 @@
       "windDirection": "S",
       "icon": "https://api.weather.gov/icons/land/night/few/fog?size=medium",
       "shortForecast": "Mostly Clear then Patchy Fog",
-      "detailedForecast": "Patchy fog after 1am. Mostly clear, with a low around 59. South wind 0 to 5 mph."
+      "detailedForecast": "Patchy fog after 1am. Mostly clear, with a low around 60. South wind 0 to 5 mph."
     },
     {
       "number": 6,
@@ -206,11 +206,11 @@
         "unitCode": "wmoUnit:percent",
         "value": 0
       },
-      "windSpeed": "0 to 10 mph",
+      "windSpeed": "0 to 5 mph",
       "windDirection": "S",
       "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
       "shortForecast": "Partly Cloudy",
-      "detailedForecast": "Partly cloudy, with a low around 62. South wind 0 to 10 mph."
+      "detailedForecast": "Partly cloudy, with a low around 62. South wind 0 to 5 mph."
     },
     {
       "number": 8,
@@ -218,18 +218,18 @@
       "startTime": "2026-04-16T06:00:00-05:00",
       "endTime": "2026-04-16T18:00:00-05:00",
       "isDaytime": true,
-      "temperature": 84,
+      "temperature": 83,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 2
+        "value": 0
       },
       "windSpeed": "0 to 10 mph",
       "windDirection": "S",
-      "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-      "shortForecast": "Partly Sunny",
-      "detailedForecast": "Partly sunny, with a high near 84. South wind 0 to 10 mph."
+      "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+      "shortForecast": "Mostly Sunny",
+      "detailedForecast": "Mostly sunny, with a high near 83. South wind 0 to 10 mph."
     },
     {
       "number": 9,
@@ -237,18 +237,18 @@
       "startTime": "2026-04-16T18:00:00-05:00",
       "endTime": "2026-04-17T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 61,
+      "temperature": 62,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 2
+        "value": 0
       },
-      "windSpeed": "0 to 5 mph",
+      "windSpeed": "0 to 10 mph",
       "windDirection": "SW",
       "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
       "shortForecast": "Mostly Clear",
-      "detailedForecast": "Mostly clear, with a low around 61. Southwest wind 0 to 5 mph."
+      "detailedForecast": "Mostly clear, with a low around 62. Southwest wind 0 to 10 mph."
     },
     {
       "number": 10,
@@ -264,7 +264,7 @@
         "value": 0
       },
       "windSpeed": "0 to 10 mph",
-      "windDirection": "SE",
+      "windDirection": "S",
       "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
       "shortForecast": "Sunny",
       "detailedForecast": "Sunny, with a high near 85."
@@ -282,7 +282,7 @@
         "unitCode": "wmoUnit:percent",
         "value": 0
       },
-      "windSpeed": "0 to 5 mph",
+      "windSpeed": "0 to 10 mph",
       "windDirection": "S",
       "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
       "shortForecast": "Mostly Clear",
@@ -299,13 +299,13 @@
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 1
+        "value": 2
       },
       "windSpeed": "0 to 10 mph",
       "windDirection": "S",
-      "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-      "shortForecast": "Mostly Sunny",
-      "detailedForecast": "Mostly sunny, with a high near 84."
+      "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+      "shortForecast": "Partly Sunny",
+      "detailedForecast": "Partly sunny, with a high near 84."
     },
     {
       "number": 13,
@@ -313,18 +313,18 @@
       "startTime": "2026-04-18T18:00:00-05:00",
       "endTime": "2026-04-19T06:00:00-05:00",
       "isDaytime": false,
-      "temperature": 64,
+      "temperature": 65,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 3
+        "value": 5
       },
-      "windSpeed": "0 to 5 mph",
+      "windSpeed": "0 to 10 mph",
       "windDirection": "SW",
-      "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-      "shortForecast": "Partly Cloudy",
-      "detailedForecast": "Partly cloudy, with a low around 64."
+      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+      "shortForecast": "Mostly Cloudy",
+      "detailedForecast": "Mostly cloudy, with a low around 65."
     },
     {
       "number": 14,
@@ -332,18 +332,18 @@
       "startTime": "2026-04-19T06:00:00-05:00",
       "endTime": "2026-04-19T18:00:00-05:00",
       "isDaytime": true,
-      "temperature": 85,
+      "temperature": 84,
       "temperatureUnit": "F",
       "temperatureTrend": null,
       "probabilityOfPrecipitation": {
         "unitCode": "wmoUnit:percent",
-        "value": 11
+        "value": 14
       },
-      "windSpeed": "0 to 10 mph",
-      "windDirection": "SW",
+      "windSpeed": "5 to 10 mph",
+      "windDirection": "NW",
       "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
       "shortForecast": "Partly Sunny",
-      "detailedForecast": "Partly sunny, with a high near 85."
+      "detailedForecast": "Partly sunny, with a high near 84."
     }
   ]
 }
