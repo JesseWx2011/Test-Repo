@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-04-17T02:33:32.273456Z",
+    "generated_at": "2026-04-17T05:27:15.105747Z",
     "lat": 30.63,
     "lon": -87.04,
     "days_requested": 7,
@@ -47,8 +47,8 @@
       "dayOfWeek": "Sunday",
       "tempMax_F": 72,
       "tempMin_F": 50,
-      "qpf_in": 0.05,
-      "narrative": "A few morning showers. Highs in the low 70s and lows in the low 50s."
+      "qpf_in": 0.15,
+      "narrative": "Morning showers. Highs in the low 70s and lows in the low 50s."
     },
     {
       "validTimeUtc": 1776686400,
@@ -57,7 +57,7 @@
       "tempMax_F": 81,
       "tempMin_F": 51,
       "qpf_in": 0.0,
-      "narrative": "Mix of sun and clouds. Highs in the low 80s and lows in the low 50s."
+      "narrative": "Partly cloudy. Highs in the low 80s and lows in the low 50s."
     },
     {
       "validTimeUtc": 1776772800,
@@ -66,7 +66,7 @@
       "tempMax_F": 80,
       "tempMin_F": 57,
       "qpf_in": 0.0,
-      "narrative": "Times of sun and clouds. Highs in the low 80s and lows in the upper 50s."
+      "narrative": "Partly cloudy. Highs in the low 80s and lows in the upper 50s."
     },
     {
       "validTimeUtc": 1776859200,
@@ -75,14 +75,14 @@
       "tempMax_F": 79,
       "tempMin_F": 57,
       "qpf_in": 0.0,
-      "narrative": "Times of sun and clouds. Highs in the upper 70s and lows in the upper 50s."
+      "narrative": "Mix of sun and clouds. Highs in the upper 70s and lows in the upper 50s."
     }
   ],
   "nws_periods": [
     {
       "number": 1,
-      "name": "Tonight",
-      "startTime": "2026-04-16T21:00:00-05:00",
+      "name": "Overnight",
+      "startTime": "2026-04-17T00:00:00-05:00",
       "endTime": "2026-04-17T06:00:00-05:00",
       "isDaytime": false,
       "temperature": 62,
@@ -92,11 +92,11 @@
         "unitCode": "wmoUnit:percent",
         "value": 0
       },
-      "windSpeed": "0 to 5 mph",
-      "windDirection": "W",
-      "icon": "https://api.weather.gov/icons/land/night/few/fog?size=medium",
-      "shortForecast": "Mostly Clear then Areas Of Fog",
-      "detailedForecast": "Areas of fog after 1am. Mostly clear, with a low around 62. West wind 0 to 5 mph."
+      "windSpeed": "0 mph",
+      "windDirection": "",
+      "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+      "shortForecast": "Areas Of Fog",
+      "detailedForecast": "Areas of fog after 1am. Partly cloudy, with a low around 62. West wind around 0 mph."
     },
     {
       "number": 2,
