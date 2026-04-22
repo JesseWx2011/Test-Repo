@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-04-22T02:32:40.109379Z",
+    "generated_at": "2026-04-22T05:25:10.536016Z",
     "lat": 33.51,
     "lon": -95.14,
     "days_requested": 7,
@@ -19,18 +19,18 @@
       "validTimeIso": "2026-04-21T12:00:00Z",
       "dayOfWeek": "Tuesday",
       "tempMax_F": null,
-      "tempMin_F": 54,
-      "qpf_in": 0.02,
-      "narrative": "Showers possible. Lows overnight in the mid 50s."
+      "tempMin_F": 55,
+      "qpf_in": 0.0,
+      "narrative": "Chance of showers. Lows overnight in the mid 50s."
     },
     {
       "validTimeUtc": 1776859200,
       "validTimeIso": "2026-04-22T12:00:00Z",
       "dayOfWeek": "Wednesday",
-      "tempMax_F": 74,
+      "tempMax_F": 75,
       "tempMin_F": 63,
-      "qpf_in": 0.16,
-      "narrative": "A few morning showers. Highs in the mid 70s and lows in the low 60s."
+      "qpf_in": 0.02,
+      "narrative": "Morning showers. Highs in the mid 70s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1776945600,
@@ -45,10 +45,10 @@
       "validTimeUtc": 1777032000,
       "validTimeIso": "2026-04-24T12:00:00Z",
       "dayOfWeek": "Friday",
-      "tempMax_F": 83,
+      "tempMax_F": 82,
       "tempMin_F": 61,
-      "qpf_in": 0.28,
-      "narrative": "Mostly cloudy. Highs in the low 80s and lows in the low 60s."
+      "qpf_in": 0.21,
+      "narrative": "Clouds giving way to sun . Highs in the low 80s and lows in the low 60s."
     },
     {
       "validTimeUtc": 1777118400,
@@ -57,23 +57,23 @@
       "tempMax_F": 84,
       "tempMin_F": 64,
       "qpf_in": 0.2,
-      "narrative": "Mostly cloudy. Highs in the mid 80s and lows in the mid 60s."
+      "narrative": "More clouds than sun. Highs in the mid 80s and lows in the mid 60s."
     },
     {
       "validTimeUtc": 1777204800,
       "validTimeIso": "2026-04-26T12:00:00Z",
       "dayOfWeek": "Sunday",
-      "tempMax_F": 84,
+      "tempMax_F": 83,
       "tempMin_F": 70,
       "qpf_in": 0.13,
-      "narrative": "Scattered thunderstorms possible. Potential for severe thunderstorms. Highs in the mid 80s and lows in the low 70s."
+      "narrative": "A few thunderstorms possible. Potential for severe thunderstorms. Highs in the low 80s and lows in the low 70s."
     },
     {
       "validTimeUtc": 1777291200,
       "validTimeIso": "2026-04-27T12:00:00Z",
       "dayOfWeek": "Monday",
       "tempMax_F": 86,
-      "tempMin_F": 58,
+      "tempMin_F": 59,
       "qpf_in": 0.01,
       "narrative": "Partly cloudy with a stray thunderstorm. Highs in the mid 80s and lows in the upper 50s."
     }
@@ -81,8 +81,8 @@
   "nws_periods": [
     {
       "number": 1,
-      "name": "Tonight",
-      "startTime": "2026-04-21T21:00:00-05:00",
+      "name": "Overnight",
+      "startTime": "2026-04-22T00:00:00-05:00",
       "endTime": "2026-04-22T06:00:00-05:00",
       "isDaytime": false,
       "temperature": 55,
@@ -94,9 +94,9 @@
       },
       "windSpeed": "5 mph",
       "windDirection": "SE",
-      "icon": "https://api.weather.gov/icons/land/night/rain_showers,30/tsra,40?size=medium",
-      "shortForecast": "Chance Rain Showers",
-      "detailedForecast": "A chance of rain showers before 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 55. Southeast wind around 5 mph. Chance of precipitation is 40%."
+      "icon": "https://api.weather.gov/icons/land/night/tsra,40?size=medium",
+      "shortForecast": "Chance Showers And Thunderstorms",
+      "detailedForecast": "A slight chance of rain showers before 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 55. Southeast wind around 5 mph. Chance of precipitation is 40%."
     },
     {
       "number": 2,
